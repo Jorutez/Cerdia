@@ -1,0 +1,3545 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Cerdia",
+				"abbreviation": "CRDA",
+				"full": "Cerdia",
+				"version": "1",
+				"authors": [
+					"Jorutez"
+				],
+				"convertedBy": [
+					"Jorutez"
+				],
+				"color": "38761d"
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Rameselt",
+			"source": "CRDA",
+			"type": "EXP",
+			"rarity": "none",
+			"entries": [
+				"Rameselt is a dwarven spice initially used to flavor food but has been found to burn extremely hot and is hard to put out ",
+				{
+					"type": "entries",
+					"name": "Appearance",
+					"entries": [
+						"Rameselt is a fine powder, as coarse as salt. It can come in colors such as green, orange, red, and yellow."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "History",
+					"entries": [
+						"Rameselt was created initially as a dye. When dissolved in water it can create vibrant colors that last. It is quite expensive to produce, and it was found to taste quite good. It’s price and good taste made it a commodity for the nobles and rich of Bardoran. During the cooking process it was discovered that it can also be a form of fuel and Bardoran testing found it is a powerful weapon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ignition",
+					"entries": [
+						"When Rameselt is ignited with a flame, the minerals in it begin melting and it begins to spark at a rapid rate. This sends specks of molten metal flying in out of where the rameselt was ignited. As the rest of the rameselt catches, it pops and shoots out more sparks, and sometimes chunks of rameselt that begin reacting themselves."
+					]
+				}
+			]
+		},
+		{
+			"name": "Compass of Garletor",
+			"source": "CRDA",
+			"rarity": "rare",
+			"type": "T",
+			"entries": [
+				"Compass that can points to things hidden with magic, up to 50 ft away",
+				{
+					"type": "entries",
+					"name": "Appearance",
+					"entries": [
+						"The Compass of Garletor looks very expensive. It is about 2.5 inches across, with a silver body with carvings of curvy flourishes. The glass on the top has a silver rim around it, and markings on the glass itself, inside of the compass the shiny blue metal needle comes to a point with a carving of an eye at the end. Inside of the compass the backing is a dark metal that has shiny blue flourishes. The top of the compass is comes to a small point to help the user orient themselves toward the hidden subject",
+						"The Markings on the glass are runes: seek what is unknown"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "History",
+					"entries": [
+						"The Compass of Garletor was created by the Wizard Garletor for King (Cabil) Furnit II for a raid of a hidden base of cultists"
+					]
+				}
+			]
+		}
+	],
+	"monster": [
+		{
+			"name": "Bardoran Scout",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "CRDA",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"{@item leather armor|xphb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"passive": 15,
+			"cr": "1/2",
+			"level": 1,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"The scout has advantage on saving throws against poison."
+					]
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"environment": [
+				"mountain"
+			],
+			"group": [
+				"Bardoran Soldier"
+			],
+			"fluff": {
+				"entries": [
+					"Bardoran scouts wear light leather armor and carry only daggers and slings. Their main purpose is to lead a stronger force of soldiers to places to attack. They also get information about enemies and chase down enemies that escape battle. They carry a palm sized flare device that consists of a piece of wood wrapped in a cloth that has been coated in flammable liquid. The Scout can ignite the device and use their sling to throw it in the air so that other Bardoran military forces can see their position."
+				]
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The scout makes two melee attacks."
+					]
+				},
+				{
+					"name": "Signal",
+					"entries": [
+						"The scout uses its sling to launch a flare into the air for other Bardoran soldier to see."
+					]
+				},
+				{
+					"name": "Sling",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, ranged 30/120 ft., or ranged 20/60 ft., one target. {@h}2 ({@damage 1d4}) piercing damage."
+					]
+				},
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw, rw} {@hit 2} to hit, reach 5 ft., one target. {@h}2 ({@damage 1d4}) bludgeoning damage."
+					]
+				}
+			],
+			"attachedItems": [
+				"dagger|xphb",
+				"sling|xphb"
+			],
+			"miscTags": [
+				"RW",
+				"RNG",
+				"RA",
+				"MW",
+				"MLW",
+				"THW"
+			],
+			"actionHeader": [
+				"Based on {@creature Battlehammer Dwarf | IDRotF}"
+			],
+			"damageTags": [
+				"B",
+				"P"
+			]
+		},
+		{
+			"name": "Bardoran Enforcer",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "CRDA",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"{@item chain shirt|xphb}",
+						"{@item shield|xphb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"passive": 10,
+			"cr": "1",
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"The enforcer has advantage on saving throws against poison."
+					]
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"environment": [
+				"mountain"
+			],
+			"group": [
+				"Bardoran Soldier"
+			],
+			"fluff": {
+				"entries": [
+					"Bardoran enforcers act as police officers in Bardoran. During the conquest they would imprison enemy civilians and force them out of the area or force them to work. They wear chainmail armor and carry a whip, shortsword, and shield. Their main function is crowd control of civilians. Today they are used to oversee the workers of the forges."
+				]
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The enforcer makes two melee attacks."
+					]
+				},
+				{
+					"name": "Whip",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft, one target. {@h}2 ({@damage 1d4 + 0}) slashing damage."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6 + 0}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"attachedItems": [
+				"shortsword|xphb",
+				"whip|xphb"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Bardoran Conqueror",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "CRDA",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 20,
+					"from": [
+						"{@item plate armor|xphb}",
+						"{@item shield|xphb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"passive": 10,
+			"cr": "2",
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"The conqueror has advantage on saving throws against poison."
+					]
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"environment": [
+				"mountain"
+			],
+			"group": [
+				"Bardoran Soldier"
+			],
+			"fluff": {
+				"entries": [
+					"Bardoran Conquerors are the main fear of other nations. They are heavily armored, carry large shields, spear, longswords, or crossbows. They are very hard to defeat and they are used for the initial attack of enemies."
+				]
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The conqueror makes two melee attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft, one target. {@h}4 ({@damage 1d8 + 0}) slashing damage."
+					]
+				},
+				{
+					"name": "Heavy Crossbow",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 100/400 ft., one target. {@h}5 ({@damage 1d10}) piercing damage."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft, one target. {@h}3 ({@damage 1d6 + 0}) piercing damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"attachedItems": [
+				"spear|xphb",
+				"longsword|xphb",
+				"heavy crossbow | xphb"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			]
+		},
+		{
+			"name": "Bardoran Berserker",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"source": "CRDA",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14
+				}
+			],
+			"hp": {
+				"formula": "3d8 + 3",
+				"average": 16
+			},
+			"speed": {
+				"walk": 35
+			},
+			"str": 11,
+			"dex": 16,
+			"con": 12,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"passive": 10,
+			"cr": "2",
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"senseTags": [
+				"SD"
+			],
+			"languages": [
+				"Common",
+				"Dwarvish"
+			],
+			"languageTags": [
+				"C",
+				"D"
+			],
+			"trait": [
+				{
+					"name": "Dwarven Resilience",
+					"entries": [
+						"The berserker has advantage on saving throws against poison."
+					]
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"environment": [
+				"mountain"
+			],
+			"group": [
+				"Bardoran Soldier"
+			],
+			"fluff": {
+				"entries": [
+					"Bardoran Berserkers chaotic soldiers that cause as much damage as possible. They wear no armor, but powerful axes and hammers. They are fast moving and value destruction over their own life. They are willing to die if needed, so the day before a battle they are given royal treatment. In a battle, they run in first to break the enemy lines for the conquerors to take the rest over. They also will chase escaping enemies at the end of battles."
+				]
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The berserker makes two melee attacks."
+					]
+				},
+				{
+					"name": "Light Hammer",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft, one target. {@h}2 ({@damage 1d4 + 0}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Handaxe",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft, one target. {@h}3 ({@damage 1d6 + 0}) slashing damage."
+					]
+				},
+				{
+					"name": "Battleaxe",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft, one target. {@h}4 ({@damage 1d8 + 0}) slashing damage."
+					]
+				},
+				{
+					"name": "Warhammer",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft, one target. {@h}4 ({@damage 1d8 + 0}) bludgeoning damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"MLW"
+			],
+			"attachedItems": [
+				"@item Handaxe | XPHB",
+				"@item Light Hammer | XPHB",
+				"@item Battleaxe | XPHB",
+				"@item Warhammer | XPHB"
+			],
+			"damageTags": [
+				"B",
+				"S"
+			]
+		},
+		{
+			"name": "Thrun Guard",
+			"source": "CRDA",
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item scale mail|phb}"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 10,
+			"cha": 14,
+			"passive": 10,
+			"languages": [
+				"Common"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The knight makes two melee attacks."
+					]
+				},
+				{
+					"name": "Longsword",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) slashing damage, or 7 ({@damage 1d10 + 2}) slashing damage if used with two hands."
+					]
+				},
+				{
+					"name": "Spear",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage, or 6 ({@damage 1d8 + 2}) piercing damage if used with two hands to make a melee attack."
+					]
+				}
+			],
+			"attachedItems": [
+				"longsword|phb",
+				"spear|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AU",
+				"C"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"damageTagsSpell": [
+				"C"
+			],
+			"spellcastingTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MLW",
+				"MW",
+				"RW",
+				"THW"
+			],
+			"savingThrowForcedSpell": [
+				"dexterity",
+				"strength"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Bandit Captain",
+			"source": "XMM",
+			"page": 27,
+			"size": [
+				"S",
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				15
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 14,
+			"int": 14,
+			"wis": 11,
+			"cha": 14,
+			"save": {
+				"str": "+4",
+				"dex": "+5",
+				"wis": "+2"
+			},
+			"skill": {
+				"athletics": "+4",
+				"deception": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"Common",
+				"Thieves' cant"
+			],
+			"cr": "2",
+			"gear": [
+				"pistol|xphb",
+				"scimitar|xphb",
+				"studded leather armor|xphb"
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bandit makes two attacks, using Scimitar and Pistol in any combination."
+					]
+				},
+				{
+					"name": "Scimitar",
+					"entries": [
+						"{@atkr m} {@hit 5}, reach 5 ft. {@h}6 ({@damage 1d6 + 3}) Slashing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"{@actTrigger} The bandit is hit by a melee attack roll while holding a weapon. {@actResponse} The bandit adds 2 to its AC against that attack, possibly causing it to miss."
+					]
+				}
+			],
+			"environment": [
+				"any"
+			],
+			"treasure": [
+				"any"
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "bestiary/bandit-captain.mp3"
+			},
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"languageTags": [
+				"C",
+				"TC"
+			],
+			"damageTags": [
+				"P",
+				"S"
+			],
+			"miscTags": [
+				"MA",
+				"MLW",
+				"RA",
+				"RNG"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		}
+	],
+	"table": [
+		{
+			"name": "Bread",
+			"source": "CRDA",
+			"page": 0,
+			"colLabels": [
+				"Column 1",
+				"Column 2"
+			],
+			"rows": [
+				[
+					"This cell is row 1, column 1",
+					"This cell is row 1, column 2"
+				],
+				[
+					"This cell is row 2, column 1",
+					"This cell is row 2, column 2"
+				]
+			]
+		}
+	],
+	"adventure": [
+		{
+			"name": "Cerdia Campaign",
+			"id": "CRDA",
+			"source": "CRDA",
+			"group": "homebrew",
+			"published": "2024-06-18",
+			"author": "Jorutez",
+			"storyline": "Cerdia Campaign",
+			"level": {
+				"custom": "Uses non-standard PC rules"
+			},
+			"contents": [
+				{
+					"name": "Cerdia World Info",
+					"headers": [
+						""
+					]
+				},
+				{
+					"name": "Nations and Groups",
+					"headers": [
+						"Bardoran",
+						"Warberland",
+						"Artoz",
+						"Resistance of Artoz",
+						"Freaxir",
+						"Tarehas",
+						"Selatis",
+						"Mayland",
+						"Gartana",
+						"Kortain",
+						"Thrun",
+						"Turik Crod",
+						"Elestir",
+						"Verathon",
+						"Craiton"
+					]
+				},
+				{
+					"name": "Events",
+					"headers": [
+						"The Warberset-Kershak Deal",
+						"The Conquest of the North",
+						"The Selatis-Tarehas Conflict",
+						"The Craiton-Drow Conflict",
+						"The (Aurelis guardian)-(witch) deal"
+					]
+				},
+				{
+					"name": "Items",
+					"headers": [
+						"Will of Selatis",
+						"Writ of Hebeshca",
+						"Rameselt",
+						"Compass of Garletor"
+					]
+				},
+				{
+					"name": "Characters",
+					"headers": [
+						"Sellarus",
+						"Hebeshca",
+						"Kershak",
+						"Cain",
+						"Armentus",
+						"Dremin Warberset",
+						"Gratin Harkin",
+						"Benest Trask",
+						"Romil Torrid",
+						"Serick",
+						"Vernacis",
+						"Rafod Srag",
+						"Atheria",
+						"Freiseln",
+						"Welm",
+						"Prell",
+						"Solomon",
+						"Darum",
+						"Uko",
+						"Thearen",
+						"Golicht",
+						"Vaelin Prathern",
+						"Helena Prathern",
+						"Threstrom",
+						"Grithal",
+						"Claud Perdack",
+						"Scarab",
+						"James Bartle",
+						"Headmistress Elesira Ceydor",
+						"Vice Chancellor Nelesan Berdis",
+						"Professor Harold Deiblen",
+						"Professor Wendy Shrike",
+						"Professor Fredrick Darton",
+						"Jarl Garess",
+						"Dram Tharnach",
+						"Letheres Aerthen",
+						"Theodore Graydon",
+						"Rohtaurek",
+						"Merazarx"
+					]
+				},
+				{
+					"name": "Plot",
+					"headers": [
+						"First Meeting",
+						"Dram Tharnach Asks For Help",
+						"Tellensa and the Fire",
+						"King Wilber's Monument",
+						"Meeting Welm and Prell",
+						"Encounter with Daurm and Bardoran Scouts",
+						"Warton",
+						"Ecounter with Threstrom",
+						"Cartage"
+					]
+				}
+			]
+		}
+	],
+	"adventureData": [
+		{
+			"id": "CRDA",
+			"source": "CRDA",
+			"data": [
+				{
+					"type": "section",
+					"name": "Cerdia World Info",
+					"page": 0,
+					"entries": [
+						"This adventure serves as a imformation storage system for the Cerdia Campaign"
+					]
+				},
+				{
+					"type": "section",
+					"name": "Nations",
+					"page": 0,
+					"entries": [
+						"The Nations of Cerdia",
+						{
+							"type": "section",
+							"name": "Bardoran",
+							"entries": [
+								"Dwarven Empire that occupies the North",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Dwarves mainly, but there are others that have been left over"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Bardoran Is the main metal producer in the world. Trades/sells with metal to Mayland. Food is taken tax from Warberland"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"The Bardoran governement is a monarchy. The nobles of Bardoran also have governing power but the king has the final say"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rulers",
+									"entries": [
+										"Barus Torid → Dremin Warberset"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"The Bardoran military is extremely large and powerful.Its ground troops are feared, and it has secretly begun work on a powerful Navy"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										"The Small kingdom of Bardoran was founded by Barus Torid in 1442 CE. Similar to the kingdoms around, Bardoran was a small mining kingdom with little actual power or class system. At the time, there was only the miner middle class and the leading upper class where the miners would get resources and the leaders would manage and sell the resources. Bardoran sustained itself by selling raw minerals to nearby nations with processing infrastructure in exchange for food.",
+										"In 1545, Torid retired and gave his crown to Dremin Warberset, a close advisor. Previous to this, Warberset had helped to negotiate trade deals with the nearby nations where he would sell raw materials in exchange tools, or a cut of processed metal for use of their forges. These greatly increased the quality of life for Bardoran miners, as well as their efficiency. This along with Warberset’s vision of a united dwarven kingdom made Torid feel Warberset would be a good king.",
+										"Over time, the citizens of Bardoran and Warberset himself began to become frustrated with nearby nations encroaching and forming trade agreements without Bardoran. Kershak took advantage of this frustration and made a deal with Warberset. With Kershak’s help, Bardoran easily took over its previously equally matched neighboring nations. Bardoran used the claimed resources to grow a powerful military force, and with the help of Kershak, conquered the north. Bardoran stopped expanding with the capturing of Artoz in 1608 C.E. after which the colony Warberland was made in its place"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outside Relations",
+									"entries": [
+										"relations"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"{@bold Class System.} The majority of Bardoran are peasants who work in the mines. Each mine is owned by one of the nobles, who profit from them without doing much actual work. Nobels are like the kings of their mine. The military keeps the worker in check. The mines are filled with enforcers."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Related Info",
+									"entries": [
+										"{@adventure The Warberset-Kershak Deal |CRDA|2|The Warberset-Kershak Deal}",
+										"{@adventure The Conquest of The North |CRDA|2|The Conquest of The North}"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Warberland",
+							"entries": [
+								"Poor colony of Bardoran",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Many different races. Originally occupied by humans, Halflings, Satyr, and similar creatures. During the conquest of the north, Bardoran pushed many other races like Kobalts and dragonborns down into the south."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Little economic prosperity. There are many farms in Warberland but Bardoran taxes them by taking their crops, so the area is in poverty"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										"The land occupied by Warberland was once the nation Artoz. In 1608 CE Atroz attempted to fight Bardoran avoid it becoming too powerful, but it was already too late, and Atroz to crushed by the Bardoran Military. At the start of the campaign, this was the last conquest by Bardoran. When it was conquered by Bardoran, the area was named Warberland and it became a colony that bardoran takes advantage of for food."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outside Relations",
+									"entries": [
+										"relations"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"{@bold feature 1}"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Related Info",
+									"entries": [
+										"{@adventure The Conquest of The North |CRDA|1|The Conquest of The North}"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Tarehas",
+							"entries": [
+								"Small island kingdom",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Mainly Human, but there are some human-like races like Halflings, Orcs. Not a very dense population"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Keeps to itself, sustains itself from fishing, logging to build boats. Metal tools are bought from Mayland"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"Monarchy. The somewhat small island nation managed to maintain a king who makes all laws because of its size and the traditional hearing hours"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rulers",
+									"entries": [
+										". Percy Aerwyna → Ben Aerwyna → Percival Aerwyna → George Aerwyna → Daniel Aerwyna. Currently prince Alric Aerwyna is next in line."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"Before the attacks of Selatis, the Tarehas military was a moderate size. It was enough to fend pirates off, and that is generally what was needed. Because of the the navy was the most funded part of the military."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										"King Percy Aerwyna formed in 1564 CE. At the time, the land was traveled to in search of resources, but there weren't any unique ones. Some humans moved there, including a young Percy Aerwyna, and formed small separate communities. Eventually Aerwyna made good relations with the other groups, and he declared the island Tarehas"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outside Relations",
+									"entries": [
+										"relations"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"{@bold feature 1}"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Related Info",
+									"entries": [
+										"{@adventure The Selatis-Tarehas Conflict |CRDA|1|The Selatis-Tarehas Conflict}"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Selatis",
+							"entries": [
+								"Costal kingdom that attacked Tarehas",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Very diverse. Originally mostly human, but more races have mingled with the rest."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Fishing and farming crops to sustain itself. Sells wood to Mayland"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"Monarchy, with a council of 30 lords. Both the king and the council of lords need to agree on a law to pass it, either can introduce one"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rulers",
+									"entries": [
+										"Michael Wilber → Gordon Wilber → Tyler Wilber → Samuel Cartage → William Cartage → Morgan Darius → Thomas Darius"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"Moderate military strength. Large naval fleet, and many guards, but the military tends to stay around the wealthy/noble areas"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										"The land that Selatis occupies was once many informal nations. King Michael Wilber united many groups against ones that were terrorizing the others, and formed the kingdom in 1318 CE. The area expanded through a couple wars and a few treaties"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outside Relations",
+									"entries": [
+										"relations"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"{@bold Festival of Selatis.} A week long festival that takes place every year to celebrate the Founding of Selatis. The festival brings in many outside visitors"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Related Info",
+									"entries": [
+										"{@adventure The Selatis-Tarehas Conflict |CRDA|1|The Selatis-Tarehas Conflict}"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Mayland",
+							"entries": [
+								"Manufacturing kingdom",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Very diverse. Many people travel through Mayland as well"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Manufacturing and transport of goods. Mayland doesn’t actually produce many things but It buys many raw materials that it makes into other things. It also has large businesses in transporting such goods"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"Mayland does not have an official government, the area is more of a union of many powerful companies. The higher ups of these companies make decisions with each other, so there is sort of a council, but laws are generally decided by the individual companies."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"There is no formal Mayland military, but individual companies often hire guards for protection of their goods. These goods usually protect the company’s property (land, valuables), he estates of the company owners, or to enforce on the factory floor, but there is little protection for the lower class. This means violence is somewhat common in the slums of the lower class."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										"Mayland was created when many companies in the area agreed to form a union. Over time, different companies had started to independently form along the River Zurn, and the company heads decided to form a name for the area"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outside Relations",
+									"entries": [
+										"relations"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"{@bold feature 1}"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Related Info",
+									"entries": [
+										"{@adventure PLACEHOLDER |CRDA|4|Atheria}"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Gartana",
+							"entries": [
+								"powerful military kingdom",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Very diverse."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Ship building. Makes deals with independent parties where they provide military force. Most of the food is produced in Kortain."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"The Gartana government consists of a king and representatives from different areas of Gartana"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rulers",
+									"entries": [
+										"Evan Marris → Pladis Marris → Gregory Furnit → Cabil Furnit → Gregory (II) Furnit → Dawsor Clumond → Tershar Artus"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"Gartana has great pride of it’s military. Being a union formed from wanting defence, Gartana has put many resources into its military. The Gartana military has both great equipment and numbers of soldiers. They often flaunt their military, through both army and naval parades. Each district has their own military that ultimately can be controlled by the king, but are meant to handle affairs locally."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										"Gartana was formed originally as a union military of smaller nations who wanted security. There were generally many land disputes at the time, and many pirates that took advantage of the weak and small nations. After the Great Lemis War, Gartana formed an official kingdom."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outside Relations",
+									"entries": [
+										"relations"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"{@bold Military Culture.} Gartana has great values of strength because of its past. From a young age citizens of Gartana are taught to respect and honor the military. Joining the military is a common path for many young people."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Related Info",
+									"entries": []
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Kortain",
+							"entries": [
+								"growing farming kingdom",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Very diverse."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Sells crops to other nations and participates in slave trades. Kortain also has a very large real estate market for wealthy entrepreneurs to begin industry. Kortain, being a somewhat newer kingdom, is trying to grow it’s economic influence"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"The Kortain government consists of a king and representatives from different areas of Kortain"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rulers",
+									"entries": [
+										"Totartec Brus → Preesha Hasheguel → Weltor Kalbos"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"The Kortain Military is relatively strong, but it mainly is for defense. As a result the military tends to stay around heavily populated, especially wealthy, areas"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										"Kortain was founded by one of the clans that participated in the Great Lemis War. Overtime as other clans fell, they took up the land. None of Kortain has been taken as a result of force by Kortain, but Kortain scavanges destroyed kingdoms or suffering territories and offers them to join."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outside Relations",
+									"entries": [
+										"relations"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"{@bold feature 1}"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Related Info",
+									"entries": [
+										"{@adventure Atheria |CRDA|4|Atheria}",
+										"{@adventure Fresieln|CRDA|4|Fresieln}"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Thrun",
+							"entries": [
+								"growing desert kingdom",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Very diverse."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"The Thrun government is a council of the wealthiest citizens of Thrun"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"Thrun has a small but well armed military. The Thrun military is used only to defend the property of the wealthy. The wealthy also tends to hire their own personal guards"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										"Thrun was founded by a group of four powerful gangs in 1649. The desert is a lawless and environmentally harsh area with no real ruler. Thrun was founded to establish a permanent area of power. The Four gangs joined forces to combat other gangs and groups of gangs, and set up permanent settlements at the tip of the dry mountains. The gangs were quite wealthy, and quickly were able to buy supplies and slaves to begin building their kingdom. Entrepreneurs joined to grow their wealth in the growing Kingdom."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outside Relations",
+									"entries": [
+										"relations"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"{@bold Class System.} Thrun has a very wide wealth gap. There are many people who hope to gain wealth from the growing area, but few actually do. Those who are already wealthy have gained more wealth from the area. On the other hand, Thrun’s economy is based on the work of slaves"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Related Info",
+									"entries": []
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Elestir",
+							"entries": [
+								"the hidden elf kingdom",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Elfs. not a very huge population ~ 35000"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Self sustained farming and foraging"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"There is a council of 10 leaders who make the decisions. Sometimes they will ask for the opinion of Atheria, or be commanded by her."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"There once was a much greater military of Elestir, but the population in general has decreased. There are only ~5000 in the official Elestir military, but most of the population are apt fighters"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										"Atheria created the elfs as her mortal followers BCE, and many remained in the Forest Drisk, forming Elestir"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outside Relations",
+									"entries": [
+										"relations"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"{@bold feature 1}"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Related Info",
+									"entries": [
+										"{@adventure Atheria |CRDA|4|Atheria}",
+										"{@adventure Fresieln|CRDA|4|Fresieln}"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Verathon",
+							"entries": [
+								"the hidden drow kingdom",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Drow. not a very dense population ~ 10000"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Self sustained farming and foraging of cave organisms, like fungi"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"Matriarchy. Freiseln makes the final decision, but she communicates greatly with her followers, and allows anyone to seek her presence"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"There ae many apt fighters in Verathon, but not a formal military. One is not needed for such an isolated nation. If need be, the more able Drow will take up arms in honor of Verathon"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										"The some elfs split off from the Elestir in allegiance to Freiseln who left her mother, Atheria. They asked Freiseln to make their skin the same dark purple as hers as a sign of allegiance. Thus the drow were born, and they retreated to the dark caves under the Forest Drisk. BCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outside Relations",
+									"entries": [
+										"The Drow in the past interacted a bit more than they currently do. Groups of Drow would travel out of curiosity. People knew Drow exist, but they were very rare to see. The Drow were always very secretive about their settlement. When Bardoran began to take control of the north, Freiseln ordered a stop to travel to be cautious of the violent times."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"{@bold Verathon Community ideals.} The Drow are held together by a strong sense of community. Honor is seen as acting for the ones you love. Freiseln set up these ideals to contrast her mother, who she sees as self absorbed.",
+										"{@bold The Verathon Ceremony.} Every year the Drow have a ceremony on the day that they succeeded from Elestir. At first this ceremony was to commemorate this day, but over time it has become less about Elestir, and more about the formation of Verathon in general. In the ceremony, those coming of age take a rounded knife called a fear-cleaver and cut a nonlethal wound on a part of their body they choose to demonstrate they are ready to give to the community. Frieseln then wraps the wound with webs. The cut leaves a scar that the drow often look at to remind themselves of their community"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Related Info",
+									"entries": [
+										"{@adventure Fresieln|CRDA|4|Fresieln}",
+										"{@adventure Atheria |CRDA|4|Atheria}",
+										"{@adventure The Craiton-Drow Conflict|CRDA|2|The Craiton-Drow Conflict}"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Craiton",
+							"entries": [
+								"small kingdom in current day Kortain that was destroyed by the Drow",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Mostly Human"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Founding",
+									"entries": [
+										"Lord Jeremiah Crait founded the small village with the goal of being a heavily defended haven from bandits"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Trades wood and crops with surrounding nations"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"Monarchy. Lord makes decrees"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rulers",
+									"entries": [
+										"Jeremiah Crait → David Crait → Simon Crait"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"Very large amount of heavily soldiers that successfully defended against many bandits, but failed against the drow"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outside Relations",
+									"entries": [
+										"The Drow in the past interacted a bit more than they currently do. Groups of Drow would travel out of curiosity. People knew Drow exist, but they were very rare to see. The Drow were always very secretive about their settlement. When Bardoran began to take control of the north, Freiseln ordered a stop to travel to be cautious of the violent times."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"{@bold Verathon Community ideals.} The Drow are held together by a strong sense of community. Honor is seen as acting for the ones you love. Freiseln set up these ideals to contrast her mother, who she sees as self absorbed.",
+										"{@bold The Verathon Ceremony.} Every year the Drow have a ceremony on the day that they succeeded from Elestir. At first this ceremony was to commemorate this day, but over time it has become less about Elestir, and more about the formation of Verathon in general. In the ceremony, those coming of age take a rounded knife called a fear-cleaver and cut a nonlethal wound on a part of their body they choose to demonstrate they are ready to give to the community. Frieseln then wraps the wound with webs. The cut leaves a scar that the drow often look at to remind themselves of their community"
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Related Info",
+									"entries": [
+										"{@adventure The Craiton-Drow Conflict|CRDA|2|The Craiton-Drow Conflict}"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Events",
+					"entries": [
+						{
+							"type": "section",
+							"name": "The Warberset-Kershak Deal",
+							"entries": [
+								""
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Conquest of the North",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Growing Tensions (1575)",
+									"entries": [
+										"Before Bardoran took over, it was a much smaller nation of miners like the nations around it. Eventually the miners of each nation began mine in the same areas and conflicts grew over territory. On a few occasions these disputes became violent. The leaders of these nations made an agreement over territory, but resentment remained in the minds of the miners.",
+										"Before the conquest Bardoran and its neighbors had trade deals where Bardoran would gain access to the large forges of the nearby nations to process mined goods, and give the owner of the forge a cut of the results. In 1562, Bardoran began construction on its own forge which made the nearby nations feel betrayed. They began cutting Bardoran out of trade agreements which greatly stunted Bardoran’s previously growing economy. This increased tensions further."
+
+									]
+								},
+								{
+									"type": "entries",
+									"name": "First Conquests (1575)",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Throughout the Conquest (1575-1607)",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "End of the Conquest (1607)",
+									"entries": [
+										""
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Selatis-Tarehas Conflict",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "First Tensions (1679 - 1713)",
+									"entries": [
+										"Tensions began during the rule of King (George) Aerwyna III when Selatis fishing boats over time grew closer to Tarehas shores. Up to this point Selatis had respected Tarehas’s territory, but no official agreement was ever made. Aerwyna III sent a message to the current Selatis king, (Thomas) Darius II asking to formalize these boundaries in the Tellensa Treaty. The negotiation process was tense, both sides trying to take as much of the sea as possible, but an agreement was made. Both Selatis fishers and Tarehas fishers ignored the agreements, and the tensions grew among the fisherpeople."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Capture of the Salthopper (1713)",
+									"entries": [
+										"The Salthopper was a fishing boat of Tarehas citizens that in April of 1713, went into some of the dedicated Selatis waterspace of the Tellensa Treaty. The area was part of a breeding space of tuna, and many Selatis fishers were angry the Salthopper was taking all the fish. The Selatis fishers reported the Salthopper to the Selatis navy, who sent a ship that arrested the Tarehas fishers, and claimed the boat. Tarehas responded by beginging to take control of Selatis fishing boats in their area."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Declaration of War (1713)",
+									"entries": [
+										"After Tarehas began capturing Selatis fishing ships, Selatis sent a feel of 12 naval ships to reclaim them. During negotiations, one of the ships was secretly set ablaze by Selatis and blamed on the Tarehas military. Tarehas claimed it was an independent citizen, but Selatis declared war"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Battle of Golscon (1713)",
+									"entries": [
+										"Upon Decree of war, the Naval ships already at Tarehas moved began firing on the naval ships of Tarehas, before leaving for reinforcements. Tarehas prepared as well as they could, mainly preparing to help the royals escape. The Selatis navy returned with many more ships that easily crushed the Tarehas navy. Once reaching land, the Selatis navy had much more trouble navigating through the unfamiliar land, but they reached the Castle itself within a day with their much greater numbers"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Escape of the Royals (1713)",
+									"entries": [
+										"Many Selatis naval ships stayed in the water to catch the royal family if they try to escape. Knowing this, each member of the royal family set out in separate, small sailboats, along with many other decoy sailboats being steered by soldiers. The Selatis navy soon caught on to this, and only the prince escaped by going around the west side of the island and eventually reaching Warberland. The King and Queen were imprisoned and brought to Selatis as prisoners"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Battle of Delorna (1713)",
+									"entries": [
+										"Selatis pulled most of its troops away from Tarehas after the castle was taken. Those that remained began to establish control over the island, claiming it as territory of Selatis. Selatis underestimated the will of many civilians in Tarehas, and many fought back in the small town of Delorno.The Selatis soldiers were pushed back and the townspeople retreated into the forest. The Selatis soldiers asked for more aid from Selatis, but they were told eventually some would come.."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Stalemate (1713 - Present)",
+									"entries": [
+										"After the Battle of Delorno, the Selatis soldiers remained in the castle while the Tarehas resistance continued to hide and move around in Tarehas. The result is a form of guerilla warfare from the resistance. Soon, the dwindling Selatis forces began to remain in the castle until they can receive more help."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Craiton-Drow Conflict",
+							"page": 0,
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Inital Tensions",
+									"entries": [
+										"In 1540 Tensions grew between the Drow and the town of Craiton (currently Kortain) when Craiton began to do extreme logging. The drow rely on the forest ecology to survive and they surfaced to express this. The Craiton lumberjacks called 30 soldiers to talk to the Drow diplomats. The 10 Drow that came to express the concerns were armed, but they were not wielding their weapons when they came to negotiate. After some arguing, a Craiton guard pushed one of the Drow in anger, and a different Drow pushed the guard back and knocked him over. The guards then drew their swords, followed by the Drow, and a battle broke out"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The First Battle",
+									"entries": [
+										"The extremely skilled drow killed all but 5 of the soldier who they left to run away. A few of the Drow had bad cuts, but nothing that was permanent. The Craiton soldiers returned to the town and war was declared."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Destruction of Craiton",
+									"page": 0,
+									"entries": [
+										"The Craiton soldiers entered the forest Drisk, trying to find the Drow settlement. Anticipating this, The Drow had prepared arms and ambushed the Craitonians. The Drow easily massacred the heavily armored soldiers trying to move throughout the dense forest. Many Craitonians did retreat and the Drow followed. A battle ensued in the Capital of Craiton. The Cratonians were now in more familiar territory, but the drow were much more skilled and coordinated. They were able to reach the house of Lord _ and demanded he take his people north. The city of Craiton was abandoned, and later the land was taken up by Kortain."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Impacts",
+									"entries": [
+										"The world began to be very wary of the Drow. Since Craiton had a very strong military, it’s fall in battle was shocking. Kortain eventually took over the land that Craiton once ruled over, but remembering it’s downfall, Kortain has not attempted to expand into the forest"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The (Aurelis guardian)-(witch) deal",
+							"entries": [
+								"The prince of Tarehas, Alric Aerwyna, is cursed because of something his mother did when she was younger that upset some powerful magic user. Meanwhile, whiles she was young, AG (Aurelis guardian) was learning wizardry (perhaps at freaxir) when a witch began teaching her and so that the witch could take advantage of her. Once she grew up, AG searched for a way to break the curse when she went back to the witch and askked for advice. The witch explained that a drow heart of the same age as Alric's could be used in a ritual. AG went to the forest Drisk and prayed to Freiseln (Per the witch's instructions), explaining the situation, but saying that she wanted the healing power of Freiseln. The drow took pity on her, and brought her to the caves. Freiseln gave her an elixir, and AG took a drow baby on her way out. The elixir healed the sick Alric baby, but as he got older, sickness came back, and AG had to use Aurelius's blood in a potion to heal him. She refused to actualy cut Aurelius's heart out, but the witch was planning to all along for her own gain"
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Items",
+					"entries": [
+						{
+							"type": "section",
+							"name": "Rameselt",
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Rameselt",
+									"source": "CRDA",
+									"style": "inset"
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Compass of Garletor",
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Compass of Garletor",
+									"source": "CRDA",
+									"style": "inset"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Characters",
+					"entries": [
+						{
+							"type": "section",
+							"name": "Sellarus",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Hebeshca",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Kershak",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Cain",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Armentus",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Dremin Warberset",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"Dwarf"
+										],
+										[
+											"Pronouns:",
+											"He / Him"
+										],
+										[
+											"Lifetime: ",
+											"1495 - Present"
+										],
+										[
+											"Age: ",
+											"218"
+										],
+										[
+											"Alignment: ",
+											"Lawful Evil"
+										]
+									]
+								},
+								"Dremin Warberset is the king of Bardoran",
+								{
+									"type": "entries",
+									"name": "Early Life (1495 - 1526)",
+									"entries": [
+										"Dremin Warberset was born when Bardoran was a much smaller kingdom. He, like most Bardonians at the time, was born into a mining family. Warberset had dreams of becoming a leader, and wanted to unite the nearby nations under one flag. At the time, Warberset imagined this union to form through treaties and economic trade."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Rise to Power (1526 - 1545)",
+									"entries": [
+										"hen he was 31, Warberset made a deal with a forge in a nearby kingdom where he would get 30 pickaxes and they would get some mined resources. Those who Warberset gave the new pickaxes easily made back what was lost, and made good profits for Bardoran. This made him a sort of local hero amongst a few families.",
+										"Barus Torid, the king at the time, took notice to this negotiation, and began making similar negotiations on a larger scale. Barus also took a liking to Warberset, who he asked to meet. Torid found Warberset's spirit inspiring, and made him an advisor.",
+										"In 1545, Barus Torid decided to step down, and wanting to give Bardoran a positive future he gave his crown to Warberset."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "First Years as King (1545 - 1562)",
+									"entries": [
+										"Once he became king, Warberset continued the economic agreements with surrounding nations. During these years, the citizens of Bardoran thought Warberset was an inspiring king that may actually secure better lives for the citizens of Bardoran. The nearby nations found the young king to be overly ambitious. Whenever he brought up the topic of a union, the other nations were unwilling, but they still wanted to continue economic agreements."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Growing Conflict (1562 - 1576)",
+									"entries": [
+										"In 1562, Warberset began the construction of a forge for Bardoran. The people of Bardoran saw this as a great step forward and supported this decision. The surrounding nations however felt somewhat betrayed as Bardoran previously had been making trade agreements to use their forges. As a result the nearby nations decreased trade with Bardoran and increased with eachother. This stunted Bardoran's growth and made Warberset angery",
+										"Around this time, Warberset had also been negotiating borders for each kingdom to avoid territory conflict between the miners. Once again, Warberset brought up the option of a union, but was rejected. Following the announcement of the Bardoran forge, the nearby nations made an agreement to share mining territory. This union that Bardoran was cut out of enraged Warberset. And he began resenting the bordering nations."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Start of Conquest (1576)",
+									"entries": [
+										"In 1576, Kershak emerged from the volcanic mines of Bardoran and made a deal with Warberset. Warberset saw the deal as not only a way to achive his goal of forming a great dwarven kingdom, but also a form of revenge on the nearby nations.",
+										"Warberset had an easy time convincing most of his subjects to go to war, as territory conflicts between them and the other nations had resulted in small brawls already. With the introduction of a demon to the army, those who had doubts about Bardoran’s success were quickly reassured.",
+										"Warberset declared war in 1576 under the reasoning of economic betrayal and failure to uphold border agreements"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Conquest (1576 - 1608)",
+									"entries": [
+										"After the bordering nations had been conquered, Warberset and Bardoran as a whole felt invigorated, and wanted to follow through with Warberset’s dreams of creating a great nation. Kershak had a great role in convincing Warberset to \"see [his] vision through\" .",
+										"During the first battles Warberset actually participated in the conquering of the nations bordering Bardoran. As time went on, Warberset directed the war from his increasingly more comfortable fortress",
+										"Following his battle with Merazarx in 1607, Kershak convinced Warberset to stop expanding. Warberset grew tired of the war at this point anyways, and wanted to admire and enjoy the benefits of his empire. When Artoz attacked in 1608, Warberset sent an immense number of troops with the goal of ending the battle as quickly as possible. Once they had, Warberset pulled most of his troops back to Bardoran and began to expand control on Warberland much more passivley"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Gratin Harkin",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"Dwarf"
+										],
+										[
+											"Pronouns:",
+											"He / Him"
+										],
+										[
+											"Lifetime: ",
+											"1481 - Present"
+										],
+										[
+											"Age: ",
+											"232"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								"Grantin Harkin is a noble of Bardoran who owns the Grand Harkin Forge. He is the namesake of the Harkin pass and the creator of the Bardoran berserkers",
+								{
+									"type": "entries",
+									"name": "Early Life (1481 - 1576)",
+									"entries": [
+										"Harkin was born into a somewhat poor family in pre-conquest Bardoran. As Bardoran and its neighboring kingdoms expanded, tensions rose between the miners of each kingdom. Harkin had multiple encounters with the other miners, and was in one of the few interactions that resulted in a small brawl. He was very cutthroat during this brawl and single handedly left five dwarves wounded."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Conquest (1576 - 1608)",
+									"entries": [
+										"Once the conquest started, Harkin was one of the first to rush in (after Kershak). He organized a group of similarly violent dwarves that would all rush in with him with little regard for their own safety. This tactic proved to be very effective to scare and confuse enemies. Dremin Warberset took notice and made him a general and the berserker an official type of soldier of the Bardoran military.",
+										"In one of the first battles of the conquest, Harkin and his berserkers chased their enemies throughout that kingdom’s forge. Warberset gave ownership to the new general as a result",
+										"During one of the raids led by Harkin, he pushed his enemies south until they attempted to escape through the pass between the Gray Mountains and the Forlorn Mountains. Gratin himself chased them with berserker companions, and caught up with them. Gratin wrote to Dremin, suggesting the pass may be used for economic trade. Dremin agreed, and named the pass after Harkin."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Benest Trask",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"Dwarf"
+										],
+										[
+											"Pronouns:",
+											"He / Him"
+										],
+										[
+											"Lifetime: ",
+											"1496 - Present"
+										],
+										[
+											"Age: ",
+											"217"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								"Benest Trask is the Bardoran noble who owns the Trask Grand Forge and is the namesake for the Trask Mountains",
+								{
+									"type": "entries",
+									"name": "Early Life (1496 - 1545)",
+									"entries": [
+										"Trask was born into a family of miners in pre-conquest Bardoran. He grew up a friend of Dremin Warberset, and was one of those who got a new pickaxe when Warberset negotiated for them. Trask supported Warberset when he became an advisor to Barus Torid. When Warberset took power, he made Trask an advisor."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Advising The King (1545 - 1576)",
+									"entries": [
+										"As Warberset’s advisor, Trask evaluated the needs of the miners and reported them. Since he was originally a miner, Trask got along with the miners and was able to get good insight on their lives.",
+										"As time went on the miners of Bardoran and the miners of nearby nations began to mine in the same areas, resulting in disputes between the groups. Trask was very aware of the rising tensions and he grew angry at the nearby nations. After some violent interactions between the groups, Trask encouraged Warberset to take military control of the area, but Warberset didn’t believe Bardoran had the military strength. While Trask agreed, He was still quite mad."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Conquest (1576 - 1608)",
+									"entries": [
+										"Once the conquest began, Trask eagerly led the Bardoran troops into battle (after Kershak). Trask continued to lead troops into battle throughout the conquest, so Warberset naturally made him a general.",
+										"Trask played a great role in convincing the dwarves of other nations to join the Bardoran army. He would contrast their lives as poor miners to what it could be if they were part of a grand empire. Since his experience with miners made his offer very attractive to the other dwarves.",
+										"Kershak influenced Trask to continue pushing east, and for Trask it became a sort of game and a boost to his ego at every new victory.",
+										"From 1604 - 1606 Trask successfully led his troops through what is now called the Trask mountains, attacking and displacing those who dwell in them. The area had not been inhibited by dwarves and not much mining had been done there. Trask communicated the opportunity for industry in the area, and Warberset gave him the resources and manpower to build a new forge. The forge and the mountain range was then named after Trask by Warberset."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Romil Torrid",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"Dwarf"
+										],
+										[
+											"Pronouns:",
+											"He / Him"
+										],
+										[
+											"Lifetime: ",
+											"1430 - Present"
+										],
+										[
+											"Age: ",
+											"283"
+										],
+										[
+											"Alignment: ",
+											"Lawful Evil"
+										]
+									]
+								},
+								"Romil Torid is a noble of Bardoran who specializes in economic trade and growth. The namesake of the Torid Grand Forge",
+								{
+									"type": "entries",
+									"name": "Early Life (1430 - 1545)",
+									"entries": [
+										"Romil Torrid is the son of Barus Torid, and was part of the upper class of early Bardoran once. Dremin Warberset became an advisor or Barus, Romil and Dremin became friends. Watching the stress his father was always under, Romil didn’t want to become king. Romil suggested Warberset become king when Barus was thinking of stepping down. Dremin made Romil one of his advisors once he took power."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Advising The King (1545 - 1576)",
+									"entries": [
+										"As an advisor to Warberset, Torid proved to be very gifted in the field of economics. He was very particular about keeping records of purchases, production, and sales. Likewise he was great at utilizing economic patterns to sell and purchase at the best times. Torid worked with Warberset to create beneficial and tempting trade agreements for all parties",
+										"After a series of very profitable years for Bardoran, Warberset suggested Bardoran construct a forge. Torid went to work evaluating costs and found that the introduction of a forge in Bardoran would be a great benefit for the nation and increase the economic growth of the entire region.",
+										"When Warberset announced the plans for a forge to the nation, the neighboring nations saw a threat as they had previously been making trade agreements to allow Bardoran use their forges. These nations reacted by reducing trade with Bardoran and trading amongst each other. This stunted Bardoran’s economic growth which in turn prevented the forge from being built. Torid was furious."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Conquest (1576 - 1608)",
+									"entries": [
+										"When the conquest began, Torid remained in Bardoran to calculate the costs and profits of the war. His rage towards the neighboring nations made the gained resources all the more sweeter",
+										"After the conquest of the first kingdoms Bardoran was able to acquire its forge. Warbreset put Torid in charge of the forge for the production of military equipment. Torid not only exceeded the needed production, but also expanded the forge itself. Warberset responded by renaming the forge after Torid.",
+										"During the conquest Torid received many benefits from Warberset for his contributions to the war. Torid began to lose touch with the working class and instead became obsessed with efficiency and profits. The most efficient way he found for running the forge was with an iron fist. Kershak sometimes talked to Torid and played a large role in influencing Torid's values"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Serick",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"Human (Undead)"
+										],
+										[
+											"Pronouns:",
+											"He / him"
+										],
+										[
+											"Lifetime: ",
+											"1378 - Present"
+										],
+										[
+											"Age: ",
+											"335"
+										],
+										[
+											"Alignment: ",
+											"Chaotic Evil"
+										]
+									]
+								},
+								"Undead warlock who serves Kershak.",
+								{
+									"type": "entries",
+									"name": "Early Life (1378 - 1399)",
+									"entries": [
+										"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too.",
+										"As he aged, Serick grew full of hatred. He could handle his poor life, but as his parents aged he saw they could not. When he was 15 Serick’s mother was raped by a wealthy landowner, and Serick responded by killinging him in the middle of the night. Serick was quickly put in prison and he spent 6 years there. When he got out. His parents had sold most of the sheep because of hard times, and now were even poorer."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Becoming Serick (1399 - 1409)",
+									"entries": [
+										"Serick’s parents began to become unable to tend to the few sheep remaining because of sickness, so Serick began to steal. He was quite good at stealing, and was never caught in the act. In 1409 he stole from a group of bandits who tracked him down and killed his parents in front of him, and beat him, leaving him to die.",
+										"With his last breath, Serick said he would kill all of the bandits and began praying (to nothing in particular) asking for revenge. Kershak answered his prayer and held Serick in a state just after death as he asked for Serick’s story.", 
+										"Kershak was quite happy with the hatred he saw in the man. Kershak revived him, made Serick his acolyte, and gave him his new name."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Descent into Madness (1409 - Present)",
+									"entries": [
+										"Serick made true to his promise and killed all of the bandits. His newfound power was intoxicating and he began to lose any sense of empathy he once had. He began to only remember all the pain he felt throughout his life, and wanted to inflict it back onto the world.",
+										"Serick eargerly did Kershak's bidding as it often involved causing pain onto others. He reveled in the fear people had when they saw him"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Vernacis",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Rafod Srag",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Atheria",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Freiseln",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Welm",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Prell",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Solomon",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Darum",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Uko",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Thearen",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Golicht",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Vaelin Prathern",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Helena Prathern",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Threstrom",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Grithal",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Claud Perdack",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Scarab",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "James Bartle",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Headmistress Elesira Ceydor",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Vice Chancellor Nelesan Berdis",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Professor Harold Deiblen",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Professor Wendy Shrike",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Professor Fredrick Darton",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Jarl Garess",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Dram Tharnach",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Letheres Aerthen",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Theodore Graydon",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Rohtaurek",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Merazarx",
+							"entries": [
+								{
+									"type": "table",
+									"colStyles": [
+										"col text-center",
+										"col text-center"
+									],
+									"rows": [
+										[
+											"Race:",
+											"ENTER RACE"
+										],
+										[
+											"Pronouns:",
+											"ENTER PRONOUNS"
+										],
+										[
+											"Lifetime: ",
+											"ENTER LIFETIME"
+										],
+										[
+											"Age: ",
+											"ENTER AGE"
+										],
+										[
+											"Alignment: ",
+											"ENTER ALIGNMENT"
+										]
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Info1",
+									"entries": [
+										"info1  text"
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
