@@ -1902,69 +1902,137 @@
 							"type": "section",
 							"name": "Kershak",
 							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"Demon"
-										],
-										[
-											"Pronouns:",
-											"He / Him"
-										],
-										[
-											"Lifetime: ",
-											"BCE - Present"
-										],
-										[
-											"Age: ",
-											"-"
-										],
-										[
-											"Alignment: ",
-											"Chaotic Evil"
-										]
-									]
-								},
 								"Kershak is the demon that helped Bardoran take over the north. He is the demon of greed and power hunger. Kershak is the eldest child of Sellarus and Habeshca and the brother of Cain and Armentus. ",
 								{
 									"type": "entries",
-									"name": "Family Relations",
+									"name": "Personality",
 									"entries": [
-										"Kershak felt Sellarus didn’t use his power to his full extent and that his father cared too much about mortals. Kershak also felt Sellarus didn’t appreciate his power enough.",
-										"Kershak initially saw his mother as weak compared to him and Sellarus, but as time went on he realized she was extremely powerful and extremely good at hiding it. This made him afraid of her and whatever she may be plotting.",
-										"Kershak saw his siblings as weak compared to him and didn’t really care about them if they didn’t interfere with his plans. For this reason Kershak felt even more disdain towards Sellarus because he felt his father should cherish him the most."
+										"(Chaotic Evil) Kershak views most other beings as inferior and takes joy from others suffering at his hand",
+										{
+											"type": "table",
+											"colStyles": [
+										"col-12 text-left"
+									],
+											"rows": [
+											  [
+												{
+													"type": "list",
+													"name": "Traits",
+													"items": [
+														"Self-Absorbed",
+														"Cruel",
+														"Greedy"
+													  ]
+												  }
+											  ],
+											  [
+												{
+													"type": "list",
+													"name": "Ideals",
+													"items": [
+													  "The weak deserve to die"
+													  ]
+												  }
+											  ],
+											  [
+												{
+													"type": "list",
+													"name": "Bonds",
+													"items": [
+														"Sellarus. Kershak's father, who he hates",
+														"Hebeshca. Kershak's mother, who he fears",
+														"Cain",
+														"Armentus",
+														"Serick. The only mortal Kershak likes",
+														"Dremin Warberset. Kershak can easily manipulate to control the forces of Bardoran"
+													  ]
+												  }
+											  ]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "The Will of Sellarus (1323)",
+									"name": "Apearence",
 									"entries": [
-										"The will of Sellarus made Kershak extremely mad. Since he was the eldest of Sellarus, Kershak assumed he would get Sellarus’s power if he dies, so when Sellarus made the possibility that any demon could get his power, Kershak was enraged.",
-										"Intally Kershak was unaware of the third key but once he learned that Hebeshca had made it and helped hide the will, he also grew resentment towards his mother."
+										"Kershak has dark, hard skin and long but muscular arms and legs. He has sharp gray horns/ spikes that protrude from his shoulders, knees, elbows, spine, cheek bones, temples, and forehead. He has no feet, instead he has a single spike-like claw that protrudes underneath each of his calves. His hands are bony with sharp claws. His face is gaunt, with his sharp teeth always bared and his nose like that of a skull. He has four, glowing yellow, reptilian eyes on the front of his face, and one on the back of his head.",
+										"Kershak wears dark metal armor. This armor includes a breastplate with no sleeves or shoulder guards, and an opening on the back to allow his spikes to poke through. He has additional plating on his legs that have a hole cut for the spikes on his knees. Underneath this plating he has dark chainmail",
+										{
+											"type": "table",
+											"colStyles": [
+										"col-6 text-left",
+										"col-6 text-left "
+									],
+											"rows": [
+											  [
+												"Race",
+												"Demon"
+											  ],
+											  [
+												"Height",
+												"40 ft."
+												
+											  ],
+											  [
+												"Gender Presentation",
+												"Masculine"
+												
+											  ],
+											  [
+												"Complexion",
+												"Very Dark Gray"
+												
+											  ],
+											  [
+												"Build",
+												"Thin and Muscular"
+												
+											  ]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "The Kershak-Warberset Deal (1575)",
+									"name": "Lifetime",
 									"entries": [
-										"Wanting nothing more than more power, Kershak realised that he would need power and help to scour Cerdia for the keys and the will itself. When Bardoran began mining close to his volcanic lair, Kershak was initially annoyed but then saw that he could take advantage of the king, Dremin Warberset. Since Warberset was already mad at neighboring kingdoms, Kershak easily fueled his rage and convinced him to make the Kershak-Warberset deal."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "The Conquest (1575 - 1608)",
-									"entries": [
-										"Kershak reveled in the fear that mortals had when they first saw him. For Kershak, the conquest was generally enjoyable. He also began to enjoy having an army of minions that would do his bidding.",
-										"Soon after the conquest began, Armentus sent a message to Kershak requesting the Armentus - Kershak Deal. Kershak didn’t know much about Freaxir but didn’t see it as a threat, and he didn’t have any plans of expanding south of  what is now the Bardoran river. He agreed, feeling relieved he had one less thing to worry about interfering.",
-										"When Cain became worried of Kershak’s greed, he sent a message in 1580 to Kershak warning him that other entities would try to stop him. Kershak saw this message as both an insult and a threat, and decided to remove Cain from the physical plane and kill his acolytes. Kershak invited Cain to discuss and brought him into his lair, where Cain was shown his acolytes being murdered before Kershak decapitated him from behind.",
-										"When Kershak reached Merazarx’s territory in 1607, he knew she would put up a fight, but his recent successes against other powerful beings made him feel confident. The battle left Kershak successful but very weak and injured, and he angrily retreated to his volcanic layer. Realising he should avoid killing Merazarx because of her will, he instead used his power to create an enchanted cage under Dran’s Deep that would keep her unconscious and contained.",
-										"After his battle with Merazarx, Kershak was frustrated and wanted to ensure control of the territory Bardoran had acquired. He requested Warberset end the conquest"
+										"Innumerable Years Old (BCE - Present)",
+										{
+											"type": "list",
+											"name": "Early Family Relations (BCE)",
+											"items": [
+												"Kershak felt Sellarus didn’t use his power to his full extent and that his father cared too much about mortals. Kershak also felt Sellarus didn’t appreciate his power enough.",
+												"Kershak initially saw his mother as weak compared to him and Sellarus, but as time went on he realized she was extremely powerful and extremely good at hiding it. This made him afraid of her and whatever she may be plotting.",
+												"Kershak saw his siblings as weak compared to him and didn’t really care about them if they didn’t interfere with his plans. For this reason Kershak felt even more disdain towards Sellarus because he felt his father should cherish him the most."
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Will of Sellarus (1323)",
+											"items": [
+												"The will of Sellarus made Kershak extremely mad. Since he was the eldest of Sellarus, Kershak assumed he would get Sellarus’s power if he dies, so when Sellarus made the possibility that any demon could get his power, Kershak was enraged.",
+												"Intally Kershak was unaware of the third key but once he learned that Hebeshca had made it and helped hide the will, he also grew resentment towards his mother."
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Kershak-Warberset Deal (1575)",
+											"items": [
+												"Wanting nothing more than more power, Kershak realised that he would need power and help to scour Cerdia for the keys and the will itself. When Bardoran began mining close to his volcanic lair, Kershak was initially annoyed but then saw that he could take advantage of the king, Dremin Warberset. Since Warberset was already mad at neighboring kingdoms, Kershak easily fueled his rage and convinced him to make the Kershak-Warberset deal."
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Conquest (1575 - 1608)",
+											"items": [
+												"Kershak reveled in the fear that mortals had when they first saw him. For Kershak, the conquest was generally enjoyable. He also began to enjoy having an army of minions that would do his bidding.",
+												"Soon after the conquest began, Armentus sent a message to Kershak requesting the Armentus - Kershak Deal. Kershak didn’t know much about Freaxir but didn’t see it as a threat, and he didn’t have any plans of expanding south of  what is now the Bardoran river. He agreed, feeling relieved he had one less thing to worry about interfering.",
+												"When Cain became worried of Kershak’s greed, he sent a message in 1580 to Kershak warning him that other entities would try to stop him. Kershak saw this message as both an insult and a threat, and decided to remove Cain from the physical plane and kill his acolytes. Kershak invited Cain to discuss and brought him into his lair, where Cain was shown his acolytes being murdered before Kershak decapitated him from behind.",
+												"When Kershak reached Merazarx’s territory in 1607, he knew she would put up a fight, but his recent successes against other powerful beings made him feel confident. The battle left Kershak successful but very weak and injured, and he angrily retreated to his volcanic layer. Realising he should avoid killing Merazarx because of her will, he instead used his power to create an enchanted cage under Dran’s Deep that would keep her unconscious and contained.",
+												"After his battle with Merazarx, Kershak was frustrated and wanted to ensure control of the territory Bardoran had acquired. He requested Warberset end the conquest"
+											]
+										}
 									]
 								}
 							]
