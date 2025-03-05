@@ -66,7 +66,7 @@
 					"type": "entries",
 					"name": "History",
 					"entries": [
-						"The Compass of Garletor was created by the Wizard Garletor for King (Cabil) Furnit II for a raid of a hidden base of cultists"
+						"The Compass of Garletor was created by the Wizard Garletor for King (Cabil) Furnit II for a raid of a hidden base of cultists using a drop of Hebeshca's blood"
 					]
 				}
 			]
@@ -784,6 +784,7 @@
 					"headers": [
 						"The Warberset-Kershak Deal",
 						"The Conquest of the North",
+						"The Betrayal of Cain",
 						"The Selatis-Tarehas Conflict",
 						"The Craiton-Drow Conflict",
 						"The (Aurelis guardian)-(witch) deal"
@@ -792,7 +793,7 @@
 				{
 					"name": "Items",
 					"headers": [
-						"Will of Selatis",
+						"Will of Sellarus",
 						"Writ of Hebeshca",
 						"Rameselt",
 						"Compass of Garletor"
@@ -825,7 +826,7 @@
 						"Vaelin Prathern",
 						"Helena Prathern",
 						"Threstrom",
-						"Grithal",
+						"Grithal Crouse",
 						"Claud Perdack",
 						"Scarab",
 						"James Bartle",
@@ -845,15 +846,7 @@
 				{
 					"name": "Plot",
 					"headers": [
-						"First Meeting",
-						"Dram Tharnach Asks For Help",
-						"Tellensa and the Fire",
-						"King Wilber's Monument",
-						"Meeting Welm and Prell",
-						"Encounter with Daurm and Bardoran Scouts",
-						"Warton",
-						"Ecounter with Threstrom",
-						"Cartage"
+						"TBD"
 					]
 				}
 			]
@@ -1641,9 +1634,44 @@
 								},
 								{
 									"type": "entries",
+									"name": "Kershak - Merazarx Battle (1607)",
+									"entries": [
+										"in 1607, Kershak entered the Warberset mountains before the Bardoran troops because he knew that Merazarx would be able to defeat them. By this point the Bardoran army was powerful enough to conquer nations themselves, but Kershak knew Merazarx was very powerful. Merazarx told her followers to prepare for an attack by Bardoran when it first began expanding and she remained ready to fight Kershak head on. As she predicted Kershak and Bardoran arrived, and a battle between the two immortals began. The battle lasted hours and left both nearly dead. Kershak was overall victorious but very weak. Wanting to avoid the will of Merzarx activating, Kershak trapped Merazarx in an enchanted dungeon under Dran’s Deep that would keep her incapacitated and contained."
+									]
+								},
+								{
+									"type": "entries",
 									"name": "End of the Conquest (1607)",
 									"entries": [
 										"After his battle with Merazarx in 1607, Kershak wanted to take time to regain power. At the same time, the nobles of Bardoran were satisfied with the loot they had acquired. In 1608 the nation Artoz feared for its safety and attacked Bardoran preemptively. Bardoran responded with a massive military attack that easily crushed Artoz. Bardoran pulled most of their troops back into the north and instead had a much smaller military presence to establish a colony which was named Warberland."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Betrayal of Cain",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Cain Expresses Concern (1580)",
+									"entries": [
+										"After the first years of Bardoran’s conquest, Cain became increasingly more concerned with his intentions. Cain knew Kershak was greedy and powerful, and he wondered if his brother intended to take over the world. Cain also knew there were many powerful creatures throughout Cerdia that may be able to oppose his brother.",
+										"Cain sent a message expressing that Kershak may be overconfident. Kershak was insulted and angry, but he didn’t initially show it. Kershak also suspected that Cain was trying to get him to stop so that he could get the will of Sellarus himself. "
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Kershak Betrays Cain (1580)",
+									"entries": [
+										"Kershak invited Cain and his acolytes to join him in his volcanic lair. Kershak said was going to explain his plans to Cain and that he had an offer for Cain. Cain agreed to meet and brought his acolytes with him. At the time Cain had dozens of acolytes who formed a cult that did Cain’s bidding. Once They arrived at Kershak’s lair, Kershak brought Cain to a separate room as Bardoran troops and Serick blocked the exit and began slaughtering Cain’s acolytes. Kershak brought Cain to a balcony to watch his acolytes being massacred, and decapitated the shocked Cain before he could react."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Impacts (1580 - Present)",
+									"entries": [
+										"Cain was enraged by Kershak’s betrayal, and Kershak was somewhat relieved and empowered. Cain was able to survive by escaping into the nonphysical realm, but he still lost his body and all his acolytes. This was one of the reasons Cain was so willing to accept Aurelius as an acolyte, and spent so much time helping her train."
 									]
 								}
 							]
@@ -1797,23 +1825,23 @@
 									"rows": [
 										[
 											"Race:",
-											"ENTER RACE"
+											"Demon"
 										],
 										[
 											"Pronouns:",
-											"ENTER PRONOUNS"
+											"He / Him"
 										],
 										[
 											"Lifetime: ",
-											"ENTER LIFETIME"
+											"BCE - 1486"
 										],
 										[
 											"Age: ",
-											"ENTER AGE"
+											"-"
 										],
 										[
 											"Alignment: ",
-											"ENTER ALIGNMENT"
+											"True Neutral"
 										]
 									]
 								},
@@ -1839,26 +1867,27 @@
 									"rows": [
 										[
 											"Race:",
-											"ENTER RACE"
+											"Demon"
 										],
 										[
 											"Pronouns:",
-											"ENTER PRONOUNS"
+											"She / Her"
 										],
 										[
 											"Lifetime: ",
-											"ENTER LIFETIME"
+											"BCE - Present"
 										],
 										[
 											"Age: ",
-											"ENTER AGE"
+											"-"
 										],
 										[
 											"Alignment: ",
-											"ENTER ALIGNMENT"
+											"chaotic Neutral"
 										]
 									]
 								},
+								"Hebeshca is the demon of mystery. She is the wife of Sellarus and the mother of Kershak, Cain, and Armentus",
 								{
 									"type": "entries",
 									"name": "Info1",
@@ -1881,31 +1910,60 @@
 									"rows": [
 										[
 											"Race:",
-											"ENTER RACE"
+											"Demon"
 										],
 										[
 											"Pronouns:",
-											"ENTER PRONOUNS"
+											"He / Him"
 										],
 										[
 											"Lifetime: ",
-											"ENTER LIFETIME"
+											"BCE - Present"
 										],
 										[
 											"Age: ",
-											"ENTER AGE"
+											"-"
 										],
 										[
 											"Alignment: ",
-											"ENTER ALIGNMENT"
+											"Chaotic Evil"
 										]
+									]
+								},
+								"Kershak is the demon that helped Bardoran take over the north. He is the demon of greed and power hunger. Kershak is the eldest child of Sellarus and Habeshca and the brother of Cain and Armentus. ",
+								{
+									"type": "entries",
+									"name": "Family Relations",
+									"entries": [
+										"Kershak felt Sellarus didn’t use his power to his full extent and that his father cared too much about mortals. Kershak also felt Sellarus didn’t appreciate his power enough.",
+										"Kershak initially saw his mother as weak compared to him and Sellarus, but as time went on he realized she was extremely powerful and extremely good at hiding it. This made him afraid of her and whatever she may be plotting.",
+										"Kershak saw his siblings as weak compared to him and didn’t really care about them if they didn’t interfere with his plans. For this reason Kershak felt even more disdain towards Sellarus because he felt his father should cherish him the most."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Info1",
+									"name": "The Will of Sellarus (1323)",
 									"entries": [
-										"info1  text"
+										"The will of Sellarus made Kershak extremely mad. Since he was the eldest of Sellarus, Kershak assumed he would get Sellarus’s power if he dies, so when Sellarus made the possibility that any demon could get his power, Kershak was enraged.",
+										"Intally Kershak was unaware of the third key but once he learned that Hebeshca had made it and helped hide the will, he also grew resentment towards his mother."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Kershak-Warberset Deal (1575)",
+									"entries": [
+										"Wanting nothing more than more power, Kershak realised that he would need power and help to scour Cerdia for the keys and the will itself. When Bardoran began mining close to his volcanic lair, Kershak was initially annoyed but then saw that he could take advantage of the king, Dremin Warberset. Since Warberset was already mad at neighboring kingdoms, Kershak easily fueled his rage and convinced him to make the Kershak-Warberset deal."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Conquest (1575 - 1608)",
+									"entries": [
+										"Kershak reveled in the fear that mortals had when they first saw him. For Kershak, the conquest was generally enjoyable. He also began to enjoy having an army of minions that would do his bidding.",
+										"Soon after the conquest began, Armentus sent a message to Kershak requesting the Armentus - Kershak Deal. Kershak didn’t know much about Freaxir but didn’t see it as a threat, and he didn’t have any plans of expanding south of  what is now the Bardoran river. He agreed, feeling relieved he had one less thing to worry about interfering.",
+										"When Cain became worried of Kershak’s greed, he sent a message in 1580 to Kershak warning him that other entities would try to stop him. Kershak saw this message as both an insult and a threat, and decided to remove Cain from the physical plane and kill his acolytes. Kershak invited Cain to discuss and brought him into his lair, where Cain was shown his acolytes being murdered before Kershak decapitated him from behind.",
+										"When Kershak reached Merazarx’s territory in 1607, he knew she would put up a fight, but his recent successes against other powerful beings made him feel confident. The battle left Kershak successful but very weak and injured, and he angrily retreated to his volcanic layer. Realising he should avoid killing Merazarx because of her will, he instead used his power to create an enchanted cage under Dran’s Deep that would keep her unconscious and contained.",
+										"After his battle with Merazarx, Kershak was frustrated and wanted to ensure control of the territory Bardoran had acquired. He requested Warberset end the conquest"
 									]
 								}
 							]
@@ -1923,31 +1981,61 @@
 									"rows": [
 										[
 											"Race:",
-											"ENTER RACE"
+											"Demon"
 										],
 										[
 											"Pronouns:",
-											"ENTER PRONOUNS"
+											"He / Him"
 										],
 										[
 											"Lifetime: ",
-											"ENTER LIFETIME"
+											"BCE - Present"
 										],
 										[
 											"Age: ",
-											"ENTER AGE"
+											"-"
 										],
 										[
 											"Alignment: ",
-											"ENTER ALIGNMENT"
+											"Chaotic Good"
 										]
+									]
+								},
+								"Cain is the demon of mental turmoil and the patron of Aurelius. He is the middle child of Sellarus and Hebeshca, and the brother of Armentus and Kershak.",
+								{
+									"type": "entries",
+									"name": "Family Relations",
+									"entries": [
+										"Cain liked Sellarus and followed his example of communicating with mortals. He also inherited his mother’s talent to manipulate mortals and demons alike, and admired her",
+										"Cain found both of his siblings annoying in different ways. Cain saw Kershak as egotistical and Armentus as a small nuisance that was always focused on some project he saw as unimportant."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Info1",
+									"name": "Children of Cain",
 									"entries": [
-										"info1  text"
+										"Cain began to collect followers who devoted themselves to having minds of strong will and seeking truth. Cain being the demon of metal turmoil, many saw him as very knowledgeable, and in many areas he was. Those who were most devoted became Cain’s acolytes and would do Cain’s bidding, which usually involved collecting information. The group named themselves the Children of Cain"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Will of Sellarus (1323)",
+									"entries": [
+										"Cain was largely uninterested in the Will of Sellarus until he began to think about what would happen if Kershak got it. He began secretly making his acolytes search for the box, and knowing Hebeschca was involved he knew it would be hard to find. It was because of these efforts Cain learned about the Writ of Hebeshca."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Betrayal of Cain (1580)",
+									"entries": [
+										"In 1580, Cain took notice of Kershak’s conquest of the north and began to fear what Kershak was planning. Hoping to calm Kershak down, Cain sent a message saying to Kershak saying that he was going down a dangerous path and he should not overestimate his power. Kershak took this as an insult and invited Cain and his acolytes to join him to discuss a proposition. Cain was intrigued, and he obeyed without suspicion. When he got there, Kershak took him away from his acolytes and then brought him to a balcony where he watched the Children of Cain getting massacred. Before he could react, Cain was beheaded by Kershak. Cain’s spirit escaped to the non-physical plain, but his body and acolytes were destroyed. This made Cain angry at both Kershak for betraying him, and himself for being so foolish"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Pact With Aurelius",
+									"entries": [
+										"In 1713, Cain for the first time in a while heard someone praying to his name. The person was Aurelius Aerwyna, who, feeling betrayed by her aunt and was under stress from an imminent raid by Selatis, was looking for knowledge and power. Cain, desperate and interested in her story and potential, made her his first acolyte in over a hundred years."
 									]
 								}
 							]
@@ -1965,31 +2053,59 @@
 									"rows": [
 										[
 											"Race:",
-											"ENTER RACE"
+											"Demon"
 										],
 										[
 											"Pronouns:",
-											"ENTER PRONOUNS"
+											"She Her"
 										],
 										[
 											"Lifetime: ",
-											"ENTER LIFETIME"
+											"BCE - Present"
 										],
 										[
 											"Age: ",
-											"ENTER AGE"
+											"-"
 										],
 										[
 											"Alignment: ",
-											"ENTER ALIGNMENT"
+											"Chaotic Good"
 										]
+									]
+								},
+								"Armentus is the demon of obsession and perfectionism who is calling Krabmann and teleported Omurice. Armentus is the youngest child of Sellarus and Hebeshca, and the sister of Cain and Kershak",
+								{
+									"type": "entries",
+									"name": "Family Relations",
+									"entries": [
+										"Armentus was pretty neutral to Sellarus but had a great bond with Hebeshca. She learned her mother’s art of making things remain hidden, and aspired to be like her.",
+										"Armentus had ok relations with Cain, but she knew he didn’t value any of her projects and was often annoyed with her. Armentus disliked Kershak, who she saw as egotistical."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Info1",
+									"name": "Freaxir (1320)",
 									"entries": [
-										"info1  text"
+										"In 1320 Armentus decided she wanted followers like other demons and she wanted them to be very knowledgeable about the arcane. She made contact with the similarly valued Elesira Ceydor who was open to the idea and collected others who sought to build a hub of knowledge. By selling enchanted objects and spells, the group was able to collect funds to build the school and house many magical books and items. Throughout this process, Armentus became more interested in creating the best institution to learn magic rather than followers. Throughout this process Armentus also became very close with Ceydor, who she made an actual acolyte.",
+										"When Kershak began conquering the north, Ceydor expressed her own and her student’s fears of invasion. Armentus agreed, and made a deal with Kershak ensuring Freaxir would be protected if Bardoran took the area over. When Bardoran eventually did, Freaxir was ordered to be undisturbed in return for cooperation. After making this deal with Kershak, Armentus went into hiding in the deep chasms of the ocean using the techniques she learned from her mother knowing that he might vilify her at some point"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Will of Sellarus(1323)",
+									"entries": [
+										"When Sellarus made the will, Armentus initially thought it was hilarious as she knew Kershak would be enraged. She then tasked her followers with collecting info on the will. It was through this tactic that she learned about the Writ of Hebeshca.",
+										"Ceydor found the Writ of Hebeshca and kept it at Freaxir until Serick asked for it. Ceydor gave it to him because of the Armentus - Kershak deal, but put a tracking spell on it so she and Armentus could see its location."
+
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Armentus Chosen (1713)",
+									"entries": [
+										"Hidden in the ocean, Armentus observed many creatures including water genasi. At this time, Armentus wanted to find individuals who could help her without alerting Kershak. She saw Krabmann as a strong willed individual with much promise. Having a soft spot for the underdog she fixated on him and decided he would be a good candidate. Knowing the location of the Writ of Hebeshca, She mysteriously called Krabmann to remain hidden but still accomplish her task",
+										"At the same time, Ceydor was on the lookout for talented magic users to help Armentus on her search. Ceydor took note of Omurice who, from Vice Chancellor Berids’s complaints, She learned had great potential. Ceydor expressed Omurice’s professors’ testimony of his promise, and Omurice’s ambition to Armentus was interested in him.",
+										"When Armentus called Krabmann to the Writ of Hemeshca, she suddenly realized how naive he was and decided he needed help before entering such a drastically new environment. She decided to teleport Omurice to his location, and luckily they seemed to get along."
 									]
 								}
 							]
@@ -2904,7 +3020,7 @@
 						},
 						{
 							"type": "section",
-							"name": "Grithal",
+							"name": "Grithal Crouse",
 							"entries": [
 								{
 									"type": "table",
