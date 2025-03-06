@@ -1621,7 +1621,6 @@
 										"Before Bardoran took over, it was a much smaller nation of miners like the nations around it. Eventually the miners of each nation began mine in the same areas and conflicts grew over territory. On a few occasions these disputes became violent. The leaders of these nations made an agreement over territory, but resentment remained in the minds of the miners.",
 										"Before the conquest Bardoran and its neighbors had trade deals where Bardoran would gain access to the large forges of the nearby nations to process mined goods, and give the owner of the forge a cut of the results. In 1562, Bardoran began construction on its own forge which made the nearby nations feel betrayed. They began cutting Bardoran out of trade agreements which greatly stunted Bardoran’s previously growing economy. This increased tensions further.",
 										"In 1575, Kershak agreed to provide his services in combat as part of the deal with the Bardoran king Dremin Warberset."
-
 									]
 								},
 								{
@@ -1814,92 +1813,6 @@
 					"entries": [
 						{
 							"type": "section",
-							"name": "Sellarus",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"Demon"
-										],
-										[
-											"Pronouns:",
-											"He / Him"
-										],
-										[
-											"Lifetime: ",
-											"BCE - 1486"
-										],
-										[
-											"Age: ",
-											"-"
-										],
-										[
-											"Alignment: ",
-											"True Neutral"
-										]
-									]
-								},
-								"Sellarus is the Demon of Subborness who made the Will of Sellarus. He is the husband of Hebeshca and the father of Kershak, Cain, and Armentus",
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Hebeshca",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"Demon"
-										],
-										[
-											"Pronouns:",
-											"She / Her"
-										],
-										[
-											"Lifetime: ",
-											"BCE - Present"
-										],
-										[
-											"Age: ",
-											"-"
-										],
-										[
-											"Alignment: ",
-											"chaotic Neutral"
-										]
-									]
-								},
-								"Hebeshca is the demon of mystery. She is the wife of Sellarus and the mother of Kershak, Cain, and Armentus",
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
 							"name": "Kershak",
 							"entries": [
 								"Kershak is the demon that helped Bardoran take over the north. He is the demon of greed and power hunger. Kershak is the eldest child of Sellarus and Habeshca and the brother of Cain and Armentus. ",
@@ -1907,47 +1820,48 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"(Chaotic Evil) Kershak views most other beings as inferior and takes joy from others suffering at his hand",
+										"Chaotic Evil",
 										{
 											"type": "table",
 											"colStyles": [
-										"col-12 text-left"
-									],
+												"col-12 text-left"
+											],
 											"rows": [
-											  [
-												{
-													"type": "list",
-													"name": "Traits",
-													"items": [
-														"Self-Absorbed",
-														"Cruel",
-														"Greedy"
-													  ]
-												  }
-											  ],
-											  [
-												{
-													"type": "list",
-													"name": "Ideals",
-													"items": [
-													  "The weak deserve to die"
-													  ]
-												  }
-											  ],
-											  [
-												{
-													"type": "list",
-													"name": "Bonds",
-													"items": [
-														"Sellarus. Kershak's father, who he hates",
-														"Hebeshca. Kershak's mother, who he fears",
-														"Cain",
-														"Armentus",
-														"Serick. The only mortal Kershak likes",
-														"Dremin Warberset. Kershak can easily manipulate to control the forces of Bardoran"
-													  ]
-												  }
-											  ]
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Self-Absorbed",
+															"Cruel",
+															"Greedy"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"The weak deserve to die"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Sellarus. Kershak's father, who he hates",
+															"Hebeshca. Kershak's mother, who he fears",
+															"Cain. Kershak's brother",
+															"Armentus. Kershak's sister",
+															"Serick. The only mortal Kershak likes",
+															"Bardoran",
+															"Dremin Warberset. Kershak can easily manipulate to control the forces of Bardoran"
+														]
+													}
+												]
 											]
 										}
 									]
@@ -1961,34 +1875,30 @@
 										{
 											"type": "table",
 											"colStyles": [
-										"col-6 text-left",
-										"col-6 text-left "
-									],
+												"col-6 text-left",
+												"col-6 text-left "
+											],
 											"rows": [
-											  [
-												"Race",
-												"Demon"
-											  ],
-											  [
-												"Height",
-												"40 ft."
-												
-											  ],
-											  [
-												"Gender Presentation",
-												"Masculine"
-												
-											  ],
-											  [
-												"Complexion",
-												"Very Dark Gray"
-												
-											  ],
-											  [
-												"Build",
-												"Thin and Muscular"
-												
-											  ]
+												[
+													"Race",
+													"Demon"
+												],
+												[
+													"Height",
+													"40 ft."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Very Dark Gray"
+												],
+												[
+													"Build",
+													"Thin and Muscular"
+												]
 											]
 										}
 									]
@@ -2041,70 +1951,134 @@
 							"type": "section",
 							"name": "Cain",
 							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"Demon"
-										],
-										[
-											"Pronouns:",
-											"He / Him"
-										],
-										[
-											"Lifetime: ",
-											"BCE - Present"
-										],
-										[
-											"Age: ",
-											"-"
-										],
-										[
-											"Alignment: ",
-											"Chaotic Good"
-										]
-									]
-								},
 								"Cain is the demon of mental turmoil and the patron of Aurelius. He is the middle child of Sellarus and Hebeshca, and the brother of Armentus and Kershak.",
 								{
 									"type": "entries",
-									"name": "Family Relations",
+									"name": "Personality",
 									"entries": [
-										"Cain liked Sellarus and followed his example of communicating with mortals. He also inherited his mother’s talent to manipulate mortals and demons alike, and admired her",
-										"Cain found both of his siblings annoying in different ways. Cain saw Kershak as egotistical and Armentus as a small nuisance that was always focused on some project he saw as unimportant."
+										"Chaotic Good",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Inconfident",
+															"Self-Perfectionist",
+															"Inquisitive",
+															"Loyal",
+															"Rebellious"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Knowledge is power"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Sellarus. Cain's father.",
+															"Hebeshca. Cain's mother, who he admires",
+															"Kershak. Cain's brother, who he hates",
+															"Armentus. Cain's sister",
+															"Aurelius Aerwyna. Cain's acolyte"
+														]
+													}
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Children of Cain",
+									"name": "Apearence",
 									"entries": [
-										"Cain began to collect followers who devoted themselves to having minds of strong will and seeking truth. Cain being the demon of metal turmoil, many saw him as very knowledgeable, and in many areas he was. Those who were most devoted became Cain’s acolytes and would do Cain’s bidding, which usually involved collecting information. The group named themselves the Children of Cain"
+										"Cain’s head is a deer skull and his lower half is a deer’s body. His neck and torso are dark blue skin with some dark blue scales. He has no hands, but instead has a dark blue crocodile head coming from both of his elbows. He has six yellow, reptilian eyes, with three on each of his antlers, and there are no eyes in the sockets of his skull or crocodile heads. He wears no clothes.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Demon"
+												],
+												[
+													"Height",
+													"20 ft."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Dark Blue"
+												],
+												[
+													"Build",
+													"Muscular"
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "The Will of Sellarus (1323)",
+									"name": "Lifetime",
 									"entries": [
-										"Cain was largely uninterested in the Will of Sellarus until he began to think about what would happen if Kershak got it. He began secretly making his acolytes search for the box, and knowing Hebeschca was involved he knew it would be hard to find. It was because of these efforts Cain learned about the Writ of Hebeshca."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "The Betrayal of Cain (1580)",
-									"entries": [
-										"In 1580, Cain took notice of Kershak’s conquest of the north and began to fear what Kershak was planning. Hoping to calm Kershak down, Cain sent a message saying to Kershak saying that he was going down a dangerous path and he should not overestimate his power. Kershak took this as an insult and invited Cain and his acolytes to join him to discuss a proposition. Cain was intrigued, and he obeyed without suspicion. When he got there, Kershak took him away from his acolytes and then brought him to a balcony where he watched the Children of Cain getting massacred. Before he could react, Cain was beheaded by Kershak. Cain’s spirit escaped to the non-physical plain, but his body and acolytes were destroyed. This made Cain angry at both Kershak for betraying him, and himself for being so foolish"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Pact With Aurelius",
-									"entries": [
-										"In 1713, Cain for the first time in a while heard someone praying to his name. The person was Aurelius Aerwyna, who, feeling betrayed by her aunt and was under stress from an imminent raid by Selatis, was looking for knowledge and power. Cain, desperate and interested in her story and potential, made her his first acolyte in over a hundred years."
+										"Innumerable Years Old (BCE - Present)",
+										{
+											"type": "list",
+											"name": "Early Family Relations (BCE)",
+											"items": [
+												"Cain liked Sellarus and followed his example of communicating with mortals. He also inherited his mother’s talent to manipulate mortals and demons alike, and admired her",
+												"Cain found both of his siblings annoying in different ways. Cain saw Kershak as egotistical and Armentus as a small nuisance that was always focused on some project he saw as unimportant."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Children of Cain (1212)",
+											"items": [
+												"Cain began to collect followers who devoted themselves to having minds of strong will and seeking truth. Cain being the demon of metal turmoil, many saw him as very knowledgeable, and in many areas he was. Those who were most devoted became Cain’s acolytes and would do Cain’s bidding, which usually involved collecting information. The group named themselves the Children of Cain"
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Will of Sellarus (1323)",
+											"items": [
+												"Cain was largely uninterested in the Will of Sellarus until he began to think about what would happen if Kershak got it. He began secretly making his acolytes search for the box, and knowing Hebeschca was involved he knew it would be hard to find. It was because of these efforts Cain learned about the Writ of Hebeshca."
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Betrayal of Cain (1580)",
+											"items": [
+												"In 1580, Cain took notice of Kershak’s conquest of the north and began to fear what Kershak was planning. Hoping to calm Kershak down, Cain sent a message saying to Kershak saying that he was going down a dangerous path and he should not overestimate his power. Kershak took this as an insult and invited Cain and his acolytes to join him to discuss a proposition. Cain was intrigued, and he obeyed without suspicion. When he got there, Kershak took him away from his acolytes and then brought him to a balcony where he watched the Children of Cain getting massacred. Before he could react, Cain was beheaded by Kershak. Cain’s spirit escaped to the non-physical plain, but his body and acolytes were destroyed. This made Cain angry at both Kershak for betraying him, and himself for being so foolish"
+											]
+										},
+										{
+											"type": "list",
+											"name": "Pact With Aurelius (1713)",
+											"items": [
+												"In 1713, Cain for the first time in a while heard someone praying to his name. The person was Aurelius Aerwyna, who, feeling betrayed by her aunt and was under stress from an imminent raid by Selatis, was looking for knowledge and power. Cain, desperate and interested in her story and potential, made her his first acolyte in over a hundred years."
+											]
+										}
 									]
 								}
 							]
@@ -2113,68 +2087,134 @@
 							"type": "section",
 							"name": "Armentus",
 							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"Demon"
-										],
-										[
-											"Pronouns:",
-											"She Her"
-										],
-										[
-											"Lifetime: ",
-											"BCE - Present"
-										],
-										[
-											"Age: ",
-											"-"
-										],
-										[
-											"Alignment: ",
-											"Chaotic Good"
-										]
-									]
-								},
 								"Armentus is the demon of obsession and perfectionism who is calling Krabmann and teleported Omurice. Armentus is the youngest child of Sellarus and Hebeshca, and the sister of Cain and Kershak",
 								{
 									"type": "entries",
-									"name": "Family Relations",
+									"name": "Personality",
 									"entries": [
-										"Armentus was pretty neutral to Sellarus but had a great bond with Hebeshca. She learned her mother’s art of making things remain hidden, and aspired to be like her.",
-										"Armentus had ok relations with Cain, but she knew he didn’t value any of her projects and was often annoyed with her. Armentus disliked Kershak, who she saw as egotistical."
+										"Chaotic Good",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Obsessive",
+															"Loyal",
+															"Inquisitive",
+															"Impulsive",
+															"Idealistic"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Knowledge is power"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Sellarus. Armentus's father.",
+															"Hebeshca. Armentus's mother, who she loves",
+															"Kershak. Armentus's brother, who she dislikes",
+															"Cain. Armentus's brother",
+															"Freaxir. The school created by Armentus",
+															"Elesira Ceydor. Armentus's acolyte",
+															"Krabmann. Armentus's chosen helper",
+															"Omurice. Armentus's chosen helper"
+														]
+													}
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Freaxir (1320)",
+									"name": "Apearence",
 									"entries": [
-										"In 1320 Armentus decided she wanted followers like other demons and she wanted them to be very knowledgeable about the arcane. She made contact with the similarly valued Elesira Ceydor who was open to the idea and collected others who sought to build a hub of knowledge. By selling enchanted objects and spells, the group was able to collect funds to build the school and house many magical books and items. Throughout this process, Armentus became more interested in creating the best institution to learn magic rather than followers. Throughout this process Armentus also became very close with Ceydor, who she made an actual acolyte.",
-										"When Kershak began conquering the north, Ceydor expressed her own and her student’s fears of invasion. Armentus agreed, and made a deal with Kershak ensuring Freaxir would be protected if Bardoran took the area over. When Bardoran eventually did, Freaxir was ordered to be undisturbed in return for cooperation. After making this deal with Kershak, Armentus went into hiding in the deep chasms of the ocean using the techniques she learned from her mother knowing that he might vilify her at some point"
+										"Armentus has glistening light blue skin that glows at times and pupiless eyes. She has three arms, one on each side of her torso and one protruding from her chest, that all have four, thumb-like fingers. She has no hair, but several somewhat transparent white fins coming from the sides, back and top of her head. She has no legs, her bottom half resembles a jellyfish. She wears no clothes",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Demon"
+												],
+												[
+													"Height",
+													"20 ft."
+												],
+												[
+													"Gender Presentation",
+													"Feminine"
+												],
+												[
+													"Complexion",
+													"Light Blue"
+												],
+												[
+													"Build",
+													"Somewhat Muscular"
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "The Will of Sellarus(1323)",
+									"name": "Lifetime",
 									"entries": [
-										"When Sellarus made the will, Armentus initially thought it was hilarious as she knew Kershak would be enraged. She then tasked her followers with collecting info on the will. It was through this tactic that she learned about the Writ of Hebeshca.",
-										"Ceydor found the Writ of Hebeshca and kept it at Freaxir until Serick asked for it. Ceydor gave it to him because of the Armentus - Kershak deal, but put a tracking spell on it so she and Armentus could see its location."
-
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Armentus Chosen (1713)",
-									"entries": [
-										"Hidden in the ocean, Armentus observed many creatures including water genasi. At this time, Armentus wanted to find individuals who could help her without alerting Kershak. She saw Krabmann as a strong willed individual with much promise. Having a soft spot for the underdog she fixated on him and decided he would be a good candidate. Knowing the location of the Writ of Hebeshca, She mysteriously called Krabmann to remain hidden but still accomplish her task",
-										"At the same time, Ceydor was on the lookout for talented magic users to help Armentus on her search. Ceydor took note of Omurice who, from Vice Chancellor Berids’s complaints, She learned had great potential. Ceydor expressed Omurice’s professors’ testimony of his promise, and Omurice’s ambition to Armentus was interested in him.",
-										"When Armentus called Krabmann to the Writ of Hemeshca, she suddenly realized how naive he was and decided he needed help before entering such a drastically new environment. She decided to teleport Omurice to his location, and luckily they seemed to get along."
+										"Innumerable Years Old (BCE - Present)",
+										{
+											"type": "list",
+											"name": "Early Family Relations (BCE)",
+											"items": [
+												"Armentus was pretty neutral to Sellarus but had a great bond with Hebeshca. She learned her mother’s art of making things remain hidden, and aspired to be like her.",
+												"Armentus had ok relations with Cain, but she knew he didn’t value any of her projects and was often annoyed with her. Armentus disliked Kershak, who she saw as egotistical."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Freaxir (1320)",
+											"items": [
+												"In 1320 Armentus decided she wanted followers like other demons and she wanted them to be very knowledgeable about the arcane. She made contact with the similarly valued Elesira Ceydor who was open to the idea and collected others who sought to build a hub of knowledge. By selling enchanted objects and spells, the group was able to collect funds to build the school and house many magical books and items. Throughout this process, Armentus became more interested in creating the best institution to learn magic rather than followers. Throughout this process Armentus also became very close with Ceydor, who she made an actual acolyte.",
+												"When Kershak began conquering the north, Ceydor expressed her own and her student’s fears of invasion. Armentus agreed, and made a deal with Kershak ensuring Freaxir would be protected if Bardoran took the area over. When Bardoran eventually did, Freaxir was ordered to be undisturbed in return for cooperation. After making this deal with Kershak, Armentus went into hiding in the deep chasms of the ocean using the techniques she learned from her mother knowing that he might vilify her at some point"
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Will of Sellarus(1323)",
+											"items": [
+												"When Sellarus made the will, Armentus initially thought it was hilarious as she knew Kershak would be enraged. She then tasked her followers with collecting info on the will. It was through this tactic that she learned about the Writ of Hebeshca.",
+												"Ceydor found the Writ of Hebeshca and kept it at Freaxir until Serick asked for it. Ceydor gave it to him because of the Armentus - Kershak deal, but put a tracking spell on it so she and Armentus could see its location."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Armentus Chosen (1713)",
+											"items": [
+												"Hidden in the ocean, Armentus observed many creatures including water genasi. At this time, Armentus wanted to find individuals who could help her without alerting Kershak. She saw Krabmann as a strong willed individual with much promise. Having a soft spot for the underdog she fixated on him and decided he would be a good candidate. Knowing the location of the Writ of Hebeshca, She mysteriously called Krabmann to remain hidden but still accomplish her task",
+												"At the same time, Ceydor was on the lookout for talented magic users to help Armentus on her search. Ceydor took note of Omurice who, from Vice Chancellor Berids’s complaints, She learned had great potential. Ceydor expressed Omurice’s professors’ testimony of his promise, and Omurice’s ambition to Armentus was interested in him.",
+												"When Armentus called Krabmann to the Writ of Hebeshca, she suddenly realized how naive he was and decided he needed help before entering such a drastically new environment. She decided to teleport Omurice to his location, and luckily they seemed to get along."
+											]
+										}
 									]
 								}
 							]
@@ -2183,83 +2223,145 @@
 							"type": "section",
 							"name": "Dremin Warberset",
 							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"Dwarf"
-										],
-										[
-											"Pronouns:",
-											"He / Him"
-										],
-										[
-											"Lifetime: ",
-											"1495 - Present"
-										],
-										[
-											"Age: ",
-											"218"
-										],
-										[
-											"Alignment: ",
-											"Lawful Evil"
-										]
-									]
-								},
-								"Dremin Warberset is the king of Bardoran",
+								"Dremin Warberset is the King of Bardoran",
 								{
 									"type": "entries",
-									"name": "Early Life (1495 - 1526)",
+									"name": "Personality",
 									"entries": [
-										"Dremin Warberset was born when Bardoran was a much smaller kingdom. He, like most Bardonians at the time, was born into a mining family. Warberset had dreams of becoming a leader, and wanted to unite the nearby nations under one flag. At the time, Warberset imagined this union to form through treaties and economic trade."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Rise to Power (1526 - 1545)",
-									"entries": [
-										"hen he was 31, Warberset made a deal with a forge in a nearby kingdom where he would get 30 pickaxes and they would get some mined resources. Those who Warberset gave the new pickaxes easily made back what was lost, and made good profits for Bardoran. This made him a sort of local hero amongst a few families.",
-										"Barus Torid, the king at the time, took notice to this negotiation, and began making similar negotiations on a larger scale. Barus also took a liking to Warberset, who he asked to meet. Torid found Warberset's spirit inspiring, and made him an advisor.",
-										"In 1545, Barus Torid decided to step down, and wanting to give Bardoran a positive future he gave his crown to Warberset."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "First Years as King (1545 - 1562)",
-									"entries": [
-										"Once he became king, Warberset continued the economic agreements with surrounding nations. During these years, the citizens of Bardoran thought Warberset was an inspiring king that may actually secure better lives for the citizens of Bardoran. The nearby nations found the young king to be overly ambitious. Whenever he brought up the topic of a union, the other nations were unwilling, but they still wanted to continue economic agreements."
+										"Lawful Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Selfish",
+															"Loyal",
+															"Greedy"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Destroy or be destroyed"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Bardoran",
+															"Kershak. Warberset made a deal with him",
+															"Gratin Harkin",
+															"Benest Trask",
+															"Romil Torrid"
+														]
+													}
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Growing Conflict (1562 - 1576)",
+									"name": "Apearence",
 									"entries": [
-										"In 1562, Warberset began the construction of a forge for Bardoran. The people of Bardoran saw this as a great step forward and supported this decision. The surrounding nations however felt somewhat betrayed as Bardoran previously had been making trade agreements to use their forges. As a result the nearby nations decreased trade with Bardoran and increased with eachother. This stunted Bardoran's growth and made Warberset angery",
-										"Around this time, Warberset had also been negotiating borders for each kingdom to avoid territory conflict between the miners. Once again, Warberset brought up the option of a union, but was rejected. Following the announcement of the Bardoran forge, the nearby nations made an agreement to share mining territory. This union that Bardoran was cut out of enraged Warberset. And he began resenting the bordering nations."
+										"Dremin Warberset is stout and has orangish hair and a beard. He has brown eyes and light tan skin. He often is wearing a crown and an intricate cape to signify his royalty. He wears heavy plate armor decorated with gold to signify his strength and riches.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Dwarf"
+												],
+												[
+													"Height",
+													"4.9 ft."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Tan"
+												],
+												[
+													"Build",
+													"Stout"
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "The Start of Conquest (1576)",
+									"name": "Lifetime",
 									"entries": [
-										"In 1576, Kershak emerged from the volcanic mines of Bardoran and made a deal with Warberset. Warberset saw the deal as not only a way to achive his goal of forming a great dwarven kingdom, but also a form of revenge on the nearby nations.",
-										"Warberset had an easy time convincing most of his subjects to go to war, as territory conflicts between them and the other nations had resulted in small brawls already. With the introduction of a demon to the army, those who had doubts about Bardoran’s success were quickly reassured.",
-										"Warberset declared war in 1576 under the reasoning of economic betrayal and failure to uphold border agreements"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "The Conquest (1576 - 1608)",
-									"entries": [
-										"After the bordering nations had been conquered, Warberset and Bardoran as a whole felt invigorated, and wanted to follow through with Warberset’s dreams of creating a great nation. Kershak had a great role in convincing Warberset to \"see [his] vision through\" .",
-										"During the first battles Warberset actually participated in the conquering of the nations bordering Bardoran. As time went on, Warberset directed the war from his increasingly more comfortable fortress",
-										"Following his battle with Merazarx in 1607, Kershak convinced Warberset to stop expanding. Warberset grew tired of the war at this point anyways, and wanted to admire and enjoy the benefits of his empire. When Artoz attacked in 1608, Warberset sent an immense number of troops with the goal of ending the battle as quickly as possible. Once they had, Warberset pulled most of his troops back to Bardoran and began to expand control on Warberland much more passivley"
+										"218 Years Old (1495 - Present)",
+										{
+											"type": "list",
+											"name": "Early Life (1495 - 1526)",
+											"items": [
+												"Dremin Warberset was born when Bardoran was a much smaller kingdom. He, like most Bardonians at the time, was born into a mining family. Warberset had dreams of becoming a leader, and wanted to unite the nearby nations under one flag. At the time, Warberset imagined this union to form through treaties and economic trade."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Rise to Power (1526 - 1545)",
+											"items": [
+												"hen he was 31, Warberset made a deal with a forge in a nearby kingdom where he would get 30 pickaxes and they would get some mined resources. Those who Warberset gave the new pickaxes easily made back what was lost, and made good profits for Bardoran. This made him a sort of local hero amongst a few families.",
+												"Barus Torid, the king at the time, took notice to this negotiation, and began making similar negotiations on a larger scale. Barus also took a liking to Warberset, who he asked to meet. Torid found Warberset's spirit inspiring, and made him an advisor.",
+												"In 1545, Barus Torid decided to step down, and wanting to give Bardoran a positive future he gave his crown to Warberset."
+											]
+										},
+										{
+											"type": "list",
+											"name": "First Years as King (1545 - 1562)",
+											"items": [
+												"Once he became king, Warberset continued the economic agreements with surrounding nations. During these years, the citizens of Bardoran thought Warberset was an inspiring king that may actually secure better lives for the citizens of Bardoran. The nearby nations found the young king to be overly ambitious. Whenever he brought up the topic of a union, the other nations were unwilling, but they still wanted to continue economic agreements."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Growing Conflict (1562 - 1576)",
+											"items": [
+												"In 1562, Warberset began the construction of a forge for Bardoran. The people of Bardoran saw this as a great step forward and supported this decision. The surrounding nations however felt somewhat betrayed as Bardoran previously had been making trade agreements to use their forges. As a result the nearby nations decreased trade with Bardoran and increased with eachother. This stunted Bardoran's growth and made Warberset angery",
+												"Around this time, Warberset had also been negotiating borders for each kingdom to avoid territory conflict between the miners. Once again, Warberset brought up the option of a union, but was rejected. Following the announcement of the Bardoran forge, the nearby nations made an agreement to share mining territory. This union that Bardoran was cut out of enraged Warberset. And he began resenting the bordering nations."
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Start of Conquest (1576)",
+											"items": [
+												"In 1576, Kershak emerged from the volcanic mines of Bardoran and made a deal with Warberset. Warberset saw the deal as not only a way to achive his goal of forming a great dwarven kingdom, but also a form of revenge on the nearby nations.",
+												"Warberset had an easy time convincing most of his subjects to go to war, as territory conflicts between them and the other nations had resulted in small brawls already. With the introduction of a demon to the army, those who had doubts about Bardoran’s success were quickly reassured.",
+												"Warberset declared war in 1576 under the reasoning of economic betrayal and failure to uphold border agreements"
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Conquest (1576 - 1608)",
+											"items": [
+												"After the bordering nations had been conquered, Warberset and Bardoran as a whole felt invigorated, and wanted to follow through with Warberset’s dreams of creating a great nation. Kershak had a great role in convincing Warberset to \"see [his] vision through\".",
+												"During the first battles Warberset actually participated in the conquering of the nations bordering Bardoran. As time went on, Warberset directed the war from his increasingly more comfortable fortress",
+												"Following his battle with Merazarx in 1607, Kershak convinced Warberset to stop expanding. Warberset grew tired of the war at this point anyways, and wanted to admire and enjoy the benefits of his empire. When Artoz attacked in 1608, Warberset sent an immense number of troops with the goal of ending the battle as quickly as possible. Once they had, Warberset pulled most of his troops back to Bardoran and began to expand control on Warberland much more passivley"
+											]
+										}
 									]
 								}
 							]
@@ -2268,50 +2370,112 @@
 							"type": "section",
 							"name": "Gratin Harkin",
 							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"Dwarf"
-										],
-										[
-											"Pronouns:",
-											"He / Him"
-										],
-										[
-											"Lifetime: ",
-											"1481 - Present"
-										],
-										[
-											"Age: ",
-											"232"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
 								"Grantin Harkin is a noble of Bardoran who owns the Grand Harkin Forge. He is the namesake of the Harkin pass and the creator of the Bardoran berserkers",
 								{
 									"type": "entries",
-									"name": "Early Life (1481 - 1576)",
+									"name": "Personality",
 									"entries": [
-										"Harkin was born into a somewhat poor family in pre-conquest Bardoran. As Bardoran and its neighboring kingdoms expanded, tensions rose between the miners of each kingdom. Harkin had multiple encounters with the other miners, and was in one of the few interactions that resulted in a small brawl. He was very cutthroat during this brawl and single handedly left five dwarves wounded."
+										"Chaotic neutral",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Loyal",
+															"Impulsive",
+															"Self-Centered",
+															"Brave"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Destroy or be destroyed",
+															"Honnor above all else"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Bardoran",
+															"Dremin Warberset",
+															"Bardoran Berserkers"
+														]
+													}
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "The Conquest (1576 - 1608)",
+									"name": "Apearence",
 									"entries": [
-										"Once the conquest started, Harkin was one of the first to rush in (after Kershak). He organized a group of similarly violent dwarves that would all rush in with him with little regard for their own safety. This tactic proved to be very effective to scare and confuse enemies. Dremin Warberset took notice and made him a general and the berserker an official type of soldier of the Bardoran military.",
-										"In one of the first battles of the conquest, Harkin and his berserkers chased their enemies throughout that kingdom’s forge. Warberset gave ownership to the new general as a result",
-										"During one of the raids led by Harkin, he pushed his enemies south until they attempted to escape through the pass between the Gray Mountains and the Forlorn Mountains. Gratin himself chased them with berserker companions, and caught up with them. Gratin wrote to Dremin, suggesting the pass may be used for economic trade. Dremin agreed, and named the pass after Harkin."
+										"Grantin Harkin is muscular and somewhat tall for a dwarf. He has brown eyes, long black hair and a beard he keeps in braids. He often does not wear a shirt, instead he occasionally wears a fur cloak but likes to show his strength. His pants and boots are high quality and thick, with metal plating that has golden trim. He  has tattoos on both arms and back of dwarven patterns and the words(in dwarvish) Honnor, Strength, Bravery. He sometimes wears a helmate that covers his face and has metal horns like that of a bull",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Dwarf"
+												],
+												[
+													"Height",
+													"5.2 ft."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Tan"
+												],
+												[
+													"Build",
+													"Stout and Muscular"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"232 Years Old (1481 - Present)",
+										{
+											"type": "entries",
+											"name": "Early Life (1481 - 1576)",
+											"entries": [
+												"Harkin was born into a somewhat poor family in pre-conquest Bardoran. As Bardoran and its neighboring kingdoms expanded, tensions rose between the miners of each kingdom. Harkin had multiple encounters with the other miners, and was in one of the few interactions that resulted in a small brawl. He was very cutthroat during this brawl and single handedly left five dwarves wounded."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "The Conquest (1576 - 1608)",
+											"entries": [
+												"Once the conquest started, Harkin was one of the first to rush in (after Kershak). He organized a group of similarly violent dwarves that would all rush in with him with little regard for their own safety. This tactic proved to be very effective to scare and confuse enemies. Dremin Warberset took notice and made him a general and the berserker an official type of soldier of the Bardoran military.",
+												"In one of the first battles of the conquest, Harkin and his berserkers chased their enemies throughout that kingdom’s forge. Warberset gave ownership to the new general as a result",
+												"During one of the raids led by Harkin, he pushed his enemies south until they attempted to escape through the pass between the Gray Mountains and the Forlorn Mountains. Gratin himself chased them with berserker companions, and caught up with them. Gratin wrote to Dremin, suggesting the pass may be used for economic trade. Dremin agreed, and named the pass after Harkin."
+											]
+										}
 									]
 								}
 							]
@@ -2320,120 +2484,240 @@
 							"type": "section",
 							"name": "Benest Trask",
 							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"Dwarf"
-										],
-										[
-											"Pronouns:",
-											"He / Him"
-										],
-										[
-											"Lifetime: ",
-											"1496 - Present"
-										],
-										[
-											"Age: ",
-											"217"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								"Benest Trask is the Bardoran noble who owns the Trask Grand Forge and is the namesake for the Trask Mountains",
+								"Grantin Harkin is a noble of Bardoran who owns the Grand Harkin Forge. He is the namesake of the Harkin pass and the creator of the Bardoran berserkers",
 								{
 									"type": "entries",
-									"name": "Early Life (1496 - 1545)",
+									"name": "Personality",
 									"entries": [
-										"Trask was born into a family of miners in pre-conquest Bardoran. He grew up a friend of Dremin Warberset, and was one of those who got a new pickaxe when Warberset negotiated for them. Trask supported Warberset when he became an advisor to Barus Torid. When Warberset took power, he made Trask an advisor."
+										"Lawful Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Loyal",
+															"Self-Centered",
+															"Brave",
+															"Methodical"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Destroy or be destroyed",
+															"Honnor above all else"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Bardoran",
+															"Dremin Warberset"
+														]
+													}
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Advising The King (1545 - 1576)",
+									"name": "Apearence",
 									"entries": [
-										"As Warberset’s advisor, Trask evaluated the needs of the miners and reported them. Since he was originally a miner, Trask got along with the miners and was able to get good insight on their lives.",
-										"As time went on the miners of Bardoran and the miners of nearby nations began to mine in the same areas, resulting in disputes between the groups. Trask was very aware of the rising tensions and he grew angry at the nearby nations. After some violent interactions between the groups, Trask encouraged Warberset to take military control of the area, but Warberset didn’t believe Bardoran had the military strength. While Trask agreed, He was still quite mad."
+										"Benest Trask is muscular and athletic. He has blue eyes, long orange hair and a beard he keeps in braids. He often wears heavy plate armor with gold trim to show his strength and power. Usually he won’t wear his helmet, but he does at times.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Dwarf"
+												],
+												[
+													"Height",
+													"4.9 ft."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Tan"
+												],
+												[
+													"Build",
+													"Stout and Muscular"
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "The Conquest (1576 - 1608)",
+									"name": "Lifetime",
 									"entries": [
-										"Once the conquest began, Trask eagerly led the Bardoran troops into battle (after Kershak). Trask continued to lead troops into battle throughout the conquest, so Warberset naturally made him a general.",
-										"Trask played a great role in convincing the dwarves of other nations to join the Bardoran army. He would contrast their lives as poor miners to what it could be if they were part of a grand empire. Since his experience with miners made his offer very attractive to the other dwarves.",
-										"Kershak influenced Trask to continue pushing east, and for Trask it became a sort of game and a boost to his ego at every new victory.",
-										"From 1604 - 1606 Trask successfully led his troops through what is now called the Trask mountains, attacking and displacing those who dwell in them. The area had not been inhibited by dwarves and not much mining had been done there. Trask communicated the opportunity for industry in the area, and Warberset gave him the resources and manpower to build a new forge. The forge and the mountain range was then named after Trask by Warberset."
+										"217 Years Old (1496 - Present)",
+										{
+											"type": "list",
+											"name": "Early Life (1496 - 1545)",
+											"items": [
+												"Trask was born into a family of miners in pre-conquest Bardoran. He grew up a friend of Dremin Warberset, and was one of those who got a new pickaxe when Warberset negotiated for them. Trask supported Warberset when he became an advisor to Barus Torid. When Warberset took power, he made Trask an advisor."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Advising The King (1545 - 1576)",
+											"items": [
+												"As Warberset’s advisor, Trask evaluated the needs of the miners and reported them. Since he was originally a miner, Trask got along with the miners and was able to get good insight on their lives.",
+												"As time went on the miners of Bardoran and the miners of nearby nations began to mine in the same areas, resulting in disputes between the groups. Trask was very aware of the rising tensions and he grew angry at the nearby nations. After some violent interactions between the groups, Trask encouraged Warberset to take military control of the area, but Warberset didn’t believe Bardoran had the military strength. While Trask agreed, He was still quite mad."
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Conquest (1576 - 1608)",
+											"items": [
+												"Once the conquest began, Trask eagerly led the Bardoran troops into battle (after Kershak). Trask continued to lead troops into battle throughout the conquest, so Warberset naturally made him a general.",
+												"Trask played a great role in convincing the dwarves of other nations to join the Bardoran army. He would contrast their lives as poor miners to what it could be if they were part of a grand empire. Since his experience with miners made his offer very attractive to the other dwarves.",
+												"Kershak influenced Trask to continue pushing east, and for Trask it became a sort of game and a boost to his ego at every new victory.",
+												"From 1604 - 1606 Trask successfully led his troops through what is now called the Trask mountains, attacking and displacing those who dwell in them. The area had not been inhibited by dwarves and not much mining had been done there. Trask communicated the opportunity for industry in the area, and Warberset gave him the resources and manpower to build a new forge. The forge and the mountain range was then named after Trask by Warberset."
+											]
+										}
 									]
 								}
 							]
 						},
 						{
 							"type": "section",
-							"name": "Romil Torrid",
+							"name": "Romil Torid",
 							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"Dwarf"
-										],
-										[
-											"Pronouns:",
-											"He / Him"
-										],
-										[
-											"Lifetime: ",
-											"1430 - Present"
-										],
-										[
-											"Age: ",
-											"283"
-										],
-										[
-											"Alignment: ",
-											"Lawful Evil"
-										]
-									]
-								},
 								"Romil Torid is a noble of Bardoran who specializes in economic trade and growth. The namesake of the Torid Grand Forge",
 								{
 									"type": "entries",
-									"name": "Early Life (1430 - 1545)",
+									"name": "Personality",
 									"entries": [
-										"Romil Torrid is the son of Barus Torid, and was part of the upper class of early Bardoran once. Dremin Warberset became an advisor or Barus, Romil and Dremin became friends. Watching the stress his father was always under, Romil didn’t want to become king. Romil suggested Warberset become king when Barus was thinking of stepping down. Dremin made Romil one of his advisors once he took power."
+										"Lawful evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Loyal",
+															"Self-Centered",
+															"Methodical"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Money is power"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Bardoran",
+															"Dremin Warberset"
+														]
+													}
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Advising The King (1545 - 1576)",
+									"name": "Apearence",
 									"entries": [
-										"As an advisor to Warberset, Torid proved to be very gifted in the field of economics. He was very particular about keeping records of purchases, production, and sales. Likewise he was great at utilizing economic patterns to sell and purchase at the best times. Torid worked with Warberset to create beneficial and tempting trade agreements for all parties",
-										"After a series of very profitable years for Bardoran, Warberset suggested Bardoran construct a forge. Torid went to work evaluating costs and found that the introduction of a forge in Bardoran would be a great benefit for the nation and increase the economic growth of the entire region.",
-										"When Warberset announced the plans for a forge to the nation, the neighboring nations saw a threat as they had previously been making trade agreements to allow Bardoran use their forges. These nations reacted by reducing trade with Bardoran and trading amongst each other. This stunted Bardoran’s economic growth which in turn prevented the forge from being built. Torid was furious."
+										"Romil Torrid has graying, black hair that is long and tied into braids with golden and jeweled clasps. He has blue eyes, and round, golden glasses. He wears many rings with jewels, and fine silk clothes with intricate, gold dwarven patterns. He tends to wear red and black in reference to Bardoran",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Dwarf"
+												],
+												[
+													"Height",
+													"4.8 ft."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Tan"
+												],
+												[
+													"Build",
+													"Stout"
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "The Conquest (1576 - 1608)",
+									"name": "Lifetime",
 									"entries": [
-										"When the conquest began, Torid remained in Bardoran to calculate the costs and profits of the war. His rage towards the neighboring nations made the gained resources all the more sweeter",
-										"After the conquest of the first kingdoms Bardoran was able to acquire its forge. Warbreset put Torid in charge of the forge for the production of military equipment. Torid not only exceeded the needed production, but also expanded the forge itself. Warberset responded by renaming the forge after Torid.",
-										"During the conquest Torid received many benefits from Warberset for his contributions to the war. Torid began to lose touch with the working class and instead became obsessed with efficiency and profits. The most efficient way he found for running the forge was with an iron fist. Kershak sometimes talked to Torid and played a large role in influencing Torid's values"
+										"283 Years Old (1430 - Present)",
+										{
+											"type": "list",
+											"name": "Early Life (1430 - 1545)",
+											"items": [
+												"Romil Torrid is the son of Barus Torid, and was part of the upper class of early Bardoran once. Dremin Warberset became an advisor or Barus, Romil and Dremin became friends. Watching the stress his father was always under, Romil didn’t want to become king. Romil suggested Warberset become king when Barus was thinking of stepping down. Dremin made Romil one of his advisors once he took power."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Advising The King (1545 - 1576)",
+											"items": [
+												"As an advisor to Warberset, Torid proved to be very gifted in the field of economics. He was very particular about keeping records of purchases, production, and sales. Likewise he was great at utilizing economic patterns to sell and purchase at the best times. Torid worked with Warberset to create beneficial and tempting trade agreements for all parties",
+												"After a series of very profitable years for Bardoran, Warberset suggested Bardoran construct a forge. Torid went to work evaluating costs and found that the introduction of a forge in Bardoran would be a great benefit for the nation and increase the economic growth of the entire region.",
+												"When Warberset announced the plans for a forge to the nation, the neighboring nations saw a threat as they had previously been making trade agreements to allow Bardoran use their forges. These nations reacted by reducing trade with Bardoran and trading amongst each other. This stunted Bardoran’s economic growth which in turn prevented the forge from being built. Torid was furious."
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Conquest (1576 - 1608)",
+											"items": [
+												"When the conquest began, Torid remained in Bardoran to calculate the costs and profits of the war. His rage towards the neighboring nations made the gained resources all the more sweeter",
+												"After the conquest of the first kingdoms Bardoran was able to acquire its forge. Warbreset put Torid in charge of the forge for the production of military equipment. Torid not only exceeded the needed production, but also expanded the forge itself. Warberset responded by renaming the forge after Torid.",
+												"During the conquest Torid received many benefits from Warberset for his contributions to the war. Torid began to lose touch with the working class and instead became obsessed with efficiency and profits. The most efficient way he found for running the forge was with an iron fist. Kershak sometimes talked to Torid and played a large role in influencing Torid's values"
+											]
+										}
 									]
 								}
 							]
@@ -2442,1277 +2726,117 @@
 							"type": "section",
 							"name": "Serick",
 							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"Human (Undead)"
-										],
-										[
-											"Pronouns:",
-											"He / him"
-										],
-										[
-											"Lifetime: ",
-											"1378 - Present"
-										],
-										[
-											"Age: ",
-											"335"
-										],
-										[
-											"Alignment: ",
-											"Chaotic Evil"
-										]
-									]
-								},
-								"Undead warlock who serves Kershak.",
+								"Serick is an undead warlock who serves Kershak.",
 								{
 									"type": "entries",
-									"name": "Early Life (1378 - 1399)",
+									"name": "Personality",
 									"entries": [
-										"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too.",
-										"As he aged, Serick grew full of hatred. He could handle his poor life, but as his parents aged he saw they could not. When he was 15 Serick’s mother was raped by a wealthy landowner, and Serick responded by killinging him in the middle of the night. Serick was quickly put in prison and he spent 6 years there. When he got out. His parents had sold most of the sheep because of hard times, and now were even poorer."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Becoming Serick (1399 - 1409)",
-									"entries": [
-										"Serick’s parents began to become unable to tend to the few sheep remaining because of sickness, so Serick began to steal. He was quite good at stealing, and was never caught in the act. In 1409 he stole from a group of bandits who tracked him down and killed his parents in front of him, and beat him, leaving him to die.",
-										"With his last breath, Serick said he would kill all of the bandits and began praying (to nothing in particular) asking for revenge. Kershak answered his prayer and held Serick in a state just after death as he asked for Serick’s story.", 
-										"Kershak was quite happy with the hatred he saw in the man. Kershak revived him, made Serick his acolyte, and gave him his new name."
+										"Chaotic Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Cruel",
+															"Self-Centered"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"The weak deserve to die"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Kershak. Serick's patron",
+															"Bardoran"
+														]
+													}
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Descent into Madness (1409 - Present)",
+									"name": "Apearence",
 									"entries": [
-										"Serick made true to his promise and killed all of the bandits. His newfound power was intoxicating and he began to lose any sense of empathy he once had. He began to only remember all the pain he felt throughout his life, and wanted to inflict it back onto the world.",
-										"Serick eargerly did Kershak's bidding as it often involved causing pain onto others. He reveled in the fear people had when they saw him"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Vernacis",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
+										"Serick is very gaunt, with gray skin and a dark eye that has a yellow pupil. He Has long black hair, and thin teeth. He has dark spikes that fully pierce through different parts of his body, including on one of his eyes. The ends of his fingers become these dark spikes as well, forming claws. He wears no shoes, and rugged gray pants and a similar rugged gray vest with no shirt underneath.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Human (Undead)"
+												],
+												[
+													"Height",
+													"6 ft."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Light Gray"
+												],
+												[
+													"Build",
+													"Gaunt"
+												]
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Info1",
+									"name": "Lifetime",
 									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Rafod Srag",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Atheria",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Freiseln",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Welm",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Prell",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Solomon",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Darum",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Uko",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Thearen",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Golicht",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Vaelin Prathern",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Helena Prathern",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Threstrom",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Grithal Crouse",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Claud Perdack",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Scarab",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "James Bartle",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Headmistress Elesira Ceydor",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Vice Chancellor Nelesan Berdis",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Professor Harold Deiblen",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Professor Wendy Shrike",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Professor Fredrick Darton",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Jarl Garess",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Dram Tharnach",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Letheres Aerthen",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Theodore Graydon",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Rohtaurek",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
-									]
-								}
-							]
-						},
-						{
-							"type": "section",
-							"name": "Merazarx",
-							"entries": [
-								{
-									"type": "table",
-									"colStyles": [
-										"col text-center",
-										"col text-center"
-									],
-									"rows": [
-										[
-											"Race:",
-											"ENTER RACE"
-										],
-										[
-											"Pronouns:",
-											"ENTER PRONOUNS"
-										],
-										[
-											"Lifetime: ",
-											"ENTER LIFETIME"
-										],
-										[
-											"Age: ",
-											"ENTER AGE"
-										],
-										[
-											"Alignment: ",
-											"ENTER ALIGNMENT"
-										]
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Info1",
-									"entries": [
-										"info1  text"
+										"335 Years Old (1378 - Present)",
+										{
+											"type": "list",
+											"name": "Early Life (1378 - 1399)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too.",
+												"As he aged, Serick grew full of hatred. He could handle his poor life, but as his parents aged he saw they could not. When he was 15 Serick’s mother was raped by a wealthy landowner, and Serick responded by killinging him in the middle of the night. Serick was quickly put in prison and he spent 6 years there. When he got out. His parents had sold most of the sheep because of hard times, and now were even poorer."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Becoming Serick (1399 - 1409)",
+											"items": [
+												"Serick’s parents began to become unable to tend to the few sheep remaining because of sickness, so Serick began to steal. He was quite good at stealing, and was never caught in the act. In 1409 he stole from a group of bandits who tracked him down and killed his parents in front of him, and beat him, leaving him to die.",
+												"With his last breath, Serick said he would kill all of the bandits and began praying (to nothing in particular) asking for revenge. Kershak answered his prayer and held Serick in a state just after death as he asked for Serick’s story.",
+												"Kershak was quite happy with the hatred he saw in the man. Kershak revived him, made Serick his acolyte, and gave him his new name."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Descent into Madness (1409 - Present)",
+											"items": [
+												"Serick made true to his promise and killed all of the bandits. His newfound power was intoxicating and he began to lose any sense of empathy he once had. He began to only remember all the pain he felt throughout his life, and wanted to inflict it back onto the world.",
+												"Serick eargerly did Kershak's bidding as it often involved causing pain onto others. He reveled in the fear people had when they saw him"
+											]
+										}
 									]
 								}
 							]
