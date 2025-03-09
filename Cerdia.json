@@ -948,6 +948,14 @@
 							"entries": [
 								"Dwarven Empire that occupies the North",
 								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/BardoranFlag.png"
+									},
+									"title": "Flag of Bardoran"
+								},
+								{
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
@@ -1070,6 +1078,14 @@
 							"entries": [
 								"Small island kingdom",
 								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/TarehasFlag.png"
+									},
+									"title": "Flag of Tarehas"
+								},
+								{
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
@@ -1139,6 +1155,14 @@
 							"name": "Selatis",
 							"entries": [
 								"Costal kingdom that attacked Tarehas",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/SelatisFlag.png"
+									},
+									"title": "Flag of Selatis"
+								},
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -1273,6 +1297,14 @@
 							"entries": [
 								"powerful military kingdom",
 								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/GartanaFlag.png"
+									},
+									"title": "Flag of Gartana"
+								},
+								{
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
@@ -1340,6 +1372,14 @@
 							"name": "Kortain",
 							"entries": [
 								"growing farming kingdom",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/KortainFlag.png"
+									},
+									"title": "Flag of Kortain"
+								},
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -1411,6 +1451,14 @@
 							"name": "Thrun",
 							"entries": [
 								"growing desert kingdom",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/ThrunFlag.png"
+									},
+									"title": "Flag of Thrun"
+								},
 								{
 									"type": "entries",
 									"name": "Occupants",
