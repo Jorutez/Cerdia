@@ -18,6 +18,75 @@
 	},
 	"item": [
 		{
+			"name": "Will of Sellarus",
+			"source": "CRDA",
+			"type": "O",
+			"rarity": "legendary",
+			"entries": [
+				"The Will of Sellarus is a physical piece of paper that grants any demon great power. It is contained in an enchanted wooden box ",
+				{
+					"type": "entries",
+					"name": "Appearance",
+					"entries": [
+						"The will itself is a small (5 x 10 in) piece of paper with the Mark of Sellarus on it. When activated the mark glows red, and the paper bursts into scarlet flame that is absorbed by the demon",
+						"The 6 x 11 in box that contains the will is a dark wood and has the mark of Sellarus burnt into the top. The box has silver hinges at the back and the clasps at the front that hold a silver lock",
+						"Hebeshca thought the will could use more protection as well, and she convinced Sellarus to have a third key open the box, and to hide it somewhere. Sellarus agreed, and gave her the task of making the last key and gave King Wilber the task of hiding the box. Hebeshca made the Writ of Hebeshca and King Wilber put it in his vault, which Hebeshca enchanted."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "History",
+					"entries": [
+						"In 1323, Sellarus realized if he didn’t put his power into an object, one of the many enemies he had collected over the years would get it from killing him. He decided to make a will, something that many powerful beings do for the same reason.",
+						"Initially, Sellarus was going to make the will only accessible by Kershak, but Hebescha convinced him to give opportunity to Armentus and Cain by making the will able to be accessed by any demon. Sellarus agreed, and decided to make it a sort of game. He made the box in addition to the will so that it would be harder for his children to hold on to it, and per his request, Hebeshca made the box hard to detect magically."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Properties",
+					"entries": [
+						"The enchanted box can only be opened by the Keys of Sellarus, and harms any non-mortal that touches it, and by extension warlocks contacting their patron. The box shields detect magic spells from detecting the will inside of the box. The box also has powerful protection spells that shield it from harm."
+					]
+				}
+			]
+		},
+		{
+			"name": "Writ of Hebeshca",
+			"source": "CRDA",
+			"type": "O",
+			"rarity": "legendary",
+			"entries": [
+				"The Writ of Hebeshca is a physical piece of paper that gives keys to the Monument of King Wilber and the last key of Sellarus",
+				{
+					"type": "entries",
+					"name": "Appearance",
+					"entries": [
+						"The Writ is a 8.5 x 11 in. piece of paper that has writing in abysmal. When activated, it bursts into scarlet flames that shoot four large sparks.",
+						"The writing is: Only mortals may use this writ for only they can comprehend the weight of the missing. May this fuel their discovery."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "History",
+					"entries": [
+						"When Sellarus made a will in 1323, Hebeshca wanted there to be more protection for it. Sellarus agreed and among other things the Writ of Hebeshca was made to require mortal involvement in getting access to the will. Hebescha also helped convince Sellarus to make the Monument of King Wilber",
+						"Sellarus Hebescha and Sellarus didn't tell their children about the Writ of Hebeshca. Instead, both Cain and Armentus found out from their acolyte's research of King Wilber. Kershak only found out when Serick asked for information from Elesira Ceydor",
+						"To make the will harder to access, Hebeshca put the writ in a small temple in what is Bardoran. When Bardoran took over the area, this temple was looted and the writ was unknowingly brought to the Bardoran castle"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Properties",
+					"entries": [
+						"When ignited, the piece of paper burst into scarlet flames that shoots four large sparks at five nearby intelligent mortals before burning up completely, leaving no part of it behind.",
+						"Those who have been marked by the writ gain markings of keys on their forearm and the text: \"key to the Monument of King Wilber\". Once The Marked open the entrance to King Wilber’s vault, the key and text change, now saying: \" Key to the Vault of King Wilber\". Finally, when The Marked reach the vault, the markings go away all together, but a piece of the Last Key of Sellarus is embedded under the skin of their forearm ",
+						"The Monument and Vault of King Wilber are magically connected to each other, and multiple things activate because of the location of the keys",
+						"The Last Key of Sellarus is split up as follows: the shaft and ring are each split in half, with one person having half of the shaft, another having the other half, another having half of the ring, and the last having the other half of the ring "
+					]
+				}
+			]
+		},
+		{
 			"name": "Rameselt",
 			"source": "CRDA",
 			"type": "EXP",
@@ -35,7 +104,7 @@
 					"type": "entries",
 					"name": "History",
 					"entries": [
-						"Rameselt was created initially as a dye. When dissolved in water it can create vibrant colors that last. It is quite expensive to produce, and it was found to taste quite good. It’s price and good taste made it a commodity for the nobles and rich of Bardoran. During the cooking process it was discovered that it can also be a form of fuel and Bardoran testing found it is a powerful weapon."
+						"Rameselt was created initially as a dye. When dissolved in water it can create vibrant colors that last. It is quite expensive to produce, and it was found to taste quite good. Its price and good taste made it a commodity for the nobles and rich of Bardoran. During the cooking process it was discovered that it can also be a form of fuel and Bardoran testing found it is a powerful weapon."
 					]
 				},
 				{
@@ -840,7 +909,9 @@
 						"Letheres Aerthen",
 						"Theodore Graydon",
 						"Rohtaurek",
-						"Merazarx"
+						"Merazarx",
+						"Michael Wilber",
+						"Alric Aerwyna"
 					]
 				},
 				{
@@ -1023,7 +1094,7 @@
 									"type": "entries",
 									"name": "Rulers",
 									"entries": [
-										". Percy Aerwyna → Ben Aerwyna → Percival Aerwyna → George Aerwyna → Daniel Aerwyna. Currently prince Alric Aerwyna is next in line."
+										"Percy Aerwyna → Ben Aerwyna → Percival Aerwyna → George Aerwyna → Daniel Aerwyna. Currently prince Alric Aerwyna is next in line."
 									]
 								},
 								{
@@ -1330,7 +1401,7 @@
 									"name": "Related Info",
 									"entries": [
 										"{@adventure Atheria |CRDA|4|Atheria}",
-										"{@adventure Fresieln|CRDA|4|Fresieln}"
+										"{@adventure Freieln|CRDA|4|Freieln}"
 									]
 								}
 							]
@@ -1455,7 +1526,7 @@
 									"name": "Related Info",
 									"entries": [
 										"{@adventure Atheria |CRDA|4|Atheria}",
-										"{@adventure Fresieln|CRDA|4|Fresieln}"
+										"{@adventure Freieln |CRDA|4|Freieln}"
 									]
 								}
 							]
@@ -1519,7 +1590,7 @@
 									"type": "inset",
 									"name": "Related Info",
 									"entries": [
-										"{@adventure Fresieln|CRDA|4|Fresieln}",
+										"{@adventure Freieln|CRDA|4|Freieln}",
 										"{@adventure Atheria |CRDA|4|Atheria}",
 										"{@adventure The Craiton-Drow Conflict|CRDA|2|The Craiton-Drow Conflict}"
 									]
@@ -1781,6 +1852,19 @@
 					"entries": [
 						{
 							"type": "section",
+							"name": "Will of Sellarus",
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Will of Sellarus",
+									"source": "CRDA",
+									"style": "inset"
+								}
+							]
+						},
+						{
+							"type": "section",
 							"name": "Rameselt",
 							"entries": [
 								{
@@ -1868,7 +1952,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Apearence",
+									"name": "Appearance",
 									"entries": [
 										"Kershak has dark, hard skin and long but muscular arms and legs. He has sharp gray horns/ spikes that protrude from his shoulders, knees, elbows, spine, cheek bones, temples, and forehead. He has no feet, instead he has a single spike-like claw that protrudes underneath each of his calves. His hands are bony with sharp claws. His face is gaunt, with his sharp teeth always bared and his nose like that of a skull. He has four, glowing yellow, reptilian eyes on the front of his face, and one on the back of his head.",
 										"Kershak wears dark metal armor. This armor includes a breastplate with no sleeves or shoulder guards, and an opening on the back to allow his spikes to poke through. He has additional plating on his legs that have a hole cut for the spikes on his knees. Underneath this plating he has dark chainmail",
@@ -2004,7 +2088,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Apearence",
+									"name": "Appearance",
 									"entries": [
 										"Cain’s head is a deer skull and his lower half is a deer’s body. His neck and torso are dark blue skin with some dark blue scales. He has no hands, but instead has a dark blue crocodile head coming from both of his elbows. He has six yellow, reptilian eyes, with three on each of his antlers, and there are no eyes in the sockets of his skull or crocodile heads. He wears no clothes.",
 										{
@@ -2143,7 +2227,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Apearence",
+									"name": "Appearance",
 									"entries": [
 										"Armentus has glistening light blue skin that glows at times and pupiless eyes. She has three arms, one on each side of her torso and one protruding from her chest, that all have four, thumb-like fingers. She has no hair, but several somewhat transparent white fins coming from the sides, back and top of her head. She has no legs, her bottom half resembles a jellyfish. She wears no clothes",
 										{
@@ -2202,8 +2286,7 @@
 											"type": "list",
 											"name": "The Will of Sellarus(1323)",
 											"items": [
-												"When Sellarus made the will, Armentus initially thought it was hilarious as she knew Kershak would be enraged. She then tasked her followers with collecting info on the will. It was through this tactic that she learned about the Writ of Hebeshca.",
-												"Ceydor found the Writ of Hebeshca and kept it at Freaxir until Serick asked for it. Ceydor gave it to him because of the Armentus - Kershak deal, but put a tracking spell on it so she and Armentus could see its location."
+												"When Sellarus made the will, Armentus initially thought it was hilarious as she knew Kershak would be enraged. She then tasked her followers with collecting info on the will. It was through this tactic that she learned about the Writ of Hebeshca."
 											]
 										},
 										{
@@ -2274,7 +2357,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Apearence",
+									"name": "Appearance",
 									"entries": [
 										"Dremin Warberset is stout and has orangish hair and a beard. He has brown eyes and light tan skin. He often is wearing a crown and an intricate cape to signify his royalty. He wears heavy plate armor decorated with gold to signify his strength and riches.",
 										{
@@ -2421,7 +2504,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Apearence",
+									"name": "Appearance",
 									"entries": [
 										"Grantin Harkin is muscular and somewhat tall for a dwarf. He has brown eyes, long black hair and a beard he keeps in braids. He often does not wear a shirt, instead he occasionally wears a fur cloak but likes to show his strength. His pants and boots are high quality and thick, with metal plating that has golden trim. He  has tattoos on both arms and back of dwarven patterns and the words(in dwarvish) Honnor, Strength, Bravery. He sometimes wears a helmate that covers his face and has metal horns like that of a bull",
 										{
@@ -2534,7 +2617,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Apearence",
+									"name": "Appearance",
 									"entries": [
 										"Benest Trask is muscular and athletic. He has blue eyes, long orange hair and a beard he keeps in braids. He often wears heavy plate armor with gold trim to show his strength and power. Usually he won’t wear his helmet, but he does at times.",
 										{
@@ -2654,7 +2737,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Apearence",
+									"name": "Appearance",
 									"entries": [
 										"Romil Torrid has graying, black hair that is long and tied into braids with golden and jeweled clasps. He has blue eyes, and round, golden glasses. He wears many rings with jewels, and fine silk clothes with intricate, gold dwarven patterns. He tends to wear red and black in reference to Bardoran",
 										{
@@ -2773,7 +2856,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Apearence",
+									"name": "Appearance",
 									"entries": [
 										"Serick is very gaunt, with gray skin and a dark eye that has a yellow pupil. He Has long black hair, and thin teeth. He has dark spikes that fully pierce through different parts of his body, including on one of his eyes. The ends of his fingers become these dark spikes as well, forming claws. He wears no shoes, and rugged gray pants and a similar rugged gray vest with no shirt underneath.",
 										{
@@ -2835,6 +2918,3262 @@
 											"items": [
 												"Serick made true to his promise and killed all of the bandits. His newfound power was intoxicating and he began to lose any sense of empathy he once had. He began to only remember all the pain he felt throughout his life, and wanted to inflict it back onto the world.",
 												"Serick eargerly did Kershak's bidding as it often involved causing pain onto others. He reveled in the fear people had when they saw him"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Mored Tongait",
+							"entries": [
+								"Bardoran Commander/Enforcer",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Lawful Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Cruel",
+															"Methodical"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Kill or be killed",
+															"Fear is the best persuasion"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Bardoran"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"Mored Tongait wears armor similar to that of a Bardoran enforcer, but with gold trim on the edges. He has blue eyes, thought one is covered in an eyepatch with the Bardoran flag on it, and orange hair. He has a beard he keeps in several braids",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Dwarf"
+												],
+												[
+													"Height",
+													"5.2 ft."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Tan"
+												],
+												[
+													"Build",
+													"Average"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"96 Years Old (1617 - 1713)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Fairbeak",
+							"entries": [
+								"Kenku poet in Songbird's tribe, Songbird's Cousin",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Chaotic Neutral",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Impulsive",
+															"Loyal"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Art makes life fun",
+															"Family above all else",
+															"The rich can do without a few extra dollars"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Songbird's Tribe"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"Mored Tongait wears armor similar to that of a Bardoran enforcer, but with gold trim on the edges. He has blue eyes, thought one is covered in an eyepatch with the Bardoran flag on it, and orange hair. He has a beard he keeps in several braids",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Dwarf"
+												],
+												[
+													"Height",
+													"5.2 ft."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Tan"
+												],
+												[
+													"Build",
+													"Average"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"96 Years Old (1617 - 1713)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Vernacis",
+							"entries": [
+								"Dark orc wizard who has the first key of Sellarus",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Chaotic Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Cruel",
+															"Vengeful",
+															"Greedy"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Kill or be killed",
+															"Knowledge is power"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Rafod Srag"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"Vernacis Wears a dark hooded cloak with green trim and dark clothes underneath. He wears a dark metal mask that goes over the top half of his face and covers either side of his mouth. The mask has green runes engraved and painted on it, and two angled slits for his eyes that give him a permanent scowl. He wears dark mental gloves and boots as well that are similarly engraved. He has green eyes and is bald. He looks about middle aged.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Orc"
+												],
+												[
+													"Height",
+													"6.1"
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Sandy Tan"
+												],
+												[
+													"Build",
+													"Average"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"427 Years Old (1286 - 1713)",
+										{
+											"type": "list",
+											"name": "Early Life(1286 - 1302)",
+											"items": [
+												"Vernacis was born Rhojok Srag"
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Rafod Srag",
+							"entries": [
+								"Rafod Srag is an aspiring orc wizard, and the nephew of Vernacis",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Chaotic Good",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Impulsive",
+															"Compassionate"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Life is Short"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Vernacis"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"Rafod Srag wears very plain brown clothes with a leather vest and leather boots. He has green eyes, and his orcish tusks are relatively small. He keeps his black hair pulled back into a braid",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left"
+											],
+											"rows": [
+												[
+													"Race",
+													"Orc"
+												],
+												[
+													"Height",
+													"5.5"
+												],
+												[
+													"Gender Presentation",
+													"Male"
+												],
+												[
+													"Complexion",
+													"Sandy Tan"
+												],
+												[
+													"Build",
+													"Thin"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"17 Years Old (1696 - Present)",
+										{
+											"type": "list",
+											"name": "Running away (1713)",
+											"items": [
+												""
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Atheria",
+							"entries": [
+								"Elf Godess who created Elestir",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Lawful Neutral",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"Freiseln",
+															"Elestir"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"God"
+												],
+												[
+													"Height",
+													"10 ft."
+												],
+												[
+													"Gender Presentation",
+													"Feminine"
+												],
+												[
+													"Complexion",
+													"Fair"
+												],
+												[
+													"Build",
+													"Average"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"Innumerable Years Old (BCE - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Freiseln",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Welm",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Prell",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Solomon",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Darum",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Uko",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Thearen",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Golicht",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Vaelin Prathern",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Helena Prathern",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Threstrom",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Grithal Crouse",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Claud Perdack",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Scarab",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "James Bartle",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Headmistress Elesira Ceydor",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Vice Chancellor Nelesan Berdis",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Professor Harold Deiblen",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Professor Wendy Shrike",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Professor Fredrick Darton",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Jarl Garess",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Dram Tharnach",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Letheres Aerthen",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Theodore Graydon",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Rohtaurek",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Merazarx",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Michael Wilber",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Alric Aerwyna",
+							"entries": [
+								"SUMMARY",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"ALIGNMENT",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"TRAITS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"IDEALS"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
 											]
 										}
 									]
