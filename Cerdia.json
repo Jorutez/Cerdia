@@ -747,7 +747,7 @@
 					]
 				},
 				{
-					"name": "Location",
+					"name": "Locations",
 					"headers": [
 						"Garthora",
 						"Warberset Grand Forge",
@@ -755,20 +755,31 @@
 						"Torrid Grand Forge",
 						"Trask Grand Forge",
 						"Dran's Deep",
+						"Warberset Mountains",
+						"Burning Mountains",
+						"Trask Mountains",
+						"Bardoran River",
 						"Capital of Warberland",
 						"Freaxir",
+						"Gray Mountains",
+						"Gray River",
+						"Green Wall",
 						"Golscon",
 						"Delorno",
 						"Tellensa",
 						"Warton",
 						"Cartage",
+						"Selatis Forest",
 						"Zurn",
 						"Pract",
+						"Zurn Lake",
+						"River Zurn",
+						"Jhessar",
+						"Rhyten River",
 						"Elestir",
 						"Verathon",
-						"Gray Mountains",
-						"Gray River",
-						"Green Wall"
+						"Forest Drisk",
+						"River Lemis"
 					]
 				},
 				{
@@ -1122,13 +1133,13 @@
 									"name": "Military",
 									"entries": [
 										"Warberland has no military of it's own. Warberland is not a very valuable area for most nations in the first place, but it also has been claimed by {@adventure Bardoran|CRDA|1|Bardoran} which other nations don't want to fight. Bardoran keeps some {@creature Bardoran Enforcer|CRDA| enforcers} and  {@creature Bardoran Scout|CRDA| scouts} Warberland to hold control over the farmers, and to report the activities of nearby nations."
-										]
+									]
 								},
 								{
 									"type": "entries",
 									"name": "History",
 									"entries": [
-									  {
+										{
 											"type": "list",
 											"name": "Founding (1608)",
 											"items": [
@@ -1173,7 +1184,7 @@
 											"type": "list",
 											"name": "Bardoran Taxes",
 											"items": [
-												"Due to {@adventure Bardoran's|CRDA|1|Bardoran} control over the area, Waberland farmers are heavily taxed. These taxes require the farmers to give most of their yield to Bardoran. Depending on the specific product, {{@creature Bardoran Enforcer|CRDA|Bardoran enforcers}} will arrive at different farms in Warberland with large wagons and the farmers will be forced to fill the wagons with their product.", 
+												"Due to {@adventure Bardoran's|CRDA|1|Bardoran} control over the area, Waberland farmers are heavily taxed. These taxes require the farmers to give most of their yield to Bardoran. Depending on the specific product, {{@creature Bardoran Enforcer|CRDA|Bardoran enforcers}} will arrive at different farms in Warberland with large wagons and the farmers will be forced to fill the wagons with their product.",
 												"Failure to comply with the tax laws or to meet production standards result in the land being taken by Bardoran and the current owners will be imprisoned. The land is then sold to another farmer, or multiple farmers."
 											]
 										},
@@ -1194,37 +1205,36 @@
 									"name": "Related Info",
 									"entries": [
 										{
-									"type": "inset",
-									"name": "Related Info",
-									"entries": [
-										{
-											"type": "list",
-											"name": "People",
-											"items": [
-											    "{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}"
-											  ]
-										},
-										{
-											"type": "list",
-											"name": "Events",
-											"items": [
-												"{@adventure The Conquest of The North |CRDA|1|The Conquest of The North}"
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"{@adventure The Conquest of The North |CRDA|1|The Conquest of The North}"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Locations",
+													"items": [
+														"{@adventure Capital Of Warberland|CRDA|2|Capital Of Warberland}",
+														"{@adventure Freaxir|CRDA|2|Freaxir}",
+														"{@adventure Gray Mountains|CRDA|2|Gray Mountains}",
+														"{@adventure Green Wall|CRDA|2|Green Wall}",
+														"{@adventure Gray River|CRDA|2|Gray River}"
+													]
+												}
 											]
-										},
-										{
-											"type": "list",
-											"name": "Locations",
-											"items": [
-											    "{@adventure Capital Of Warberland|CRDA|2|Capital Of Warberland}",
-											    "{@adventure Freaxir|CRDA|2|Freaxir}",
-											    "{@adventure Gray Mountains|CRDA|2|Gray Mountains}",
-											    "{@adventure Green Wall|CRDA|2|Green Wall}",
-											    "{@adventure Gray River|CRDA|2|Gray River}"
-											    
-											  ]
 										}
-									]
-								}
 									]
 								}
 							]
@@ -1262,28 +1272,27 @@
 									"entries": [
 										"The Tarehas government is a monarchy. The somewhat small island nation managed to maintain a king who makes all laws because of its size and the traditional hearing hours",
 										{
-									"type": "entries",
-									"name": "",
-									"entries": [
-									  								{
-									"type": "entries",
-									"name": "Rulers",
-									"entries": [
-										"Percy Aerwyna → Ben Aerwyna → Percival Aerwyna → George Aerwyna → Daniel Aerwyna. Currently prince {@adventure Alric Aerwyna|CRDA|1|Alric Aerwyna} is next in line."
-									]
-								},
-								{
-											"type": "list",
-											"name": "Traditonal Hearing Hours",
-											"items": [
-												"When he began ruling, Percy Aerwyna wanted to avoid becoming distant from the problems of his citizens, so he began the tradition of the \"traditional hearing hours\" and put them into the constitution of Tarehas. This policy says the king must set out seven hours once a week to allow his citizens to tell him their challenges and suggestions. These hearing hours are strictly open to all citizens of Tarehas, they just have to sign up beforehand. The king can take a break in between hearings to ponder and make decisions."
+											"type": "entries",
+											"name": "",
+											"entries": [
+												{
+													"type": "entries",
+													"name": "Rulers",
+													"entries": [
+														"Percy Aerwyna → Ben Aerwyna → Percival Aerwyna → George Aerwyna → Daniel Aerwyna. Currently prince {@adventure Alric Aerwyna|CRDA|1|Alric Aerwyna} is next in line."
+													]
+												},
+												{
+													"type": "list",
+													"name": "Traditonal Hearing Hours",
+													"items": [
+														"When he began ruling, Percy Aerwyna wanted to avoid becoming distant from the problems of his citizens, so he began the tradition of the \"traditional hearing hours\" and put them into the constitution of Tarehas. This policy says the king must set out seven hours once a week to allow his citizens to tell him their challenges and suggestions. These hearing hours are strictly open to all citizens of Tarehas, they just have to sign up beforehand. The king can take a break in between hearings to ponder and make decisions."
+													]
+												}
 											]
 										}
 									]
-								}
-									]
 								},
-
 								{
 									"type": "entries",
 									"name": "Military",
@@ -1296,7 +1305,7 @@
 									"type": "entries",
 									"name": "History",
 									"entries": [
-									  {
+										{
 											"type": "list",
 											"name": "Founding (1565)",
 											"items": [
@@ -1315,14 +1324,12 @@
 											"name": "Conflict with Selatis (1679 - Present)",
 											"items": [
 												"{@adventure Tensions |CRDA|3|The Selatis-Tarehas Conflict} grew between Tarehas and {@adventure Selatis|CRDA|1|Selatis} in 1679 over fishing territory disputes. Treaties that attempted to fix this issue were then ignored, and tensions grew further when Selatis captured a Tarehas boat that was disobeying the agreements. Tarehas then began doing the same until 12 boats of the Selatis navy arrived at Tarehas to negotiate.",
-"During negotiations, one of the Selatis boats was lit on fire, and despite Tarehas claiming it was an independent citizen, Selatis declared war. At that point many more naval ships arrived at Tarehas, and began attacking.",
-"After Selatis was successful in defeating the much smaller Tarehas navy, and was able to take control of the palace, it was stopped by the remaining soldiers and citizens of Tarehas. This began a stalemate between the Selatis soldiers occupying the Tarehas castle and the remaining Tarehas resistance hiding on the island."
-
+												"During negotiations, one of the Selatis boats was lit on fire, and despite Tarehas claiming it was an independent citizen, Selatis declared war. At that point many more naval ships arrived at Tarehas, and began attacking.",
+												"After Selatis was successful in defeating the much smaller Tarehas navy, and was able to take control of the palace, it was stopped by the remaining soldiers and citizens of Tarehas. This began a stalemate between the Selatis soldiers occupying the Tarehas castle and the remaining Tarehas resistance hiding on the island."
 											]
 										}
 									]
 								},
-								
 								{
 									"type": "entries",
 									"name": "Outside Relations",
@@ -1332,9 +1339,8 @@
 											"type": "list",
 											"items": [
 												"Initially, relations with Selatis were good and respectful, but as tensions over fishing territory increased, these relations deteriorated. ",
-"Just prior to the start of the war, Tarehas citizens were frustrated with Selatis and outraged when one of their fishing boats was captured.",
-"The war obviously made Tarehas citizens hate Selatis, and the quick nature of the attack made them suspicious that Selatis was planning to attack all along. "
-
+												"Just prior to the start of the war, Tarehas citizens were frustrated with Selatis and outraged when one of their fishing boats was captured.",
+												"The war obviously made Tarehas citizens hate Selatis, and the quick nature of the attack made them suspicious that Selatis was planning to attack all along. "
 											]
 										},
 										"{@bold {@adventure Mayland|CRDA|1|Mayland}}",
@@ -1357,38 +1363,36 @@
 									"type": "entries",
 									"name": "Related Info",
 									"entries": [
-									  {
-									"type": "inset",
-									"name": "Related Info",
-									"entries": [
 										{
-											"type": "list",
-											"name": "People",
-											"items": [
-											  "{@adventure Alric Aerwyna|CRDA|1|Alric Aerwyna}"
-											  ]
-										},
-										{
-											"type": "list",
-											"name": "Events",
-											"items": [
-												"{@adventure The Selatis-Tarehas Conflict |CRDA|3|The Selatis-Tarehas Conflict}"
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"{@adventure Alric Aerwyna|CRDA|1|Alric Aerwyna}"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"{@adventure The Selatis-Tarehas Conflict |CRDA|3|The Selatis-Tarehas Conflict}"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Locations",
+													"items": [
+														"{@adventure Golscon|CRDA|2|Golscon}",
+														"{@adventure Delorno|CRDA|2|Delorno}"
+													]
+												}
 											]
-										},
-										{
-											"type": "list",
-											"name": "Locations",
-											"items": [
-											  "{@adventure Golscon|CRDA|2|Golscon}",
-											  "{@adventure Delorno|CRDA|2|Delorno}"
-											  ]
 										}
 									]
 								}
-										
-									]
-								}
-								
 							]
 						},
 						{
@@ -2098,6 +2102,2306 @@
 											"type": "list",
 											"name": "Locations",
 											"items": []
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Locations",
+					"entries": [
+						{
+							"type": "section",
+							"name": "Garthora",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Warberset Grand Forge",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Harkin Grand Forge",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Torrid Grand Forge",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Trask Grand Forge",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Dran's Deep",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Warberset Mountains",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Burning Mountains",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Trask Mountains",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Bardoran River",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Capital of Warberland",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Freaxir",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Gray Mountains",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Gray River",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Green Wall",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Golscon",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Delorno",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Tellensa",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Warton",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Cartage",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Selatis Forest",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Zurn",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Pract",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Zurn Lake",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "River Zurn",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Jhessar",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Rhyten River",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Elestir",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Verathon",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Forest Drisk",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "River Lemis",
+							"entries": [
+								"ENTER SUBTITLE",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Features",
+									"entries": [
+										"ENTER FEATURES"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Related Info",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related Info",
+											"entries": [
+												{
+													"type": "list",
+													"name": "People",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Events",
+													"items": [
+														"ENTER EVENTS"
+													]
+												},
+												{
+													"type": "list",
+													"name": "Nations and Groups",
+													"items": [
+														"ENTER NATONS AND GROUP"
+													]
+												}
+											]
 										}
 									]
 								}
