@@ -759,6 +759,7 @@
 						"Burning Mountains",
 						"Trask Mountains",
 						"Bardoran River",
+						"Harkin Pass",
 						"Capital of Warberland",
 						"Freaxir",
 						"Gray Mountains",
@@ -787,6 +788,7 @@
 					"headers": [
 						"The Warberset-Kershak Deal",
 						"The Conquest of the North",
+						"The Armentus-Kerhsak Deal",
 						"The Betrayal of Cain",
 						"The Selatis-Tarehas Conflict",
 						"The Craiton-Drow Conflict",
@@ -833,11 +835,11 @@
 						"Claud Perdack",
 						"Scarab",
 						"James Bartle",
-						"Headmistress Elesira Ceydor",
-						"Vice Chancellor Nelesan Berdis",
-						"Professor Harold Deiblen",
-						"Professor Wendy Shrike",
-						"Professor Fredrick Darton",
+						"Elesira Ceydor",
+						"Nelesan Berdis",
+						"Harold Deiblen",
+						"Wendy Shrike",
+						"Fredrick Darton",
 						"Jarl Garess",
 						"Dram Tharnach",
 						"Letheres Aerthen",
@@ -892,7 +894,6 @@
 							"type": "section",
 							"name": "Bardoran",
 							"entries": [
-								"Dwarven Empire that occupies the North",
 								{
 									"type": "image",
 									"href": {
@@ -912,21 +913,50 @@
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										"Bardoran Is the main metal producer in the world. Trades/sells with metal to {@adventure Mayland|CRDA|1|Dremin Warberset}. Bardoran doesn't actually do manufacturing of tools, but just sells metal in bars and plates that Mayland buys."
+										"Bardoran Is the main metal producer in the world. Trades/sells with metal to {@adventure Mayland|CRDA|1|Dremin Warberset}. Bardoran doesn't actually do manufacturing of tools, but just sells metal in bars and plates that Mayland buys.",
+										{
+											"type": "inset",
+											"name": "Class System",
+											"entries": [
+												{
+													"type": "list",
+													"name": "",
+													"items": [
+														"The king and the nobles are on the top of the class system in Bardoran. The nobles own grand forges and get most of the money from them. The nobles are like kings themselves, they can command the military as they wish. The nobles are also just the friends of the king.",
+														"Bardoran Soldiers are the middle teir of the class system. Scouts are the lowest rank, enforcers after, and conquerors and berserkers are of equal rank. All soldiers have athority over the workers.",
+														"The large majority of Bardoran citizens are workers. Most of those workers are employed by the grand forges where they work long and harsh hours for little pay. There is little other forms of employment in Bardoran, by design.",
+														"farmers of {@adventure Warberland|CRDA|1|Warberland} are on the lowest rung of the social ladder in Bardoran. Warberland citizens are treated as poorly as workers, but also workers and nobles alike see them less than equal to dwarfs."
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Grand Forges",
+											"entries": [
+												{
+													"type": "list",
+													"name": "",
+													"items": [
+														"The main economy of Bardoran and the wealth of the governement is a result of the grand forges of Bardoran. Both mines and forges, these large factories collect and process metal to be sold to {@adventure Mayland|CRDA|1|Mayland}. These forges are owned by the nobles of Bardoran."
+													]
+												}
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Government",
 									"entries": [
-										"The Bardoran government is a monarchy. The nobles of Bardoran also have governing power but the king has the final say"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Rulers",
-									"entries": [
-										"Barus Torid → {@adventure Dremin Warberset|CRDA|5|Dremin Warberset}"
+										"The Bardoran government is a monarchy. The nobles of Bardoran also have governing power but the king has the final say",
+										{
+											"type": "inset",
+											"name": "Rulers",
+											"entries": [
+												"Barus Torid → {@adventure Dremin Warberset|CRDA|5|Dremin Warberset}"
+											]
+										}
 									]
 								},
 								{
@@ -934,44 +964,50 @@
 									"name": "Military",
 									"entries": [
 										"The Bardoran military is extremely large and powerful. Its ground troops are feared, and it secretly began work on a powerful navy",
-										"{@bold {@creature Bardoran Scout|CRDA}}",
 										{
-											"type": "list",
-											"items": [
-												"Bardoran scouts wear light leather armor and carry only daggers and slings Their main purpose is to lead a stronger force of soldiers to places to attack. They also get information about enemies and chase down enemies that escape battle.",
-												"Scouts carry a palm sized flare device that consists of a piece of wood wrapped in a cloth that has been coated in flammable liquid. The Scout can ignite the device and use their sling to throw it in the air so that other Bardoran military forces can see their position."
-											]
-										},
-										"{@bold {@creature Bardoran Enforcer|CRDA}}",
-										{
-											"type": "list",
-											"items": [
-												"Bardoran enforcers act as police officers in Bardoran. During the conquest they would imprison enemy civilians and force them out of the area or force them to work. They wear chainmail armor and carry a whip, shortsword, and shield.",
-												"Enforcers are used in Bardoran to oversee the forges by making sure the workers do their job.",
-												"Enforcers are used in {@adventure Warberland|CRDA|1|Warberland} to collect taxed goods."
-											]
-										},
-										"{@bold {@creature Bardoran Conqueror|CRDA}}",
-										{
-											"type": "list",
-											"items": [
-												"Bardoran Conquerors are the main fear of other nations. They are heavily armored, carry large shields, spear, longswords, or crossbows. They are very hard to defeat and they are used in the initial attack of enemies settlements."
-											]
-										},
-										"{@bold {@creature Bardoran Berserker|CRDA}}",
-										{
-											"type": "list",
-											"items": [
-												"Bardoran Berserkers chaotic soldiers that cause as much damage as possible. They wear no armor, but powerful axes and hammers. They are fast moving and value destruction over their own life.",
-												"In a battle, berserkers run in first to break the enemy lines for the conquerors to take the rest over. They also will chase escaping enemies at the end of battles.",
-												"Berserkers are willing to die if needed, so the day before a battle they are given royal treatment."
-											]
-										},
-										"{@bold {@vehicle Warship|GoS| Bardoran Warships}}",
-										{
-											"type": "list",
-											"items": [
-												"Bardoran Warships are armored vehicles that transport soldiers to war. They don't carry any weapons on them. Instead, these ships ram into other ships so that Bardoran forces may board."
+											"type": "inset",
+											"name": "Bardoran Military Assets",
+											"entries": [
+												"{@bold {@creature Bardoran Scout|CRDA}}",
+												{
+													"type": "list",
+													"items": [
+														"Bardoran scouts wear light leather armor and carry only daggers and slings Their main purpose is to lead a stronger force of soldiers to places to attack. They also get information about enemies and chase down enemies that escape battle.",
+														"Scouts carry a palm sized flare device that consists of a piece of wood wrapped in a cloth that has been coated in flammable liquid. The Scout can ignite the device and use their sling to throw it in the air so that other Bardoran military forces can see their position."
+													]
+												},
+												"{@bold {@creature Bardoran Enforcer|CRDA}}",
+												{
+													"type": "list",
+													"items": [
+														"Bardoran enforcers act as police officers in Bardoran. During the conquest they would imprison enemy civilians and force them out of the area or force them to work. They wear chainmail armor and carry a whip, shortsword, and shield.",
+														"Enforcers are used in Bardoran to oversee the forges by making sure the workers do their job.",
+														"Enforcers are used in {@adventure Warberland|CRDA|1|Warberland} to collect taxed goods."
+													]
+												},
+												"{@bold {@creature Bardoran Conqueror|CRDA}}",
+												{
+													"type": "list",
+													"items": [
+														"Bardoran Conquerors are the main fear of other nations. They are heavily armored, carry large shields, spear, longswords, or crossbows. They are very hard to defeat and they are used in the initial attack of enemies settlements."
+													]
+												},
+												"{@bold {@creature Bardoran Berserker|CRDA}}",
+												{
+													"type": "list",
+													"items": [
+														"Bardoran Berserkers chaotic soldiers that cause as much damage as possible. They wear no armor, but powerful axes and hammers. They are fast moving and value destruction over their own life.",
+														"In a battle, berserkers run in first to break the enemy lines for the conquerors to take the rest over. They also will chase escaping enemies at the end of battles.",
+														"Berserkers are willing to die if needed, so the day before a battle they are given royal treatment."
+													]
+												},
+												"{@bold {@vehicle Warship|GoS| Bardoran Warships}}",
+												{
+													"type": "list",
+													"items": [
+														"Bardoran Warships are armored vehicles that transport soldiers to war. They don't carry any weapons on them. Instead, these ships ram into other ships so that Bardoran forces may board."
+													]
+												}
 											]
 										}
 									]
@@ -992,7 +1028,7 @@
 											"type": "list",
 											"name": "The Conquest (1575 - 1608)",
 											"items": [
-												"Over time, the citizens of Bardoran and Warberset himself began to become frustrated with nearby nations encroaching and forming trade agreements without Bardoran. {@adventure Kershak|CRDA|5|Kershak} took advantage of this frustration and made a deal with Warberset. With Kershak’s help, Bardoran easily took over its previously equally matched neighboring nations. Bardoran used the claimed resources to grow a powerful military force and {@adventure conquered the north|CRDA|3|Conquest of the North}.",
+												"Over time, the citizens of Bardoran and Warberset himself began to become frustrated with nearby nations encroaching and forming trade agreements without Bardoran. {@adventure Kershak|CRDA|5|Kershak} took advantage of this frustration and made a deal with Warberset. With Kershak’s help, Bardoran easily took over its previously equally matched neighboring nations. Bardoran used the claimed resources to grow a powerful military force and {@adventure conquered the north|CRDA|3|The Conquest of the North}.",
 												"Bardoran stopped expanding with the capturing of {@adventure Artoz|CRDA|1|Artoz} in 1608 C.E. after which the colony {@adventure Warberland|CRDA|1|Warberland} was made in its place."
 											]
 										},
@@ -1001,73 +1037,21 @@
 											"name": "Post Conquest (1608 - Present)",
 											"items": [
 												"Bardoran did not sustain a military presence in Warberland, but instead only sent troops as needed. Because of this, Warberland is not considered a part of Bardoran, but rather an asset.",
-												"Once Bardoran had established control over the north, it began selling metal to {@adventure Mayland|CRDA|1|Mayland} to sustain an economy. "
+												"Once Bardoran had established control over the north, it began selling metal to {@adventure Mayland|CRDA|1|Mayland} to sustain an economy, something that the nearby nations used to do befor the conquest. "
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Outside Relations",
-									"entries": [
-										"{@bold {@adventure Warberland|CRDA|1|Warberland}}",
-										{
-											"type": "list",
-											"items": [
-												"Bardoran controls Warberland and most of it's food is produced in Warberland. Warberland farmers are taxed by Bardoran, meaning Bardoran collects most of what is produced by the farmers. Bardonians look down on Warberland"
-											]
-										},
-										"{@bold {@adventure Mayland|CRDA|1|Mayland}}",
-										{
-											"type": "list",
-											"items": [
-												"Economic benefits for both Bardoran and Mayland mean that their governements have a pretty good relationship.",
-												"Bardonians are generally neutral towards Mayland, and the nobles see Mayland a good partners."
-											]
-										},
-										"{@bold {@adventure Resistance of Artoz|CRDA|1|Resistance of Artoz}}",
-										{
-											"type": "list",
-											"items": [
-												"The Bardoran governement views the Resistance of Artoz as terrorists and a nuisance"
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Features",
-									"entries": [
-										{
-											"type": "list",
-											"name": "Class System",
-											"items": [
-												"The king and the nobles are on the top of the class system in Bardoran. The nobles own grand forges and get most of the money from them. The nobles are like kings themselves, they can command the military as they wish. The nobles are also just the friends of the king.",
-												"Bardoran Soldiers are the middle teir of the class system. Scouts are the lowest rank, enforcers after, and conquerors and berserkers are of equal rank. All soldiers have athority over the workers.",
-												"The large majority of Bardoran citizens are workers. Most of those workers are employed by the grand forges where they work long and harsh hours for little pay. There is little other forms of employment in Bardoran, by design.",
-												"farmers of {@adventure Warberland|CRDA|1|Warberland} are on the lowest rung of the social ladder in Bardoran. Warberland citizens are treated as poorly as workers, but also workers and nobles alike see them less than equal to dwarfs."
-											]
-										},
-										{
-											"type": "list",
-											"name": "Grand Forges",
-											"items": [
-												"The main economy of Bardoran and the wealth of the governement is a result of the grand forges of Bardoran. Both mines and forges, these large factories collect and process metal to be sold to {@adventure Mayland|CRDA|1|Mayland}. These forges are owned by the nobles of Bardoran."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}",
 														"{@adventure Gratin Harkin|CRDA|5|Gratin Harkin}",
@@ -1075,25 +1059,40 @@
 														"{@adventure Romil Torid|CRDA|5|Romil Torid}",
 														"{@adventure Kershak|CRDA|5|Kershak}"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"{@adventure The Warberset-Kershak Deal |CRDA|3|The Warberset-Kershak Deal}",
 														"{@adventure The Conquest of The North |CRDA|3|The Conquest of The North}"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Locations",
 													"items": [
 														"{@adventure Garthora|CRDA|2|Garthora}",
 														"{@adventure Warberset Grand Forge|CRDA|2|Warberset Grand Forge}",
 														"{@adventure Harkin Grand Forge|CRDA|2|Harkin Grand Forge}",
 														"{@adventure Torrid Grand Forge|CRDA|2|Torrid Grand Forge}",
 														"{@adventure Trask Grand Forge|CRDA|2|Trask Grand Forge}",
-														"{@adventure Dran's Deep|CRDA|2|Dran's Deep}"
+														"{@adventure Dran's Deep|CRDA|2|Dran's Deep}",
+														"{@adventure Warberset Mountains|CRDA|2|Warberset Mountains}",
+														"{@adventure Burning Mountains|CRDA|2|Burning Mountains}",
+														"{@adventure Trask Mountains|CRDA|2|Trask Mountains}",
+														"{@adventure Bardoran River|CRDA|2|Bardoran River}",
+														"{@adventure Harkin Pass|CRDA|2|Harkin Pass}"
 													]
 												}
 											]
@@ -1106,7 +1105,13 @@
 							"type": "section",
 							"name": "Warberland",
 							"entries": [
-								"Poor colony of Bardoran",
+								{
+									"type": "inset",
+									"name": "Warberland has no flag",
+									"entries": [
+										"The {@adventure Bardoran|CRDA|1|Bardoran} flag is hung in many places in Waberland"
+									]
+								},
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -1118,7 +1123,35 @@
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										"Warberland has little economic prosperity. There are many farms in Warberland but {@adventure Bardoran|CRDA|1|Bardoran} taxes them by taking their crops, so the area is in constant poverty."
+										"Warberland has little economic prosperity. There are many farms in Warberland but {@adventure Bardoran|CRDA|1|Bardoran} taxes them by taking their crops, so the area is in constant poverty.",
+										{
+											"type": "inset",
+											"name": "Bardoran Taxes",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"Due to {@adventure Bardoran's|CRDA|1|Bardoran} control over the area, Waberland farmers are heavily taxed. These taxes require the farmers to give most of their yield to Bardoran. Depending on the specific product, {{@creature Bardoran Enforcer|CRDA|Bardoran enforcers}} will arrive at different farms in Warberland with large wagons and the farmers will be forced to fill the wagons with their product.",
+														"Failure to comply with the tax laws or to meet production standards result in the land being taken by Bardoran and the current owners will be imprisoned. The land is then sold to another farmer, or multiple farmers."
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Class System",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"The king and the nobles are on the top of the class system in Bardoran. The nobles own grand forges and get most of the money from them. The nobles are like kings themselves, they can command the military as they wish. The nobles are also just the friends of the king.",
+														"Bardoran Soldiers are the middle teir of the class system. Scouts are the lowest rank, enforcers after, and conquerors and berserkers are of equal rank. All soldiers have athority over the workers.",
+														"The large majority of Bardoran citizens are workers. Most of those workers are employed by the grand forges where they work long and harsh hours for little pay. There is little other forms of employment in Bardoran, by design.",
+														"farmers of Warberland are on the lowest rung of the social ladder in Bardoran. Warberland citizens are treated as poorly as workers, but also workers and nobles alike see them less than equal to dwarfs."
+													]
+												}
+											]
+										}
 									]
 								},
 								{
@@ -1132,7 +1165,53 @@
 									"type": "entries",
 									"name": "Military",
 									"entries": [
-										"Warberland has no military of it's own. Warberland is not a very valuable area for most nations in the first place, but it also has been claimed by {@adventure Bardoran|CRDA|1|Bardoran} which other nations don't want to fight. Bardoran keeps some {@creature Bardoran Enforcer|CRDA| enforcers} and  {@creature Bardoran Scout|CRDA| scouts} Warberland to hold control over the farmers, and to report the activities of nearby nations."
+										"Warberland has no military of it's own. Warberland is not a very valuable area for most nations in the first place, but it also has been claimed by {@adventure Bardoran|CRDA|1|Bardoran} which other nations don't want to fight. Bardoran keeps some {@creature Bardoran Enforcer|CRDA| enforcers} and  {@creature Bardoran Scout|CRDA| scouts} Warberland to hold control over the farmers, and to report the activities of nearby nations.",
+										{
+											"type": "inset",
+											"name": "Bardoran Military Assets",
+											"entries": [
+												"{@bold {@creature Bardoran Scout|CRDA}}",
+												{
+													"type": "list",
+													"items": [
+														"Bardoran scouts wear light leather armor and carry only daggers and slings Their main purpose is to lead a stronger force of soldiers to places to attack. They also get information about enemies and chase down enemies that escape battle.",
+														"Scouts carry a palm sized flare device that consists of a piece of wood wrapped in a cloth that has been coated in flammable liquid. The Scout can ignite the device and use their sling to throw it in the air so that other Bardoran military forces can see their position."
+													]
+												},
+												"{@bold {@creature Bardoran Enforcer|CRDA}}",
+												{
+													"type": "list",
+													"items": [
+														"Bardoran enforcers act as police officers in Bardoran. During the conquest they would imprison enemy civilians and force them out of the area or force them to work. They wear chainmail armor and carry a whip, shortsword, and shield.",
+														"Enforcers are used in Bardoran to oversee the forges by making sure the workers do their job.",
+														"Enforcers are used in Warberland to collect taxed goods."
+													]
+												},
+												"{@bold {@creature Bardoran Conqueror|CRDA}}",
+												{
+													"type": "list",
+													"items": [
+														"Bardoran Conquerors are the main fear of other nations. They are heavily armored, carry large shields, spear, longswords, or crossbows. They are very hard to defeat and they are used in the initial attack of enemies settlements."
+													]
+												},
+												"{@bold {@creature Bardoran Berserker|CRDA}}",
+												{
+													"type": "list",
+													"items": [
+														"Bardoran Berserkers chaotic soldiers that cause as much damage as possible. They wear no armor, but powerful axes and hammers. They are fast moving and value destruction over their own life.",
+														"In a battle, berserkers run in first to break the enemy lines for the conquerors to take the rest over. They also will chase escaping enemies at the end of battles.",
+														"Berserkers are willing to die if needed, so the day before a battle they are given royal treatment."
+													]
+												},
+												"{@bold {@vehicle Warship|GoS| Bardoran Warships}}",
+												{
+													"type": "list",
+													"items": [
+														"Bardoran Warships are armored vehicles that transport soldiers to war. They don't carry any weapons on them. Instead, these ships ram into other ships so that Bardoran forces may board."
+													]
+												}
+											]
+										}
 									]
 								},
 								{
@@ -1158,79 +1237,455 @@
 								},
 								{
 									"type": "entries",
-									"name": "Outside Relations",
-									"entries": [
-										"{@bold {@adventure Bardoran|CRDA|1|Bardoran}}",
-										{
-											"type": "list",
-											"items": [
-												"Bardoran controls Warberland and most of it's food is produced in Warberland. Warberland farmers are taxed by Bardoran, meaning Bardoran collects most of what is produced by the farmers. Citizens of Warberland resent and fear Bardoran."
-											]
-										},
-										"{@bold {@adventure Resistance of Artoz|CRDA|1|Resistance of Artoz}}",
-										{
-											"type": "list",
-											"items": [
-												"The Bardoran governement views the Resistance of Artoz as terrorists and a nuisance"
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Features",
-									"entries": [
-										{
-											"type": "list",
-											"name": "Bardoran Taxes",
-											"items": [
-												"Due to {@adventure Bardoran's|CRDA|1|Bardoran} control over the area, Waberland farmers are heavily taxed. These taxes require the farmers to give most of their yield to Bardoran. Depending on the specific product, {{@creature Bardoran Enforcer|CRDA|Bardoran enforcers}} will arrive at different farms in Warberland with large wagons and the farmers will be forced to fill the wagons with their product.",
-												"Failure to comply with the tax laws or to meet production standards result in the land being taken by Bardoran and the current owners will be imprisoned. The land is then sold to another farmer, or multiple farmers."
-											]
-										},
-										{
-											"type": "list",
-											"name": "Class System",
-											"items": [
-												"The king and the nobles are on the top of the class system in Bardoran. The nobles own grand forges and get most of the money from them. The nobles are like kings themselves, they can command the military as they wish. The nobles are also just the friends of the king.",
-												"Bardoran Soldiers are the middle teir of the class system. Scouts are the lowest rank, enforcers after, and conquerors and berserkers are of equal rank. All soldiers have athority over the workers.",
-												"The large majority of Bardoran citizens are workers. Most of those workers are employed by the grand forges where they work long and harsh hours for little pay. There is little other forms of employment in Bardoran, by design.",
-												"farmers of Warberland are on the lowest rung of the social ladder in Bardoran. Warberland citizens are treated as poorly as workers, but also workers and nobles alike see them less than equal to dwarfs."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"{@adventure The Conquest of The North |CRDA|1|The Conquest of The North}"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Locations",
 													"items": [
 														"{@adventure Capital Of Warberland|CRDA|2|Capital Of Warberland}",
 														"{@adventure Freaxir|CRDA|2|Freaxir}",
 														"{@adventure Gray Mountains|CRDA|2|Gray Mountains}",
 														"{@adventure Green Wall|CRDA|2|Green Wall}",
-														"{@adventure Gray River|CRDA|2|Gray River}"
+														"{@adventure Gray River|CRDA|2|Gray River}",
+														"{@adventure Bardoran River|CRDA|2|Bardoran River}"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Artoz",
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/ArtozFlag.png"
+									},
+									"title": "Flag of Artoz"
+								},
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Artoz had races like saytrs, humans, and halfling."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Artoz was always a somewhat poor farming nation, They would trade crops with nations in current day {@adventure Bardoran|CRDA|1|Bardoran} in exchange for metal tools and weapons. Near the end of it's existance Artoz began selling property. "
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"Artoz had a representative government where each representative would be allocated for a certain area based on population."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"Knowing that the farmer population would not stand a chance against conflict, Artoz formed a strong military out of fear being attacked by other groups. This military consisted of well trained farmers given weapons that had been bought using crops and the sale of property.",
+										"Once Artoz attacked {@adventure Bardoran|CRDA|1|Bardoran}, this military was destroyed. Some of the soldiers joined {@adventure The Resistance of Artoz|CRDA|1|Resistance of Artoz} to continue fighting against Bardoran."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "Founding (1372)",
+											"items": [
+												"Before Artoz was formed, there were many farmers around the area it's capital occupied. As the farms began to grow, they decided to form a small local government. Other farmers did the same, and these smaller governments began to combine into one larger, representative government. This government was named Artoz in 1372, and they built a capital building in what is now the {@adventure capital of Warberland|CRDA|2|capital of Warberland}."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Attacking Bardoran (1608)",
+											"items": [
+												"In 1608, when the conquest had been occurring for 33 years, the citizens of Artoz began to worry {@adventure Bardoran|CRDA|1|Bardoran} would expand south, into Artoz. At this time Bardoran began to build large ships to transport goods around what is now the {@adventure Bardoran River|CRDA|2|Bardoran River}. The presence of Bardoran ships made Artoz more nervous. Hoping to prevent Bardoran from expanding south, Artoz attacked Bardoran.",
+												"Artoz attempted to attack Garthora believing that most of the army was east. While this was true, most of Bardoran military was just returning, and Artoz was easily crushed. To make an example out of Artoz, Bardoran followed the retreating Artoz military back across the river and into Artoz.",
+												"Bardoran didn't go that far into Artoz, and quickly pulled most of its troops back into the north. Instead of making Artoz a part of Bardoran, Artoz became a colony named {@adventure Warberland|CRDA|1|Warberland} after the king of Bardoran, {@adventure Dremin Warberset|CRDA|5|Dremin Warberset}. Most citizens of Artoz didn't come into contact with Bardoran until {@creature Bardoran Enforcer|CRDA|bardoran enforcers} began taxing them.",
+												"When Artoz was made into Warberland the remaining members of the Artoz military formed a secret group called {@adventure The Resistance of Artoz|CRDA|2|Resistance of Artoz}."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure The Conquest of The North |CRDA|3|The Conquest of The North}"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Capital of Warberland|CRDA|2|Capital of Warberland}",
+														"{@adventure Freaxir|CRDA|2|Frexir}"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Resistance of Artoz",
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/ResistanceOfArtozFlag.png"
+									},
+									"title": "Flag of the Resistance of Artoz"
+								},
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"The Resistance of Artoz used to consist of those who were alive when {@adventure Bardoran|CRDA|1|Bardoran} took over. As time went on however, the population shifted to mainly those who were born in Bardoran's colony. This population is even more diverse now that more people have moved into Warberland. The Resistance of Artoz has about 1000 members.",
+										{
+											"type": "inset",
+											"name": "Chant",
+											"entries": [
+												{
+													"type": "list",
+													"name": "",
+													"items": [
+														"Members of the Resistance of Artoz use the chant \"Long Live Artoz!\" when executing a plan as both a tradition and to let others know the resistance is responsible for said plan."
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Becoming A Member",
+											"entries": [
+												{
+													"type": "list",
+													"name": "",
+													"items": [
+														"The Resistance is very exclusive about who may join. People who want to can't actually apply anywhere, instead a member has to notice them. They will only be asked about joining if ten other members agree that they would be a good member, based on their passion, skill, and loyalty. This process involves a lot of spying.",
+														"A candidate who is picked will receive a message in some discreet way telling them they will be able to join the Resistance of Artoz if they complete some task. This task is often small but harmful to {@adventure Bardoran|CRDA|1|Bardoran}. If this task is completed to the satisfaction of the ten members, a member of the Resistance of Artoz will meet up with them secretly.",
+														"On rare occasions someone who is not interested in joining will be noticed by a member. In this case, as many as thirty members have to agree to allow one member to make contact, since doing so is a risk.",
+														"It is common for the kin of a member to eventually join the Resistance of Artoz, but the rules of the resistance dictate the child cannot know of their parent's involvement unless they are selected."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"The Resistance of Artoz is funded in many different ways. All of these ways are hidden from {@adventure Bardoran|CRDA|1|Bardoran}. The members of the Resistance of Artoz themselves all have a very diverse set of occupations.",
+										{
+											"type": "inset",
+											"name": "Methods of Funding",
+											"entries": [
+												"Selling crops behind {@adventure Bardoran's|CRDA|1|Bardoran} back",
+												"Doing black market jobs like smuggling",
+												"Stealing from the wealthy (Especially Bardoran)"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"The Resistance of Artoz does not have a formal leadership, or even members in general. Instead, the Resistance of Artoz acts more like a messaging system between its members that alerts each other of upcoming plans or events.",
+										"When a member of the resistance of Artoz has a plan, They will send a message through the network asking if anyone would like to join or supply it. Likewise, if information is gained, a member can use the network to share this info.",
+										"There is a bit of a hierarchy inside of the Resistance of Artoz. When a particularly risky or important plan is made, some members will only share it between a few others to avoid the plan leaking.",
+										{
+											"type": "inset",
+											"name": "Bardoran's Struggle",
+											"entries": [
+												{
+													"type": "list",
+													"name": "",
+													"items": [
+														"The reason {@adventure Bardoran|CRDA|1|Bardoran} has such a hard time controlling the Resistance of Artoz is because of its lack of structure. There is not one easily identifiable leader they can point to, and the Resistance of Artoz has no base of operations. ",
+														"Bardoran has attempted to infiltrate the Resistance of Artoz multiple times, but has failed. Bardoran doesn't fully understand the process at which a member is chosen, and Artoz members can easily spot a Bardoran plant"
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"The Resistance of Artoz does not mainly consist of fighters. There are a good portion that are apt fighters, but most have skills that lie in deception and plotting."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "Founding (1608)",
+											"items": [
+												"In 1608, the nation of Artoz attacked {@adventure Bardoran|CRDA|1|Bardoran} in an attempt to stop its {@adventure growth|CRDA|3|The Conquest of the North}. This attack failed, and Artoz was made into the colony {@adventure Warberland|CRDA|1|Warberland}. The remaining members of the Artoz military split up for the sake of secrecy, but agreed to continue to discreetly communicate. They began calling themselves the Resistance of Artoz."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Growth (1608 - Present)",
+											"items": [
+												"As time continued, the Resistance of Artoz began to grow as the founders met with witty haters of Bardoran who too wished to restore Artoz to its former glory. At this time the process for adding members was created to preserve the secrecy of the Resistance operations. At the same time, the Resistance of Artoz was very open about when they carried out a large plan so that others would see that Bardoran could be harmed."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Scarab|CRDA|5|Scarab}"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure The Conquest of The North |CRDA|3|The Conquest of The North}"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Capital of Warberland|CRDA|2|Capital of Warberland}",
+														"{@adventure Freaxir|CRDA|2|Frexir}"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Freaxir",
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/ArmentusSymbol.png"
+									},
+									"title": "Symbol of Freaxir"
+								},
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Freaxir has similar demographics to {@adventure Warberland|CRDA|1|Warberland} with some outliers. This includes dragonborns, humans, halflings, satyrs, tieflings, and kobalts."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"Freaxir is quite wealthy. Many of the professors sell spell scrolls and magical items to get money for the university. Since the area is quite poor, the professors may rent out magical items or allow those who buy something to pay it off over time. These spells and items are usually just convenient rather than deadly, but they can still be powerful."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"{@adventure Headmistress Ceydor|CRDA|5|Elesira Ceydor} makes all the decisions at Freaxir but {@adventure Armentus|CRDA|5|Armentus} has the final say. Ceydor does often consult the professors of Freaxir before making a decision, and passes their input along to Armentus.",
+										{
+											"type": "inset",
+											"name": "Professor-Armentus Relations",
+											"entries": [
+												{
+													"type": "list",
+													"name": "",
+													"items": [
+														"Professors in Freaxir are aware of {@adventure Armentus's|CRDA|5|Armentus} control of the school but don't often speak about it because of the connotations of a demon's school. Only Headmistress Elesira Ceydor makes direct contact with Armentus."
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"Freaxir has little physical defense, but is rich in protection spells and skilled magic users if needed. So far there have been no conflicts where a military was required for Freaxir."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "Forming Freaxir (1320 - 1340)",
+											"items": [
+												"Wanting to have skilled followers, {@adventure Armentus|CRDA|5|Armentus} decided to make a wizardry school. Armentus made contact with {@adventure Elesira Ceydor|CRDA|5|Elesira Ceydor} who also valued knowledge and wanted to make a positive difference in the world. They named this school Freaxir.",
+												"Ceydor first went in search of others who would be interested in creating such a school, and locations to build the school. After collecting 50 other talented magic users, they went to what is now the {@adventure capital of Warberland|CRDA|2|Capital of Warberland}. At the time, this was a small farming town and the developing nation of {@adventure Artoz|CRDA|1|Artoz}."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Building Freaxir (1340-1351)",
+											"items": [
+												"To actually build Freaxir, the magic users sold spell scrolls and magical items, and enchantments. With this money, Freaxir bought materials from what is now Bardoran, and a huge amount of labor from the surrounding area. The citizens of the area liked the sudden burst of wealth and opportunities, and creating Freaxir was one of the first forms of funding for the creation of Artoz. In 1351 the school was finished, but classes began being held in 1341 when some classrooms were finished.",
+												"Armentus purposefully made Freaxir confusing to navigate with hopes that students would explore it and to protect against some sort of attack."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Growth (1341 - Present)",
+											"items": [
+												"Initially the students of Freaxir were very limited but the project of building Freaxir was advertisement enough to make aspiring wizards in what is now {@adventure Warberland|CRDA|1|Warberland} flock to Freaxir. The School was a huge success, and as more students left Freaxir skilled, more people wanted to go.",
+												"As Freaxir grew, so did its library. A pursuer of all knowledge, Ceydor set up an effective program to buy books from anyone who successfully bargained with the librarian. This gave Freaxir the opportunity to have a very diverse library with some texts that would otherwise never be read."
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Armentus-Kershak Deal (1580)",
+											"items": [
+												"When {@adventure Bardoran|CRDA|1|Bardoran} began conquering the north, students, Professors, and Armentus alike became concerned for Freaxir's safety. Armentus made a deal with {@adventure Kerhsak|CRDA|5|Kershak} that in the Kershak took over the surrounding area, Freaxir would remain safe and able to operate."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Armentus|CRDA|5|Armentus}",
+														"{@adventure Elesira Ceydor|CRDA|5|Elesira Ceydor}",
+														"{@adventure Nelesan Berdis|CRDA|5|Nelesan Berdis}",
+														"{@adventure Elesira Ceydor|CRDA|5|Elesira Ceydor}",
+														"{@adventure Harold Deiblen|CRDA|5|Harold Deiblen}",
+														"{@adventure Wendy Shrike|CRDA|5|Wendy Shrike}",
+														"{@adventure Fredrick Darton|CRDA|5|Fredrick Darton}"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure The Armentus-Kerhsak Deal |CRDA|3|The Armentus-Kerhsak Deal}",
+														"{@adventure The Conquest of The North |CRDA|3|The Conquest of The North}"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Capital of Warberland|CRDA|2|Capital of Warberland}",
+														"{@adventure Freaxir|CRDA|2|Frexir}"
 													]
 												}
 											]
@@ -1243,7 +1698,6 @@
 							"type": "section",
 							"name": "Tarehas",
 							"entries": [
-								"Small island kingdom",
 								{
 									"type": "image",
 									"href": {
@@ -1276,16 +1730,16 @@
 											"name": "",
 											"entries": [
 												{
-													"type": "entries",
+													"type": "inset",
 													"name": "Rulers",
 													"entries": [
 														"Percy Aerwyna → Ben Aerwyna → Percival Aerwyna → George Aerwyna → Daniel Aerwyna. Currently prince {@adventure Alric Aerwyna|CRDA|1|Alric Aerwyna} is next in line."
 													]
 												},
 												{
-													"type": "list",
+													"type": "inset",
 													"name": "Traditonal Hearing Hours",
-													"items": [
+													"entries": [
 														"When he began ruling, Percy Aerwyna wanted to avoid becoming distant from the problems of his citizens, so he began the tradition of the \"traditional hearing hours\" and put them into the constitution of Tarehas. This policy says the king must set out seven hours once a week to allow his citizens to tell him their challenges and suggestions. These hearing hours are strictly open to all citizens of Tarehas, they just have to sign up beforehand. The king can take a break in between hearings to ponder and make decisions."
 													]
 												}
@@ -1332,58 +1786,38 @@
 								},
 								{
 									"type": "entries",
-									"name": "Outside Relations",
-									"entries": [
-										"{@bold {@adventure Selatis|CRDA|1|Selatis}}",
-										{
-											"type": "list",
-											"items": [
-												"Initially, relations with Selatis were good and respectful, but as tensions over fishing territory increased, these relations deteriorated. ",
-												"Just prior to the start of the war, Tarehas citizens were frustrated with Selatis and outraged when one of their fishing boats was captured.",
-												"The war obviously made Tarehas citizens hate Selatis, and the quick nature of the attack made them suspicious that Selatis was planning to attack all along. "
-											]
-										},
-										"{@bold {@adventure Mayland|CRDA|1|Mayland}}",
-										{
-											"type": "list",
-											"items": [
-												"Economic benefits for both Tarehas and Mayland mean that their governements have a pretty good relationship and Tarehas citizens feel positively towards Mayland."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"{@i No Info}"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"{@adventure Alric Aerwyna|CRDA|1|Alric Aerwyna}"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"{@adventure The Selatis-Tarehas Conflict |CRDA|3|The Selatis-Tarehas Conflict}"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Locations",
 													"items": [
 														"{@adventure Golscon|CRDA|2|Golscon}",
 														"{@adventure Delorno|CRDA|2|Delorno}"
@@ -1399,7 +1833,6 @@
 							"type": "section",
 							"name": "Selatis",
 							"entries": [
-								"Costal kingdom that attacked Tarehas",
 								{
 									"type": "image",
 									"href": {
@@ -1412,89 +1845,127 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"Very diverse. Originally mostly human, but more races have mingled with the rest."
+										"Selatis is very diverse. It was originally mostly human, but more races have mingled with the rest."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										"Fishing and farming crops to sustain itself. Sells wood to {@adventure MaylandCRDA|1|Mayland}"
+										"Selatis uses fishing and farming crops to sustain itself. It also sells wood and ships to {@adventure Mayland|CRDA|1|Mayland}."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Government",
 									"entries": [
-										"Monarchy, with a council of 30 lords. Both the king and the council of lords need to agree on a law to pass it, either can introduce one"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Rulers",
-									"entries": [
-										"Michael Wilber → Gordon Wilber → Tyler Wilber → Samuel Cartage → William Cartage → Morgan Darius → Thomas Darius"
+										"The Selatis government is a monarchy, with a council of 30 lords. Both the king and the council of lords need to agree on a law to pass it, and either can introduce one.",
+										{
+											"type": "entries",
+											"name": "",
+											"entries": [
+												{
+													"type": "inset",
+													"name": "Rulers",
+													"entries": [
+														"Michael Wilber → Gordon Wilber → Tyler Wilber → Samuel Cartage → William Cartage → Morgan Darius → Thomas Darius"
+													]
+												}
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Military",
 									"entries": [
-										"Moderate military strength. Large naval fleet, and many guards, but the military tends to stay around the wealthy/noble areas"
+										"Selatis has moderate military strength. It has a large naval fleet and many guards, but the military tends to stay around the wealthy/noble areas."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "History",
 									"entries": [
-										"The land that Selatis occupies was once many informal nations. King Michael Wilber united many groups against ones that were terrorizing the others, and formed the kingdom in 1318 CE. The area expanded through a couple wars and a few treaties"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Outside Relations",
-									"entries": [
-										"relations"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Features",
-									"entries": [
 										{
-											"type": "entries",
-											"name": "Festival of Selatis",
-											"entries": [
-												"A week long festival that takes place every year to celebrate the Founding of Selatis. The festival brings in many outside visitors"
+											"type": "list",
+											"name": "Founding (1318)",
+											"items": [
+												"The land that Selatis occupies was once many informal nations. {@adventure Michael Wilber|CRDA|5|Michael Wilber} united some of the nations in opposition to a hostile nation and formed Selatis after the war, and was made king afterwards."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Growth (1318 - 1679)",
+											"items": [
+												"Over time Selatis acquired more land through both small wars and treaties. Throughout its history the population of Selatis grew both because of its growing territory and from immigrants. During {@adventure the conquest of the north|CRDA|3|The Conquest of the North}, many refugees entered Selatis for work and safety."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Conflict with Tarehas (1679 - Present)",
+											"items": [
+												"{@adventure Tensions |CRDA|3|The Selatis-Tarehas Conflict} grew between Selatis and {@adventure Tarehas|CRDA|1|Tarehas} in 1679 over fishing territory disputes. Treaties that attempted to fix this issue were then ignored, and tensions grew further when Selatis captured a Tarehas boat that was disobeying the agreements. Tarehas then began doing the same until 12 boats of the Selatis navy arrived at Tarehas to negotiate.",
+												"During negotiations, Selatis secretly set one of its own ships on fire to blame Tarehas and declare war.",
+												"After Selatis was successful in defeating the much smaller Tarehas navy, and was able to take control of the palace, it was stopped by the remaining soldiers and citizens of Tarehas. This began a stalemate between the Selatis soldiers occupying the Tarehas castle and the remaining Tarehas resistance hiding on the island."
 											]
 										}
 									]
 								},
 								{
 									"type": "inset",
-									"name": "Related Info",
+									"name": "Festival of Selatis",
 									"entries": [
 										{
 											"type": "list",
-											"name": "People",
 											"items": [
-												"{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}"
+												"In June every year Selatis hosts a week long festival in its capital city of {@adventure Tellensa|CRDA|2|Tellensa} to celebrate its founding. Many people, both rich and poor, travel to this festival. This festival involves all sorts of performances and sale of merchandise from both Selatis and travelers hoping to profit off of the immense amount of people."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Michael Wilber|CRDA|5|Michael Wilber}"
+													]
+												}
 											]
 										},
 										{
-											"type": "list",
-											"name": "Events",
-											"items": [
-												"{@adventure The Selatis-Tarehas Conflict |CRDA|1|The Selatis-Tarehas Conflict}"
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure The Selatis-Tarehas Conflict |CRDA|3|The Selatis-Tarehas Conflict}"
+													]
+												}
 											]
 										},
 										{
-											"type": "list",
-											"name": "Locations",
-											"items": [
-												"{@adventure Tellensa|CRDA|2|Tellensa}",
-												"{@adventure Warton|CRDA|2|Warton}",
-												"{@adventure Cartage|CRDA|2|Cartage}"
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Tellensa|CRDA|2|Tellensa}",
+														"{@adventure Warton|CRDA|2|Warton}",
+														"{@adventure Cartage|CRDA|2|Cartage}",
+														"{@adventure Freaxir|CRDA|2|Freaxir}",
+														"{@adventure Selatis Forest|CRDA|2|Selatis Forest}",
+														"{@adventure River Lemis|CRDA|2|River Lemis}"
+													]
+												}
 											]
 										}
 									]
@@ -1505,19 +1976,43 @@
 							"type": "section",
 							"name": "Mayland",
 							"entries": [
-								"Manufacturing kingdom",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/MaylandFlag.png"
+									},
+									"title": "Flag of Mayland"
+								},
 								{
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"Very diverse. Many people travel through Mayland as well"
+										"Mayland is very diverse. It has both many residents and travelers moving through it."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										"Manufacturing and transport of goods. Mayland doesn’t actually produce many things but It buys many raw materials that it makes into other things. It also has large businesses in transporting such goods"
+										"Mayland is very wealthy from its manufacturing and transportation businesses. Mayland doesn't produce any raw materials, instead it buys them and sells completed products back or to other nations.",
+										{
+											"type": "inset",
+											"name": "Trade Agreements",
+											"entries": [
+												{
+													"type": "list",
+													"name": "",
+													"items": [
+														"Mayland buys metal from {@adventure Bardoran|CRDA|1|Bardoran} and sells it to other nations. In addition Mayland sells metal tools back to Bardoran. Bardoran also buys ships from Mayland.",
+														"Mayland buys wood and ships from {@adventure Selatis|CRDA|1|Selatis}. At times, Mayland will build ships for Selatis using the wood from Selatis",
+														"Mayland buys fish from {@adventure Tarehas|CRDA|1|Tarehas}.",
+														"Maland buys crops from {@adventure Kortain|CRDA|1|Kortain}.",
+														"Maland buys crops from {@adventure Thrun|CRDA|1|Thrun}."
+													]
+												}
+											]
+										}
 									]
 								},
 								{
@@ -1531,50 +2026,41 @@
 									"type": "entries",
 									"name": "Military",
 									"entries": [
-										"There is no formal Mayland military, but individual companies often hire guards for protection of their goods. These goods usually protect the company’s property (land, valuables), he estates of the company owners, or to enforce on the factory floor, but there is little protection for the lower class. This means violence is somewhat common in the slums of the lower class."
+										"There is no formal Mayland military, but individual companies often hire guards for protection of their goods. These gaurds usually protect the company’s property (land, valuables), the estates of the company owners, or are used to enforce on the factory floor. There is little protection for the lower class, so violence is somewhat common in the slums of the lower class."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "History",
 									"entries": [
-										"Mayland was created when many companies in the area agreed to form a union. Over time, different companies had started to independently form along the River Zurn, and the company heads decided to form a name for the area"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Outside Relations",
-									"entries": [
-										"relations"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"{@bold feature 1}"
-									]
-								},
-								{
-									"type": "inset",
-									"name": "Related Info",
-									"entries": [
 										{
 											"type": "list",
-											"name": "People",
-											"items": []
-										},
-										{
-											"type": "list",
-											"name": "Events",
+											"name": "Founding (1429)",
 											"items": [
-												"{@adventure The Conquest of The North |CRDA|1|The Conquest of The North}"
+												"Mayland was created when many companies in the area agreed to form a union. Over time, different companies had started to independently form along the River Zurn, and the company heads decided to form a name for the area"
 											]
-										},
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
 										{
-											"type": "list",
-											"name": "Locations",
-											"items": []
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Zurn|CRDA|2|Zurn}",
+														"{@adventure Zurn Lake|CRDA|2|Zurn Lake}",
+														"{@adventure River Zurn|CRDA|2|River Zurn}",
+														"{@adventure River Lemis|CRDA|2|River Lemis}",
+														"{@adventure Harkin Pass|CRDA|2|Harkin Pass}"
+													]
+												}
+											]
 										}
 									]
 								}
@@ -1584,7 +2070,6 @@
 							"type": "section",
 							"name": "Gartana",
 							"entries": [
-								"powerful military kingdom",
 								{
 									"type": "image",
 									"href": {
@@ -1597,78 +2082,77 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"Very diverse."
+										"The Gartana population is very diverse."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										"Ship building. Makes deals with independent parties where they provide military force. Most of the food is produced in Kortain."
+										"{@i No Info}"
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Government",
 									"entries": [
-										"The Gartana government consists of a king and representatives from different areas of Gartana"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Rulers",
-									"entries": [
-										"Evan Marris → Pladis Marris → Gregory Furnit → Cabil Furnit → Gregory (II) Furnit → Dawsor Clumond → Tershar Artus"
+										"The Gartana government consists of a king and representatives from different areas of Gartana.",
+										{
+											"type": "inset",
+											"name": "Rulers",
+											"entries": [
+												"Evan Marris → Pladis Marris → Gregory Furnit → Cabil Furnit → Gregory (II) Furnit → Dawsor Clumond → Tershar Artus"
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Military",
 									"entries": [
-										"Gartana has great pride of it’s military. Being a union formed from wanting defence, Gartana has put many resources into its military. The Gartana military has both great equipment and numbers of soldiers. They often flaunt their military, through both army and naval parades. Each district has their own military that ultimately can be controlled by the king, but are meant to handle affairs locally."
+										"Gartana has great pride of it’s military. Being a union formed from wanting defence, Gartana has put many resources into its military. The Gartana military has both great equipment and numbers of soldiers. They often flaunt their military, through both army and naval parades. Each district has their own military that ultimately can be controlled by the king, but are meant to handle affairs locally.",
+										{
+											"type": "inset",
+											"name": "Military Culture",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"Gartana has great values of strength because of its past. From a young age citizens of Gartana are taught to respect and honor the military. Joining the military is a common path for many young people."
+													]
+												}
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
 									"name": "History",
 									"entries": [
-										"Gartana was formed originally as a union military of smaller nations who wanted security. There were generally many land disputes at the time, and many pirates that took advantage of the weak and small nations. After the Great Lemis War, Gartana formed an official kingdom."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Outside Relations",
-									"entries": [
-										"relations"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"{@bold Military Culture.} Gartana has great values of strength because of its past. From a young age citizens of Gartana are taught to respect and honor the military. Joining the military is a common path for many young people."
-									]
-								},
-								{
-									"type": "inset",
-									"name": "Related Info",
-									"entries": [
 										{
 											"type": "list",
-											"name": "People",
-											"items": []
-										},
-										{
-											"type": "list",
-											"name": "Events",
+											"name": "Founding (1488)",
 											"items": [
-												"{@adventure The Conquest of The North |CRDA|1|The Conquest of The North}"
+												"Gartana was formed originally as a union military of smaller nations who wanted security. There were generally many land disputes at the time, and many pirates that took advantage of the weak and small nations. After the Great Lemis War, Gartana formed an official kingdom."
 											]
-										},
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
 										{
-											"type": "list",
-											"name": "Locations",
-											"items": []
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure River Lemis|CRDA|2|River Lemis}"
+													]
+												}
+											]
 										}
 									]
 								}
@@ -1678,7 +2162,6 @@
 							"type": "section",
 							"name": "Kortain",
 							"entries": [
-								"growing farming kingdom",
 								{
 									"type": "image",
 									"href": {
@@ -1691,7 +2174,7 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"Very diverse."
+										"Kortain has a very diverse population."
 									]
 								},
 								{
@@ -1705,14 +2188,14 @@
 									"type": "entries",
 									"name": "Government",
 									"entries": [
-										"The Kortain government consists of a king and representatives from different areas of Kortain"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Rulers",
-									"entries": [
-										"Totartec Brus → Preesha Hasheguel → Weltor Kalbos"
+										"The Kortain government consists of a king and representatives from different areas of Kortain",
+										{
+											"type": "inset",
+											"name": "Rulers",
+											"entries": [
+												"Totartec Brus → Preesha Hasheguel → Weltor Kalbos"
+											]
+										}
 									]
 								},
 								{
@@ -1726,43 +2209,30 @@
 									"type": "entries",
 									"name": "History",
 									"entries": [
-										"Kortain was founded by one of the clans that participated in the Great Lemis War. Overtime as other clans fell, they took up the land. None of Kortain has been taken as a result of force by Kortain, but Kortain scavanges destroyed kingdoms or suffering territories and offers them to join."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Outside Relations",
-									"entries": [
-										"relations"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"{@bold feature 1}"
-									]
-								},
-								{
-									"type": "inset",
-									"name": "Related Info",
-									"entries": [
 										{
 											"type": "list",
-											"name": "People",
-											"items": []
-										},
-										{
-											"type": "list",
-											"name": "Events",
+											"name": "Founding ()",
 											"items": [
-												"{@adventure The Conquest of The North |CRDA|1|The Conquest of The North}"
+												"Kortain was founded by one of the clans that participated in the Great Lemis War. Overtime as other clans fell, they took up the land. None of Kortain has been taken as a result of force by Kortain, but Kortain scavanges destroyed kingdoms or suffering territories and offers them to join."
 											]
-										},
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
 										{
-											"type": "list",
-											"name": "Locations",
-											"items": []
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure River Lemis|CRDA|2|River Lemis}"
+													]
+												}
+											]
 										}
 									]
 								}
@@ -1772,7 +2242,6 @@
 							"type": "section",
 							"name": "Thrun",
 							"entries": [
-								"growing desert kingdom",
 								{
 									"type": "image",
 									"href": {
@@ -1785,14 +2254,27 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"Very diverse."
+										"Thrun is very diverse"
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										""
+										"{@i No Info}",
+										{
+											"type": "inset",
+											"name": "Class System",
+											"entries": [
+												{
+													"type": "list",
+													"name": "",
+													"items": [
+														"Thrun has a very wide wealth gap. There are many people who hope to gain wealth from the growing area, but few actually do. Those who are already wealthy have gained more wealth from the area. On the other hand, Thrun’s economy is based on the work of slaves"
+													]
+												}
+											]
+										}
 									]
 								},
 								{
@@ -1806,50 +2288,38 @@
 									"type": "entries",
 									"name": "Military",
 									"entries": [
-										"Thrun has a small but well armed military. The Thrun military is used only to defend the property of the wealthy. The wealthy also tends to hire their own personal guards"
+										"Thrun has a small but well armed military. The Thrun military is used only to defend the property of the wealthy. The wealthy also tends to hire their own personal guards."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "History",
 									"entries": [
-										"Thrun was founded by a group of four powerful gangs in 1649. The desert is a lawless and environmentally harsh area with no real ruler. Thrun was founded to establish a permanent area of power. The Four gangs joined forces to combat other gangs and groups of gangs, and set up permanent settlements at the tip of the dry mountains. The gangs were quite wealthy, and quickly were able to buy supplies and slaves to begin building their kingdom. Entrepreneurs joined to grow their wealth in the growing Kingdom."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Outside Relations",
-									"entries": [
-										"relations"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"{@bold Class System.} Thrun has a very wide wealth gap. There are many people who hope to gain wealth from the growing area, but few actually do. Those who are already wealthy have gained more wealth from the area. On the other hand, Thrun’s economy is based on the work of slaves"
-									]
-								},
-								{
-									"type": "inset",
-									"name": "Related Info",
-									"entries": [
 										{
 											"type": "list",
-											"name": "People",
-											"items": []
-										},
-										{
-											"type": "list",
-											"name": "Events",
+											"name": "Founding (1649)",
 											"items": [
-												"{@adventure The Conquest of The North |CRDA|1|The Conquest of The North}"
+												"Thrun was founded by a group of four powerful gangs in 1649. The desert is a lawless and environmentally harsh area with no real ruler. Thrun was founded to establish a permanent area of power. The Four gangs joined forces to combat other gangs and groups of gangs, and set up permanent settlements at the tip of the dry mountains. The gangs were quite wealthy, and quickly were able to buy supplies and slaves to begin building their kingdom. Entrepreneurs joined to grow their wealth in the growing Kingdom."
 											]
-										},
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
 										{
-											"type": "list",
-											"name": "Locations",
-											"items": []
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Jhessar|CRDA|2|Jhessar}",
+														"{@adventure Rhyten River|CRDA|2|Rhyten River}"
+													]
+												}
+											]
 										}
 									]
 								}
@@ -1859,79 +2329,71 @@
 							"type": "section",
 							"name": "Elestir",
 							"entries": [
-								"the hidden elf kingdom",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/ElestirFlag.png"
+									},
+									"title": "Flag of Elestir"
+								},
 								{
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"Elfs. not a very huge population ~ 35000"
+										"Elestir consists of elfs with a somewhat small population, about 35000."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										"Self sustained farming and foraging"
+										"Elestir sustains itself through farming and foraging"
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Government",
 									"entries": [
-										"There is a council of 10 leaders who make the decisions. Sometimes they will ask for the opinion of Atheria, or be commanded by her."
+										"Elestir has a council of 10 leaders who make the decisions. Sometimes they will ask for the opinion of Atheria, or be commanded by her."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Military",
 									"entries": [
-										"There once was a much greater military of Elestir, but the population in general has decreased. There are only ~5000 in the official Elestir military, but most of the population are apt fighters"
+										"There once was a much greater military of Elestir, but the population in general has decreased. There are only about 5000 in the official Elestir military, but most of the population are apt fighters."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "History",
 									"entries": [
-										"Atheria created the elfs as her mortal followers BCE, and many remained in the Forest Drisk, forming Elestir"
+										{
+											"type": "list",
+											"name": "Founding (BCE)",
+											"items": [
+												"Atheria created the elfs as her mortal followers BCE, and many remained in the Forest Drisk, forming Elestir."
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Outside Relations",
-									"entries": [
-										"relations"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"{@bold feature 1}"
-									]
-								},
-								{
-									"type": "inset",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
-											"type": "list",
-											"name": "People",
-											"items": [
-												"{@adventure Atheria |CRDA|5|Atheria}",
-												"{@adventure Freieln |CRDA|5|Freieln}"
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Atheria |CRDA|5|Atheria}",
+														"{@adventure Freieln |CRDA|5|Freieln}"
+													]
+												}
 											]
-										},
-										{
-											"type": "list",
-											"name": "Events",
-											"items": [
-												"{@adventure The Conquest of The North |CRDA|1|The Conquest of The North}"
-											]
-										},
-										{
-											"type": "list",
-											"name": "Locations",
-											"items": []
 										}
 									]
 								}
@@ -1941,80 +2403,97 @@
 							"type": "section",
 							"name": "Verathon",
 							"entries": [
-								"the hidden drow kingdom",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/VerathonFlag.png"
+									},
+									"title": "Flag of Verathon"
+								},
 								{
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"Drow. not a very dense population ~ 10000"
+										"Verathon consists of a relatively small population of drow, about 10000.",
+										{
+											"type": "inset",
+											"name": "Verathon Community Ideals",
+											"entries": [
+												"The Drow are held together by a strong sense of community. Honor is seen as acting for the ones you love. Freiseln set up these ideals to contrast her mother, who she sees as self absorbed."
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										"Self sustained farming and foraging of cave organisms, like fungi"
+										"Verathon sustains itself through foraging and farming."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Government",
 									"entries": [
-										"Matriarchy. Freiseln makes the final decision, but she communicates greatly with her followers, and allows anyone to seek her presence"
+										"Verathon is a Matriarchy where Freiseln makes the final decision, but she communicates greatly with her followers and allows anyone to seek her presence."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Military",
 									"entries": [
-										"There ae many apt fighters in Verathon, but not a formal military. One is not needed for such an isolated nation. If need be, the more able Drow will take up arms in honor of Verathon"
+										"There ae many apt fighters in Verathon, but not a formal military. One is not needed for such an isolated nation. If need be, the more able Drow will take up arms in honor of Verathon."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "History",
 									"entries": [
-										"The some elfs split off from the Elestir in allegiance to Freiseln who left her mother, Atheria. They asked Freiseln to make their skin the same dark purple as hers as a sign of allegiance. Thus the drow were born, and they retreated to the dark caves under the Forest Drisk. BCE"
+										{
+											"type": "list",
+											"name": "Founding (BCE)",
+											"items": [
+												"The some elfs split off from the Elestir in allegiance to Freiseln who left her mother, Atheria. They asked Freiseln to make their skin the same dark purple as hers as a sign of allegiance. Thus the drow were born, and they retreated to the dark caves under the Forest Drisk. BCE"
+											]
+										},
+										{
+											"type": "inset",
+											"name": "The Verathon Ceremony",
+											"entries": [
+												"Every year the Drow have a ceremony on the day that they succeeded from Elestir. At first this ceremony was to commemorate this day, but over time it has become less about Elestir, and more about the formation of Verathon in general. In the ceremony, those coming of age take a rounded knife called a fear-cleaver and cut a nonlethal wound on a part of their body they choose to demonstrate they are ready to give to the community. Frieseln then wraps the wound with webs. The cut leaves a scar that the drow often look at to remind themselves of their community."
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Outside Relations",
-									"entries": [
-										"The Drow in the past interacted a bit more than they currently do. Groups of Drow would travel out of curiosity. People knew Drow exist, but they were very rare to see. The Drow were always very secretive about their settlement. When Bardoran began to take control of the north, Freiseln ordered a stop to travel to be cautious of the violent times."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"{@bold Verathon Community ideals.} The Drow are held together by a strong sense of community. Honor is seen as acting for the ones you love. Freiseln set up these ideals to contrast her mother, who she sees as self absorbed.",
-										"{@bold The Verathon Ceremony.} Every year the Drow have a ceremony on the day that they succeeded from Elestir. At first this ceremony was to commemorate this day, but over time it has become less about Elestir, and more about the formation of Verathon in general. In the ceremony, those coming of age take a rounded knife called a fear-cleaver and cut a nonlethal wound on a part of their body they choose to demonstrate they are ready to give to the community. Frieseln then wraps the wound with webs. The cut leaves a scar that the drow often look at to remind themselves of their community"
-									]
-								},
-								{
-									"type": "inset",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
-											"type": "list",
-											"name": "People",
-											"items": [
-												"{@adventure Atheria |CRDA|5|Atheria}",
-												"{@adventure Freieln |CRDA|5|Freieln}"
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Atheria |CRDA|5|Atheria}",
+														"{@adventure Freieln |CRDA|5|Freieln}"
+													]
+												}
 											]
 										},
 										{
-											"type": "list",
-											"name": "Events",
-											"items": [
-												"{@adventure The Craiton-Drow Conflict|CRDA|3|The Craiton-Drow Conflict}"
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure The Craiton-Drow Conflict|CRDA|3|The Craiton-Drow Conflict}"
+													]
+												}
 											]
-										},
-										{
-											"type": "list",
-											"name": "Locations",
-											"items": []
 										}
 									]
 								}
@@ -2024,84 +2503,77 @@
 							"type": "section",
 							"name": "Craiton",
 							"entries": [
-								"small kingdom in current day Kortain that was destroyed by the Drow",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/Jorutez/Cerdia/refs/heads/main/Pictures/CraitonFlag.png"
+									},
+									"title": "Flag of Craiton"
+								},
 								{
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"Mostly Human"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Founding",
-									"entries": [
-										"Lord Jeremiah Crait founded the small village with the goal of being a heavily defended haven from bandits"
+										"Cration is mostly human."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										"Trades wood and crops with surrounding nations"
+										"Craiton is rather small and sustains itself on farming"
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Government",
 									"entries": [
-										"Monarchy. Lord makes decrees"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Rulers",
-									"entries": [
-										"Jeremiah Crait → David Crait → Simon Crait"
+										"Craiton is a small monarchy where the lord would make decrees.",
+										{
+											"type": "inset",
+											"name": "Rulers",
+											"entries": [
+												"Jeremiah Crait → David Crait → Simon Crait"
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Military",
 									"entries": [
-										"Very large amount of heavily soldiers that successfully defended against many bandits, but failed against the drow"
+										"{@i No Info}"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Outside Relations",
-									"entries": [
-										"The Drow in the past interacted a bit more than they currently do. Groups of Drow would travel out of curiosity. People knew Drow exist, but they were very rare to see. The Drow were always very secretive about their settlement. When Bardoran began to take control of the north, Freiseln ordered a stop to travel to be cautious of the violent times."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"{@bold Verathon Community ideals.} The Drow are held together by a strong sense of community. Honor is seen as acting for the ones you love. Freiseln set up these ideals to contrast her mother, who she sees as self absorbed.",
-										"{@bold The Verathon Ceremony.} Every year the Drow have a ceremony on the day that they succeeded from Elestir. At first this ceremony was to commemorate this day, but over time it has become less about Elestir, and more about the formation of Verathon in general. In the ceremony, those coming of age take a rounded knife called a fear-cleaver and cut a nonlethal wound on a part of their body they choose to demonstrate they are ready to give to the community. Frieseln then wraps the wound with webs. The cut leaves a scar that the drow often look at to remind themselves of their community"
-									]
-								},
-								{
-									"type": "inset",
-									"name": "Related Info",
+									"name": "History",
 									"entries": [
 										{
 											"type": "list",
-											"name": "People",
-											"items": []
-										},
-										{
-											"type": "list",
-											"name": "Events",
+											"name": "Founding ()",
 											"items": [
-												"{@adventure The Craiton-Drow Conflict|CRDA|3|The Craiton-Drow Conflict}"
+												"Jeremiah Crait founded the small village with the goal of being a heavily defended haven from bandits"
 											]
-										},
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
 										{
-											"type": "list",
-											"name": "Locations",
-											"items": []
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure The Craiton-Drow Conflict|CRDA|3|The Craiton-Drow Conflict}"
+													]
+												}
+											]
 										}
 									]
 								}
@@ -5015,10 +5487,10 @@
 										},
 										{
 											"type": "list",
-											"name": "Freaxir (1320)",
+											"name": "Freaxir (1320 - Present)",
 											"items": [
 												"In 1320 Armentus decided she wanted followers like other demons and she wanted them to be very knowledgeable about the arcane. She made contact with the similarly valued Elesira Ceydor who was open to the idea and collected others who sought to build a hub of knowledge. By selling enchanted objects and spells, the group was able to collect funds to build the school and house many magical books and items. Throughout this process, Armentus became more interested in creating the best institution to learn magic rather than followers. Throughout this process Armentus also became very close with Ceydor, who she made an actual acolyte.",
-												"When Kershak began conquering the north, Ceydor expressed her own and her student’s fears of invasion. Armentus agreed, and made a deal with Kershak ensuring Freaxir would be protected if Bardoran took the area over. When Bardoran eventually did, Freaxir was ordered to be undisturbed in return for cooperation. After making this deal with Kershak, Armentus went into hiding in the deep chasms of the ocean using the techniques she learned from her mother knowing that he might vilify her at some point"
+												"When Kershak began conquering the north, Ceydor expressed her own and her student’s fears of invasion. Armentus agreed, and made a deal with Kershak in 1580 ensuring Freaxir would be protected if Bardoran took the area over. When Bardoran eventually did, Freaxir was ordered to be undisturbed in return for cooperation. After making this deal with Kershak, Armentus went into hiding in the deep chasms of the ocean using the techniques she learned from her mother knowing that he might vilify her at some point"
 											]
 										},
 										{
@@ -7634,7 +8106,7 @@
 						},
 						{
 							"type": "section",
-							"name": "Headmistress Elesira Ceydor",
+							"name": "Elesira Ceydor",
 							"entries": [
 								"SUMMARY",
 								{
@@ -7733,7 +8205,7 @@
 						},
 						{
 							"type": "section",
-							"name": "Vice Chancellor Nelesan Berdis",
+							"name": "Nelesan Berdis",
 							"entries": [
 								"SUMMARY",
 								{
