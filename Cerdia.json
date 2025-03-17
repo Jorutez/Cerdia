@@ -38,7 +38,7 @@
 					"name": "History",
 					"entries": [
 						"In 1323, Sellarus realized if he didn’t put his power into an object, one of the many enemies he had collected over the years would get it from killing him. He decided to make a will, something that many powerful beings do for the same reason.",
-						"Initially, Sellarus was going to make the will only accessible by Kershak, but Hebescha convinced him to give opportunity to Armentus and Cain by making the will able to be accessed by any demon. Sellarus agreed, and decided to make it a sort of game. He made the box in addition to the will so that it would be harder for his children to hold on to it, and per his request, Hebeshca made the box hard to detect magically."
+						"Initially, Sellarus was going to make the will only accessible by Kershak, but Hebeshca convinced him to give opportunity to Armentus and Cain by making the will able to be accessed by any demon. Sellarus agreed, and decided to make it a sort of game. He made the box in addition to the will so that it would be harder for his children to hold on to it, and per his request, Hebeshca made the box hard to detect magically."
 					]
 				},
 				{
@@ -69,8 +69,8 @@
 					"type": "entries",
 					"name": "History",
 					"entries": [
-						"When Sellarus made a will in 1323, Hebeshca wanted there to be more protection for it. Sellarus agreed and among other things the Writ of Hebeshca was made to require mortal involvement in getting access to the will. Hebescha also helped convince Sellarus to make the Monument of King Wilber",
-						"Sellarus Hebescha and Sellarus didn't tell their children about the Writ of Hebeshca. Instead, both Cain and Armentus found out from their acolyte's research of King Wilber. Kershak only found out when Serick asked for information from Elesira Ceydor",
+						"When Sellarus made a will in 1323, Hebeshca wanted there to be more protection for it. Sellarus agreed and among other things the Writ of Hebeshca was made to require mortal involvement in getting access to the will. Hebeshca also helped convince Sellarus to make the Monument of King Wilber",
+						"Sellarus Hebeshca and Sellarus didn't tell their children about the Writ of Hebeshca. Instead, both Cain and Armentus found out from their acolyte's research of King Wilber. Kershak only found out when Serick asked for information from Elesira Ceydor",
 						"To make the will harder to access, Hebeshca put the writ in a small temple in what is Bardoran. When Bardoran took over the area, this temple was looted and the writ was unknowingly brought to the Bardoran castle"
 					]
 				},
@@ -90,7 +90,7 @@
 			"name": "Rameselt",
 			"source": "CRDA",
 			"type": "EXP",
-			"rarity": "none",
+			"rarity": "rare",
 			"entries": [
 				"Rameselt is a dwarven spice initially used to flavor food but has been found to burn extremely hot and is hard to put out ",
 				{
@@ -119,7 +119,7 @@
 		{
 			"name": "Compass of Garletor",
 			"source": "CRDA",
-			"rarity": "rare",
+			"rarity": "legendary",
 			"type": "T",
 			"entries": [
 				"Compass that can points to things hidden with magic, up to 50 ft away",
@@ -128,7 +128,8 @@
 					"name": "Appearance",
 					"entries": [
 						"The Compass of Garletor looks very expensive. It is about 2.5 inches across, with a silver body with carvings of curvy flourishes. The glass on the top has a silver rim around it, and markings on the glass itself, inside of the compass the shiny blue metal needle comes to a point with a carving of an eye at the end. Inside of the compass the backing is a dark metal that has shiny blue flourishes. The top of the compass is comes to a small point to help the user orient themselves toward the hidden subject",
-						"The Markings on the glass are runes: seek what is unknown"
+						"The Markings on the glass are runes: The hidden is found more than the ordinary",
+						"When the compass senses something, the blue markings and needle glow."
 					]
 				},
 				{
@@ -136,6 +137,29 @@
 					"name": "History",
 					"entries": [
 						"The Compass of Garletor was created by the Wizard Garletor for King (Cabil) Furnit II for a raid of a hidden base of cultists using a drop of Hebeshca's blood"
+					]
+				}
+			]
+		},
+		{
+			"name": "Crystal of Armentus",
+			"source": "CRDA",
+			"rarity": "legendary",
+			"type": "T",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Appearance",
+					"entries": [
+						"The Crystal of Armentus usually just appears to be a hollow, 2 in diameter ball made of a ligh blue glass.",
+						"When activated, the Crystal of Armentus glows blue and appears to be filled with water that moves as if there is no gravity inside of the ball."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "History",
+					"entries": [
+						"{@adventure Armentus|CRDA|5|Armentus} made the Crystal in 1580 to be able to have influence while staying hidden."
 					]
 				}
 			]
@@ -792,7 +816,8 @@
 						"The Betrayal of Cain",
 						"The Selatis-Tarehas Conflict",
 						"The Craiton-Drow Conflict",
-						"The (Aurelis guardian)-(witch) deal"
+						"The Death of Taka",
+						"The (Aurelis guardian)-Nakiscine deal"
 					]
 				},
 				{
@@ -801,7 +826,8 @@
 						"Will of Sellarus",
 						"Writ of Hebeshca",
 						"Rameselt",
-						"Compass of Garletor"
+						"Compass of Garletor",
+						"Crystal of Armemtus"
 					]
 				},
 				{
@@ -847,7 +873,10 @@
 						"Rohtaurek",
 						"Merazarx",
 						"Michael Wilber",
-						"Alric Aerwyna"
+						"Alric Aerwyna",
+						"Taka",
+						"Ugla",
+						"Nakiscine"
 					]
 				},
 				{
@@ -2089,7 +2118,7 @@
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										"{@i No Info}"
+										"Gartana has both a livestock industry and a weapon manufacturing industry. Gartana sells livestock products to {@adventure Mayland|CRDA|1|Mayland} and buys metal to make into weapons. Gartana also does some logging, but uses those resources for settlements and warships. Gartana buys crops from {@adventure Kortain|CRDA|1|Kortain}."
 									]
 								},
 								{
@@ -2181,7 +2210,7 @@
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										"Sells crops to other nations and participates in slave trades. Kortain also has a very large real estate market for wealthy entrepreneurs to begin industry. Kortain, being a somewhat newer kingdom, is trying to grow it’s economic influence"
+										"Kortain sells crops to  {@adventure Gartana|CRDA|1|Gartana} and {@adventure Mayland|CRDA|1|Mayland} and participates in slave trades with {@adventure Thrun|CRDA|1|Thrun}. Kortain also has a very large real estate market for wealthy entrepreneurs to begin industry. Kortain, being a somewhat newer kingdom, is trying to grow it’s economic influence."
 									]
 								},
 								{
@@ -2261,7 +2290,7 @@
 									"type": "entries",
 									"name": "Economy",
 									"entries": [
-										"{@i No Info}",
+										"Thrun has many different economic opperations. It has a slave trade with {@adventure Kortain|CRDA|1|Kortain}, and sells exotic crops to {@adventure Mayland|CRDA|1|Mayland}. Thrun has sells real-estate to entrepreneurs.",
 										{
 											"type": "inset",
 											"name": "Class System",
@@ -2270,7 +2299,20 @@
 													"type": "list",
 													"name": "",
 													"items": [
-														"Thrun has a very wide wealth gap. There are many people who hope to gain wealth from the growing area, but few actually do. Those who are already wealthy have gained more wealth from the area. On the other hand, Thrun’s economy is based on the work of slaves"
+														"Thrun has a very wide wealth gap. There are many people who hope to gain wealth from the growing area, but few actually do. Those who are already wealthy have gained more wealth from the area. On the other hand, Thrun’s economy is based on the work of slaves."
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Thrun National Bank",
+											"entries": [
+												{
+													"type": "list",
+													"name": "",
+													"items": [
+														"Thrun has a powerful bank that many of the rich citizens of Thrun have shares of. This bank handles loans for real-estate and other projects. Because of the growing population and economic experiments, this bank is very rich."
 													]
 												}
 											]
@@ -2589,19 +2631,21 @@
 							"type": "section",
 							"name": "Garthora",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Capital of Bardoran",
 								{
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"Garthora is occupied by dwarfs. The population is mainly {@adventure Bardoran|CRDA|1|Bardoran} soldiers."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
-										"ENTER APPEARENCE"
+										"Garthora is in dark, rocky mountains with volcanic activity. A combination of this volcanic activity and the forges in the area mean there is always a dark cloud of smog resting over the mountains.",
+										"Most of Garthora is inside of the mountains protected by a grand stone wall protruding from the cliff face. Inside of the city, there are no individual buildings but rather rooms carved out of the dark stone. This layout includes may wide and long halls forming a tunnel system.",
+										"Garthora has walls of dark stone bricks with intricate dwarven carvings. Its halls have large, carved pillars and rounded roofs. Garthora is lit by fires burning in pockets in the walls."
 									]
 								},
 								{
@@ -2610,47 +2654,51 @@
 									"entries": [
 										{
 											"type": "list",
-											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"name": "Founding (1441)",
 											"items": [
-												"ENTER HISTORY"
+												"Barus Torrid founded Garthora as the capital of {@adventure Bardoran|CRDA|1|Bardoran} in 1441."
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
-														"ENTER PEOPLE"
+														"{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}",
+														"{@adventure Kershak|CRDA|5|Kershak}"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
-														"ENTER EVENTS"
+														"{@adventure The Warberset-Kershak Deal |CRDA|3|The Warberset-Kershak Deal}",
+														"{@adventure The Conquest of The North |CRDA|3|The Conquest of The North}"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"{@adventure Bardoran|CRDA|1|Bardoran}"
 													]
 												}
 											]
@@ -2668,12 +2716,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Warberset is occupied by dwarfs. The population is mainly workers but still has many {@adventure Bardoran|CRDA|1|Bardoran} soldiers."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -2693,38 +2741,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -2742,12 +2792,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Harkin Grand Forge is occupied by dwarfs. The population is mainly workers but still has many {@adventure Bardoran|CRDA|1|Bardoran} soldiers."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -2767,38 +2817,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -2816,12 +2868,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Torrid Grand Forge is occupied by dwarfs. The population is mainly workers but still has many {@adventure Bardoran|CRDA|1|Bardoran} soldiers."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -2841,38 +2893,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -2890,12 +2944,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Trask Grand Forge is occupied by dwarfs. The population is mainly workers but still has many {@adventure Bardoran|CRDA|1|Bardoran} soldiers."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -2915,38 +2969,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -2964,12 +3020,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"Dran's Deep is very diverse. There are many {@adventure Bardoran|CRDA|1|Bardoran} soldiers as well."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -2989,38 +3045,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3038,12 +3096,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Warbset Mountains are mainly dwarves but there are some outliers in fire/volcanic or mountain/cave retated groups there."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3063,38 +3121,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3112,12 +3172,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Burning Mountains are mainly dwarves but there are some outliers in fire/volcanic or mountain/cave retated groups there."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3137,38 +3197,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3186,12 +3248,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Trask Mountains are mainly dwarves but there are some outliers in fire/volcanic or mountain/cave retated groups there."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3211,38 +3273,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3260,12 +3324,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Trask Bardoran River has mainly dwarves around it but there are some outliers in fire/volcanic or mountain/cave retated groups there. Likewise, there isn't much intelligent life in the river but there are animals."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3285,38 +3349,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3334,12 +3400,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Capital of Warberland is very diverse and mainly consists of dragonborns, humans, kobalts, satyrs, halflings, and tieflings."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3359,38 +3425,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3408,12 +3476,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"Freaxir has similar demographics to {@adventure Warberland|CRDA|1|Warberland} with some outliers. This includes dragonborns, humans, halflings, satyrs, tieflings, and kobalts."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3433,38 +3501,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3482,12 +3552,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Gray mountains doesn't house much life on them, but there are many cave creatures inside them and Air genasi above them."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3507,38 +3577,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3556,12 +3628,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"Around the Gray river there are similar species to {@adventure Warberland|CRDA|1|Warberland} such as dragonborns, humans, halflings, satyrs, tieflings, and kobalts. there isn't much intelligent life in the river but lots of freshwater fish."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3581,38 +3653,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3630,12 +3704,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Green wall doesn't have many creatures living on it. There are a few individuals that may, but generally its just goats."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3655,38 +3729,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3704,12 +3780,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"Golscon is occupied by manily humans."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3729,38 +3805,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3778,12 +3856,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"Delorno is occupied by mainly humans"
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3803,38 +3881,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3852,12 +3932,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										""
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3877,38 +3957,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -3926,12 +4008,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"Warton is very diverse, but there are only about 1000 residents. It's residents are moderatly poor."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -3951,38 +4033,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4000,12 +4084,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"Cartage is very diverse in both species and wealth. It has a population exceeding 5000."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4025,38 +4109,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4074,12 +4160,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"The Selatis Forest has lots of diverse populations surrounding it but not in it. there is not much intelligent life in the forest."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4099,38 +4185,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4148,12 +4236,12 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"Zurn is very diverse. Most of the population is poor workers, but It also houses some extremely rich occupants. Zurn has a population exceeding 5000."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4173,38 +4261,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4227,7 +4317,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4247,38 +4337,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4301,7 +4393,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4321,38 +4413,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4375,7 +4469,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4395,38 +4489,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4449,7 +4545,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4469,38 +4565,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4523,7 +4621,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4543,38 +4641,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4597,7 +4697,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4617,38 +4717,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4671,7 +4773,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4691,38 +4793,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4745,7 +4849,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4765,38 +4869,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -4819,7 +4925,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Appearance",
+									"name": "Atmosphere",
 									"entries": [
 										"ENTER APPEARENCE"
 									]
@@ -4839,38 +4945,40 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features",
-									"entries": [
-										"ENTER FEATURES"
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Related Info",
+									"name": " ",
 									"entries": [
 										{
 											"type": "inset",
-											"name": "Related Info",
+											"name": "Related People",
 											"entries": [
 												{
 													"type": "list",
-													"name": "People",
 													"items": [
 														"ENTER PEOPLE"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Events",
 													"items": [
 														"ENTER EVENTS"
 													]
-												},
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
 												{
 													"type": "list",
-													"name": "Nations and Groups",
 													"items": [
-														"ENTER NATONS AND GROUP"
+														"ENTER GRPOUPS"
 													]
 												}
 											]
@@ -5034,7 +5142,6 @@
 								{
 									"type": "entries",
 									"name": "The Destruction of Craiton (1540)",
-									"page": 0,
 									"entries": [
 										"The Craiton soldiers entered the forest Drisk, trying to find the Drow settlement. Anticipating this, The Drow had prepared arms and ambushed the Craitonians. The Drow easily massacred the heavily armored soldiers trying to move throughout the dense forest. Many Craitonians did retreat and the Drow followed. A battle ensued in the Capital of Craiton. The Cratonians were now in more familiar territory, but the drow were much more skilled and coordinated. They were able to reach the house of Lord _ and demanded he take his people north. The city of Craiton was abandoned, and later the land was taken up by Kortain."
 									]
@@ -5044,6 +5151,38 @@
 									"name": "Impacts (1540 - Present)",
 									"entries": [
 										"The world began to be very wary of the Drow. Since Craiton had a very strong military, it’s fall in battle was shocking. Kortain eventually took over the land that Craiton once ruled over, but remembering it’s downfall, Kortain has not attempted to expand into the forest"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Death of Taka",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Taka Disobeys Bardoran (1708)",
+									"entries": [
+										"In 1708, {@adventure Taka|CRDA|5|Taka} and a group of 29 other {@creature Bardoran Conqueror|CRDA|Bardoran conquerors} were ordered to clear an encampment of tieflings. Relocating or killing other groups in an area is a very common thing for conquerors to do in modern {@adventure Bardoran|CRDA|1|Bardoran} and usually the groups try to fight back but are defeated.",
+										"In this instance the group of tieflings were ones who had escaped past confrontations and they were unarmed. The conquerors had orders to kill this group since they had been trouble for Bardoran for a while, but when the conquerors arrived they were struck by how defenseless this group was. Taka himself burst into a tent where a father was clutching his baby and begging for the child's life, saying he doesn't care if he dies.",
+										"25 soldiers total decided to not attack the camp. The remaining soldiers were held back by the others, and retreated to the nearest dwarven settlement. The disobeying group, realizing they would be in great trouble, ran away from the camp."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Ugla Gains Power(1708)",
+									"entries": [
+										"A {@creature Bardoran Scout|CRDA|Bardoran scout} reported to {@adventure Ugla|CRDA|5|Ugla} that her son had abandoned his duty and that she should report if he comes back home. Taka eventually did go to his mother and told her what happened. He then explained that the group of deserters planned to go to the capital with the Tieflings to show the workers how heartless Bardoran is to spark a rebellion.",
+										"Ugla saw an opportunity to rise the social ladder, and reported to an officer she had information about an upcoming coup, but that she wanted to talk to a higher official. She was brought to a higher level official and continued to do this until she was talking to {@adventure King Dremin Warberset|CRDA|5|Dremin Warberset}.",
+										"Ugla told Warberset about the coup and said she would get more information about it for a price. Warberset liked her and agreed to give her a high position in the castle. Ugla talked to her son about the details of the coup and reported them back as promised.",
+										"Warberset was attracted to Ugla and he made her his concubine fulfilling his promise to give her a high position in the castle. Though not what she had in mind, Ugla saw she had influence over the king and felt she could become even more powerful."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Taka is Killed(1708)",
+									"entries": [
+										"To not raise suspicion dragonborn mercenaries were secretly hired to kill the deserters before they could do anything. The mercenaries were told they were killing Bardoran conquerors who were ordered to kill a camp of innocent tieflings, so the mercenaries were very eager to not only get paid, but also stop Bardoran from doing a terrible thing. Bardoran made sure to have many workers moving through area when the deserters were killed, so the story of dragonborns ambushing a group of conquerors spread very quickly "
 									]
 								}
 							]
@@ -5076,6 +5215,19 @@
 						},
 						{
 							"type": "section",
+							"name": "Writ of Hebeshca",
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Writ of Hebeshca",
+									"source": "CRDA",
+									"style": "inset"
+								}
+							]
+						},
+						{
+							"type": "section",
 							"name": "Rameselt",
 							"entries": [
 								{
@@ -5095,6 +5247,19 @@
 									"type": "statblock",
 									"tag": "item",
 									"name": "Compass of Garletor",
+									"source": "CRDA",
+									"style": "inset"
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Crystal of Armentus",
+							"entries": [
+								{
+									"type": "statblock",
+									"tag": "item",
+									"name": "Crystal of Armentus",
 									"source": "CRDA",
 									"style": "inset"
 								}
@@ -5147,13 +5312,13 @@
 														"type": "list",
 														"name": "Bonds",
 														"items": [
-															"Sellarus. Kershak's father, who he hates",
-															"Hebeshca. Kershak's mother, who he fears",
-															"Cain. Kershak's brother",
-															"Armentus. Kershak's sister",
-															"Serick. The only mortal Kershak likes",
-															"Bardoran",
-															"Dremin Warberset. Kershak can easily manipulate to control the forces of Bardoran"
+															"{@adventure Sellarus|CRDA|5|Sellarus}. Kershak's father, who he hates",
+															"{@adventure Hebeshca|CRDA|5|Hebeshca}. Kershak's mother, who he fears",
+															"{@adventure Cain|CRDA|5|Cain}. Kershak's brother",
+															"{@adventure Armentus|CRDA|5|Armentus}. Kershak's sister",
+															"{@adventure Serick|CRDA|5|Serick}. The only mortal Kershak likes",
+															"{@adventure Bardoran|CRDA|1|Bardoran}",
+															"{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}. Kershak can easily manipulate to control the forces of Bardoran"
 														]
 													}
 												]
@@ -5285,10 +5450,10 @@
 														"type": "list",
 														"name": "Bonds",
 														"items": [
-															"Sellarus. Cain's father.",
-															"Hebeshca. Cain's mother, who he admires",
-															"Kershak. Cain's brother, who he hates",
-															"Armentus. Cain's sister",
+															"{@adventure Sellarus|CRDA|5|Sellarus}. Cain's father.",
+															"{@adventure Hebeshca|CRDA|5|Hebeshca}. Cain's mother, who he admires",
+															"{@adventure KershakCRDA|5|Kerhsak}. Cain's brother, who he hates",
+															"{@adventure Armentus|CRDA|5|Armentus}. Cain's sister",
 															"Aurelius Aerwyna. Cain's acolyte"
 														]
 													}
@@ -5357,7 +5522,7 @@
 											"type": "list",
 											"name": "The Will of Sellarus (1323)",
 											"items": [
-												"Cain was largely uninterested in the Will of Sellarus until he began to think about what would happen if Kershak got it. He began secretly making his acolytes search for the box, and knowing Hebeschca was involved he knew it would be hard to find. It was because of these efforts Cain learned about the Writ of Hebeshca."
+												"Cain was largely uninterested in the Will of Sellarus until he began to think about what would happen if Kershak got it. He began secretly making his acolytes search for the box, and knowing Hebeshca was involved he knew it would be hard to find. It was because of these efforts Cain learned about the Writ of Hebeshca."
 											]
 										},
 										{
@@ -5421,12 +5586,12 @@
 														"type": "list",
 														"name": "Bonds",
 														"items": [
-															"Sellarus. Armentus's father.",
-															"Hebeshca. Armentus's mother, who she loves",
-															"Kershak. Armentus's brother, who she dislikes",
-															"Cain. Armentus's brother",
-															"Freaxir. The school created by Armentus",
-															"Elesira Ceydor. Armentus's acolyte",
+															"{@adventure Sellarus|CRDA|5|Sellarus}. Armentus's father.",
+															"{@adventure Hebeshca|CRDA|5|Hebeshca}. Armentus's mother, who she loves",
+															"{@adventure Kerhsak|CRDA|5|Kerhsak}. Armentus's brother, who she dislikes",
+															"{@adventure Cain|CRDA|5|Cain}. Armentus's brother",
+															"{@adventure Freaxir|CRDA|1|Freaxir}. The school created by Armentus",
+															"{@adventure Elesira Ceydor|CRDA|5|Elesira Ceydor}. Armentus's acolyte",
 															"Krabmann. Armentus's chosen helper",
 															"Omurice. Armentus's chosen helper"
 														]
@@ -5554,11 +5719,11 @@
 														"type": "list",
 														"name": "Bonds",
 														"items": [
-															"Bardoran",
-															"Kershak. Warberset made a deal with him",
-															"Gratin Harkin",
-															"Benest Trask",
-															"Romil Torrid"
+															"{@adventure Bardoran|CRDA|1|Bardoran}",
+															"{@adventure Kershak|CRDA|5|Kerhsak}. Warberset made a deal with him",
+															"{@adventure Gratin Harkin|CRDA|5|Gratin Harkin}",
+															"{@adventure Benest Trask|CRDA|5|Benest Trask}",
+															"{@adventure Romil Torrid|CRDA|5|Romil Torrid}"
 														]
 													}
 												]
@@ -5703,8 +5868,8 @@
 														"type": "list",
 														"name": "Bonds",
 														"items": [
-															"Bardoran",
-															"Dremin Warberset",
+															"{@adventure Bardoran|CRDA|1|Bardoran}",
+															"{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}",
 															"Bardoran Berserkers"
 														]
 													}
@@ -5817,8 +5982,8 @@
 														"type": "list",
 														"name": "Bonds",
 														"items": [
-															"Bardoran",
-															"Dremin Warberset"
+															"{@adventure Bardoran|CRDA|1|Bardoran}",
+															"{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}"
 														]
 													}
 												]
@@ -5937,8 +6102,8 @@
 														"type": "list",
 														"name": "Bonds",
 														"items": [
-															"Bardoran",
-															"Dremin Warberset"
+															"{@adventure Bardoran|CRDA|1|Bardoran}",
+															"{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}"
 														]
 													}
 												]
@@ -6056,8 +6221,8 @@
 														"type": "list",
 														"name": "Bonds",
 														"items": [
-															"Kershak. Serick's patron",
-															"Bardoran"
+															"{@adventure Bardoran|CRDA|1|Bardoran}",
+															"{@adventure Kershak|CRDA|5|Kershak}, Serick’s patron"
 														]
 													}
 												]
@@ -6283,7 +6448,7 @@
 									"type": "entries",
 									"name": "Appearance",
 									"entries": [
-										"Mored Tongait wears armor similar to that of a Bardoran enforcer, but with gold trim on the edges. He has blue eyes, thought one is covered in an eyepatch with the Bardoran flag on it, and orange hair. He has a beard he keeps in several braids",
+										"Fairbeak wears a simple white dress with a dark blue hooded cape.",
 										{
 											"type": "table",
 											"colStyles": [
@@ -6547,7 +6712,10 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Judgmental",
+															"Pragmatic",
+															"Honest",
+															"Helpful"
 														]
 													}
 												],
@@ -6556,7 +6724,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"A perfect life is a quiet life"
 														]
 													}
 												],
@@ -6623,12 +6791,12 @@
 							"type": "section",
 							"name": "Freiseln",
 							"entries": [
-								"SUMMARY",
+								"Drow Godess who created Verathon",
 								{
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Chaotic Good",
 										{
 											"type": "table",
 											"colStyles": [
@@ -6640,7 +6808,9 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Compassionate",
+															"Rebellious",
+															"Loyal"
 														]
 													}
 												],
@@ -6649,7 +6819,8 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Love gives life meaning",
+															"Disobedience is Justice"
 														]
 													}
 												],
@@ -6722,12 +6893,12 @@
 							"type": "section",
 							"name": "Welm",
 							"entries": [
-								"SUMMARY",
+								"Mead Brewer who lives travels in caves to collect water for the mead",
 								{
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Good",
 										{
 											"type": "table",
 											"colStyles": [
@@ -6739,7 +6910,8 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Helpful",
+															"Loquacious"
 														]
 													}
 												],
@@ -6748,7 +6920,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Everyone deserves a freind"
 														]
 													}
 												],
@@ -6821,12 +6993,12 @@
 							"type": "section",
 							"name": "Prell",
 							"entries": [
-								"SUMMARY",
+								"Mead Brewer",
 								{
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Neutral",
 										{
 											"type": "table",
 											"colStyles": [
@@ -6838,7 +7010,8 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Protective",
+															"Distrustful"
 														]
 													}
 												],
@@ -6847,7 +7020,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Quality of company is better than quantity of company"
 														]
 													}
 												],
@@ -6920,12 +7093,12 @@
 							"type": "section",
 							"name": "Solomon",
 							"entries": [
-								"SUMMARY",
+								"traveler who transports product",
 								{
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"True Neutral",
 										{
 											"type": "table",
 											"colStyles": [
@@ -6937,7 +7110,9 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Helpful",
+															"Somber",
+															"Laconic"
 														]
 													}
 												],
@@ -6946,7 +7121,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Quality of company is better than quantity of company"
 														]
 													}
 												],
@@ -7019,12 +7194,12 @@
 							"type": "section",
 							"name": "Darum",
 							"entries": [
-								"SUMMARY",
+								"Leatherworker who lives in Warton",
 								{
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Neutral Good",
 										{
 											"type": "table",
 											"colStyles": [
@@ -7036,7 +7211,8 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Helpful",
+															"Bold"
 														]
 													}
 												],
@@ -7045,7 +7221,8 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Everyone is unique",
+															"Everyone deserves a chance"
 														]
 													}
 												],
@@ -7118,12 +7295,12 @@
 							"type": "section",
 							"name": "Uko",
 							"entries": [
-								"SUMMARY",
+								"Darum's Dog who lives in Warton",
 								{
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Chotic Good",
 										{
 											"type": "table",
 											"colStyles": [
@@ -7135,7 +7312,9 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Impulsive",
+															"Energetic",
+															"Compassionate"
 														]
 													}
 												],
@@ -7144,7 +7323,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Everyone deserves a chance"
 														]
 													}
 												],
@@ -7217,12 +7396,12 @@
 							"type": "section",
 							"name": "Thearen",
 							"entries": [
-								"SUMMARY",
+								"Fletcher who lives in Warton",
 								{
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Chaotic Good",
 										{
 											"type": "table",
 											"colStyles": [
@@ -7234,7 +7413,8 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Distrustful",
+															"Compassionate"
 														]
 													}
 												],
@@ -7243,7 +7423,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Quality of company is better than quantity of company"
 														]
 													}
 												],
@@ -7316,12 +7496,12 @@
 							"type": "section",
 							"name": "Golicht",
 							"entries": [
-								"SUMMARY",
+								"Tavern owner in Warton",
 								{
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"True Neutral",
 										{
 											"type": "table",
 											"colStyles": [
@@ -7333,7 +7513,8 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Helpful",
+															"Disinterested"
 														]
 													}
 												],
@@ -7415,12 +7596,12 @@
 							"type": "section",
 							"name": "Vaelin Prathern",
 							"entries": [
-								"SUMMARY",
+								"Antique shop owner in Warton, and Helena Prathern's Wife",
 								{
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Good",
 										{
 											"type": "table",
 											"colStyles": [
@@ -7432,7 +7613,9 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Methodical",
+															"Kind",
+															"Helpful"
 														]
 													}
 												],
@@ -7441,7 +7624,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Knowledge is power"
 														]
 													}
 												],
@@ -7514,12 +7697,12 @@
 							"type": "section",
 							"name": "Helena Prathern",
 							"entries": [
-								"SUMMARY",
+								"Library owner in Warton. Vaelin Prathern's Wife.",
 								{
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Neutral Good",
 										{
 											"type": "table",
 											"colStyles": [
@@ -7531,7 +7714,10 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Distrustful",
+															"Shy",
+															"Compassionate",
+															"Methodical"
 														]
 													}
 												],
@@ -7540,7 +7726,8 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Quality of company is better than quantity of company",
+															"Knowledge is power"
 														]
 													}
 												],
@@ -7618,7 +7805,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Neutral",
 										{
 											"type": "table",
 											"colStyles": [
@@ -7630,7 +7817,9 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Loyal",
+															"Brave",
+															"Selfless"
 														]
 													}
 												],
@@ -7639,7 +7828,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Bravery is selflessness"
 														]
 													}
 												],
@@ -7717,7 +7906,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Neutral Evil",
 										{
 											"type": "table",
 											"colStyles": [
@@ -7729,7 +7918,9 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Selfish",
+															"Loyal",
+															"Greedy"
 														]
 													}
 												],
@@ -7738,7 +7929,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Kill or be killed"
 														]
 													}
 												],
@@ -7816,7 +8007,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Neutral",
 										{
 											"type": "table",
 											"colStyles": [
@@ -7828,7 +8019,8 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Judgmental",
+															"Helpful"
 														]
 													}
 												],
@@ -7837,7 +8029,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Everything worth anything has a price"
 														]
 													}
 												],
@@ -7915,7 +8107,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Evil",
 										{
 											"type": "table",
 											"colStyles": [
@@ -7927,7 +8119,9 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Loyal",
+															"Bold",
+															"Selfless"
 														]
 													}
 												],
@@ -7936,7 +8130,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Anything for the cause"
 														]
 													}
 												],
@@ -8014,7 +8208,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Good",
 										{
 											"type": "table",
 											"colStyles": [
@@ -8026,7 +8220,8 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Calm",
+															"Helpful"
 														]
 													}
 												],
@@ -8035,7 +8230,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Everyone deserves a friend"
 														]
 													}
 												],
@@ -8113,7 +8308,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Neutral",
 										{
 											"type": "table",
 											"colStyles": [
@@ -8125,7 +8320,10 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Methodical",
+															"Judgmental",
+															"Pragmatic",
+															"Helpful"
 														]
 													}
 												],
@@ -8134,7 +8332,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Knowledge is power"
 														]
 													}
 												],
@@ -8212,7 +8410,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Neutral",
 										{
 											"type": "table",
 											"colStyles": [
@@ -8224,7 +8422,9 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Judgmental",
+															"Loyal",
+															"Pragmatic"
 														]
 													}
 												],
@@ -8233,7 +8433,8 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Knowledge is power",
+															"Order is important"
 														]
 													}
 												],
@@ -8311,7 +8512,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Neutral",
 										{
 											"type": "table",
 											"colStyles": [
@@ -8323,7 +8524,9 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Methodical",
+															"Helpful",
+															"Loquacious"
 														]
 													}
 												],
@@ -8332,7 +8535,8 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Knowledge is power",
+															"History is a window into the future"
 														]
 													}
 												],
@@ -8410,7 +8614,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Chaotic Good",
 										{
 											"type": "table",
 											"colStyles": [
@@ -8422,7 +8626,10 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Impulsive",
+															"Loyal",
+															"Compassionate",
+															"Loquacious"
 														]
 													}
 												],
@@ -8431,7 +8638,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Knowledge is power"
 														]
 													}
 												],
@@ -8509,7 +8716,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Good",
 										{
 											"type": "table",
 											"colStyles": [
@@ -8521,7 +8728,8 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Loyal",
+															"Helpful"
 														]
 													}
 												],
@@ -8530,7 +8738,8 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Knowledge is power",
+															"Everyone deserves a chance"
 														]
 													}
 												],
@@ -8608,7 +8817,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Neutral",
 										{
 											"type": "table",
 											"colStyles": [
@@ -8620,7 +8829,9 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Loyal",
+															"Methodical",
+															"Disinterested"
 														]
 													}
 												],
@@ -8629,7 +8840,8 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Knowledge is power",
+															"Those who are fortunate should protect the less fortunate"
 														]
 													}
 												],
@@ -8707,7 +8919,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Evil",
 										{
 											"type": "table",
 											"colStyles": [
@@ -8719,7 +8931,8 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Selfish",
+															"Paranoid"
 														]
 													}
 												],
@@ -8728,7 +8941,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Life is Cruel"
 														]
 													}
 												],
@@ -8806,7 +9019,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Neutral Evil",
 										{
 											"type": "table",
 											"colStyles": [
@@ -8818,7 +9031,10 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Selfish",
+															"Methodical",
+															"Cruel",
+															"Vengeful"
 														]
 													}
 												],
@@ -8827,7 +9043,8 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Money is power",
+															"Kill or be killed"
 														]
 													}
 												],
@@ -8905,7 +9122,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Evil",
 										{
 											"type": "table",
 											"colStyles": [
@@ -8917,7 +9134,8 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Selfish",
+															"Vengeful"
 														]
 													}
 												],
@@ -8926,7 +9144,8 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Every man for themselves",
+															"Everything worth anything has a price"
 														]
 													}
 												],
@@ -9004,7 +9223,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Chaotic Evil",
 										{
 											"type": "table",
 											"colStyles": [
@@ -9016,7 +9235,10 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Vengeful",
+															"Cruel",
+															"Boastful",
+															"Irritable"
 														]
 													}
 												],
@@ -9025,7 +9247,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Kill or be killed"
 														]
 													}
 												],
@@ -9103,7 +9325,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Lawful Evil",
 										{
 											"type": "table",
 											"colStyles": [
@@ -9115,7 +9337,10 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Loyal",
+															"Boastful",
+															"Methodical",
+															"Distrustful"
 														]
 													}
 												],
@@ -9124,7 +9349,8 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Fear is the best persuasion",
+															"Quality of company is better than quantity of company"
 														]
 													}
 												],
@@ -9202,7 +9428,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"True Neutral",
 										{
 											"type": "table",
 											"colStyles": [
@@ -9214,7 +9440,8 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Loyal",
+															"Brave"
 														]
 													}
 												],
@@ -9223,7 +9450,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Strength in numbers"
 														]
 													}
 												],
@@ -9301,7 +9528,7 @@
 									"type": "entries",
 									"name": "Personality",
 									"entries": [
-										"ALIGNMENT",
+										"Chaotic Good",
 										{
 											"type": "table",
 											"colStyles": [
@@ -9313,7 +9540,10 @@
 														"type": "list",
 														"name": "Traits",
 														"items": [
-															"TRAITS"
+															"Impulsive",
+															"Compassionate",
+															"loyal",
+															"Brave"
 														]
 													}
 												],
@@ -9322,7 +9552,7 @@
 														"type": "list",
 														"name": "Ideals",
 														"items": [
-															"IDEALS"
+															"Quality of company is better than quantity"
 														]
 													}
 												],
