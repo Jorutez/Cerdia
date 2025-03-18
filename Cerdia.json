@@ -764,7 +764,7 @@
 						"Gartana",
 						"Kortain",
 						"Thrun",
-						"Turik Crod",
+						"Thurik Krouw",
 						"Elestir",
 						"Verathon",
 						"Craiton"
@@ -799,6 +799,9 @@
 						"Pract",
 						"Zurn Lake",
 						"River Zurn",
+						"Wastes",
+						"Forlorn Mountains",
+						"Dry Mountains",
 						"Jhessar",
 						"Rhyten River",
 						"Elestir",
@@ -817,7 +820,7 @@
 						"The Selatis-Tarehas Conflict",
 						"The Craiton-Drow Conflict",
 						"The Death of Taka",
-						"The (Aurelis guardian)-Nakiscine deal"
+						"The Aerwyna-Nakiscine Deal"
 					]
 				},
 				{
@@ -876,6 +879,7 @@
 						"Alric Aerwyna",
 						"Taka",
 						"Ugla",
+						"Ceilean Aerwyna",
 						"Nakiscine"
 					]
 				},
@@ -919,6 +923,7 @@
 					"type": "section",
 					"name": "Nations and Groups",
 					"entries": [
+						"Bardoran is a great northern empire of dwarfs.",
 						{
 							"type": "section",
 							"name": "Bardoran",
@@ -1134,6 +1139,7 @@
 							"type": "section",
 							"name": "Warberland",
 							"entries": [
+								"Warberland is an opressed colony of Bardoran.",
 								{
 									"type": "inset",
 									"name": "Warberland has no flag",
@@ -1317,6 +1323,7 @@
 							"type": "section",
 							"name": "Artoz",
 							"entries": [
+								"Artoz was a nation where Warberland currently is that tried to attack Bardoran.",
 								{
 									"type": "image",
 									"href": {
@@ -1426,6 +1433,7 @@
 							"type": "section",
 							"name": "Resistance of Artoz",
 							"entries": [
+								"The Resistance of Artoz is a communication network of anti-Bardoran rebels.",
 								{
 									"type": "image",
 									"href": {
@@ -1585,6 +1593,7 @@
 							"type": "section",
 							"name": "Freaxir",
 							"entries": [
+								"Freaxir is the Wizard school Omurice attended.",
 								{
 									"type": "image",
 									"href": {
@@ -1727,6 +1736,7 @@
 							"type": "section",
 							"name": "Tarehas",
 							"entries": [
+								"Tarehas is a smmall island kingdom that Aurelis Aerwyna is from.",
 								{
 									"type": "image",
 									"href": {
@@ -1862,6 +1872,7 @@
 							"type": "section",
 							"name": "Selatis",
 							"entries": [
+								"Selatis is a large fishing kingdom that fought with Selatis.",
 								{
 									"type": "image",
 									"href": {
@@ -2005,6 +2016,7 @@
 							"type": "section",
 							"name": "Mayland",
 							"entries": [
+								"Mayland is a industry nation that trades with many others.",
 								{
 									"type": "image",
 									"href": {
@@ -2036,6 +2048,7 @@
 														"Mayland buys metal from {@adventure Bardoran|CRDA|1|Bardoran} and sells it to other nations. In addition Mayland sells metal tools back to Bardoran. Bardoran also buys ships from Mayland.",
 														"Mayland buys wood and ships from {@adventure Selatis|CRDA|1|Selatis}. At times, Mayland will build ships for Selatis using the wood from Selatis",
 														"Mayland buys fish from {@adventure Tarehas|CRDA|1|Tarehas}.",
+														"Mayland buys livestock products from {@adventure Gartana|CRDA|1|Gartana}.",
 														"Maland buys crops from {@adventure Kortain|CRDA|1|Kortain}.",
 														"Maland buys crops from {@adventure Thrun|CRDA|1|Thrun}."
 													]
@@ -2099,6 +2112,7 @@
 							"type": "section",
 							"name": "Gartana",
 							"entries": [
+								"Gartana is a strong military nation.",
 								{
 									"type": "image",
 									"href": {
@@ -2191,6 +2205,7 @@
 							"type": "section",
 							"name": "Kortain",
 							"entries": [
+								"Kortain is a farming nation that is growing in wealth and population.",
 								{
 									"type": "image",
 									"href": {
@@ -2271,6 +2286,7 @@
 							"type": "section",
 							"name": "Thrun",
 							"entries": [
+								"Thrun is a small but wealthy desert nation.",
 								{
 									"type": "image",
 									"href": {
@@ -2283,7 +2299,7 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"Thrun is very diverse"
+										"Thrun is very diverse."
 									]
 								},
 								{
@@ -2352,6 +2368,106 @@
 									"entries": [
 										{
 											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Letheres Aerthen|CRDA|5|Letheres Aerthen}",
+														"{@adventure Grithal Crouse|CRDA|5|Grithal Crouse}",
+														"{@adventure Theodore Graydon|CRDA|5|Theodore Graydon}"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Jhessar|CRDA|2|Jhessar}",
+														"{@adventure Rhyten River|CRDA|2|Rhyten River}"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Thurik Krouw",
+							"entries": [
+								"The Thurik Krouw is an anti-Thrun resistance.",
+								{
+									"type": "inset",
+									"name": "The Thurik Krouw has no flag",
+									"entries": [
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"The Thurik Krouw is very diverse."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"The Thurik Krouw gets its money (and often supplies) by stealing it from the wealthy"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"The Thurik Krouw have a group of ten people that make up the leaders. These leaders are the most experienced and skilled members. These leaders will plan missions and can appoint other members to a leadership role in the missions."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"The Thurik Krouw is a very skilled military force as it consists of skilled fighters. Their main restriction is their lack of supplies compared to {@adventure Thrun|CRDA|1|Thrun}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "Founding (1678)",
+											"items": [
+												"In 1678 a group of escaped slaves formed the Thurik Krouw to help other slaves escape and fight {@adventure Thrun|CRDA|1|Thrun}."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Threstrom|CRDA|5|Threstrom}",
+														"{@adventure Alric Aerwyna|CRDA|5|Alric Aerwyna}"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
 											"name": "Related Locations",
 											"entries": [
 												{
@@ -2371,6 +2487,7 @@
 							"type": "section",
 							"name": "Elestir",
 							"entries": [
+								"Elestir is the hidden nation of elves.",
 								{
 									"type": "image",
 									"href": {
@@ -2445,6 +2562,7 @@
 							"type": "section",
 							"name": "Verathon",
 							"entries": [
+								"Verathon is the hidden nation of drow.",
 								{
 									"type": "image",
 									"href": {
@@ -2545,6 +2663,7 @@
 							"type": "section",
 							"name": "Craiton",
 							"entries": [
+								"Craiton was a small military town that was destroyed by drow",
 								{
 									"type": "image",
 									"href": {
@@ -2631,7 +2750,7 @@
 							"type": "section",
 							"name": "Garthora",
 							"entries": [
-								"Capital of Bardoran",
+								"Garthora is the capital of Bardoran.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -2711,7 +2830,7 @@
 							"type": "section",
 							"name": "Warberset Grand Forge",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Warberset Grand Forge is the forge owned by Dremin Warberset.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -2787,7 +2906,7 @@
 							"type": "section",
 							"name": "Harkin Grand Forge",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Harkin Grand Forge is the forge owned by Gratin Harkin.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -2863,7 +2982,7 @@
 							"type": "section",
 							"name": "Torrid Grand Forge",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Torrid Grand Forge is the forge owned by Romil Torrid.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -2939,7 +3058,7 @@
 							"type": "section",
 							"name": "Trask Grand Forge",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Trask Grand Forge is the forge owned by Benest Trask.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3015,7 +3134,7 @@
 							"type": "section",
 							"name": "Dran's Deep",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Dran's Deep is a Bardoran Prison that keeps Merazarx.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3091,7 +3210,7 @@
 							"type": "section",
 							"name": "Warberset Mountains",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Warberset Mountains are a volcanic mountain range in Bardoran.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3167,7 +3286,7 @@
 							"type": "section",
 							"name": "Burning Mountains",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Burning mountains are a volcanic mountain range in Bardoran",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3243,7 +3362,7 @@
 							"type": "section",
 							"name": "Trask Mountains",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Trask mountains are a mountain range in Bardoran.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3317,7 +3436,7 @@
 						},
 						{
 							"type": "section",
-							"name": "Bardoran River",
+							"name": "The Bardoran River is a wide river south of Bardoran.",
 							"entries": [
 								"ENTER SUBTITLE",
 								{
@@ -3393,9 +3512,85 @@
 						},
 						{
 							"type": "section",
+							"name": "Harkin Pass",
+							"entries": [
+								"Harkin Pass is a space between the Gray Mountains and the Forlorn Mountains.",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Atmosphere",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER EVENTS"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER GRPOUPS"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
 							"name": "Capital of Warberland",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Capital of Warberland is the name given to the capital of the colony Warberland.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3471,7 +3666,7 @@
 							"type": "section",
 							"name": "Freaxir",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Freaxir is the wizard school Omurice went to.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3547,7 +3742,7 @@
 							"type": "section",
 							"name": "Gray Mountains",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Gray Mountains are a stormy mountain range in Warberland.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3623,7 +3818,7 @@
 							"type": "section",
 							"name": "Gray River",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Gray River is a river in Warberland that starts at the base of the Gray mountains.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3699,7 +3894,7 @@
 							"type": "section",
 							"name": "Green Wall",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Green Wall is a range of tall grassy hills on the border of Warberland.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3775,7 +3970,7 @@
 							"type": "section",
 							"name": "Golscon",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Golscon is the Capital of Tarehas.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3851,7 +4046,7 @@
 							"type": "section",
 							"name": "Delorno",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Delorno is a town in Tarehas that fought back against Selatis.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -3927,7 +4122,7 @@
 							"type": "section",
 							"name": "Tellensa",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Tellensa is the Capital of Selatis.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4003,7 +4198,7 @@
 							"type": "section",
 							"name": "Warton",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Warton is a small comunity of outcasts in Selatis.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4079,7 +4274,7 @@
 							"type": "section",
 							"name": "Cartage",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Cartage is a bustling coastal town in Selatis.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4155,7 +4350,7 @@
 							"type": "section",
 							"name": "Selatis Forest",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Selatis Forest is a forest in Selatis.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4231,7 +4426,7 @@
 							"type": "section",
 							"name": "Zurn",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Zurn is the capital of Mayland.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4307,7 +4502,7 @@
 							"type": "section",
 							"name": "Pract",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Pract is a bustling town for travelers in Mayland.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4383,7 +4578,7 @@
 							"type": "section",
 							"name": "Zurn Lake",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Zurn Lake is a lake in Mayland at the base of the Gray Mountains.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4459,7 +4654,7 @@
 							"type": "section",
 							"name": "River Zurn",
 							"entries": [
-								"ENTER SUBTITLE",
+								"the River Zurn is a river in Mayland that starts at the Zurn Lake",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4533,9 +4728,161 @@
 						},
 						{
 							"type": "section",
-							"name": "Jhessar",
+							"name": "Wastes",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Wastes are a dry and lawless desert in the east.",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Atmosphere",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER EVENTS"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER GRPOUPS"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Forlorn Mountains",
+							"entries": [
+								"The Forlorn Mountains is a mountain range in the wastes.",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Atmosphere",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER EVENTS"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER GRPOUPS"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Dry Mountains",
+							"entries": [
+								"The Dry Mountains are a mountain range in the wastes.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4611,8 +4958,7 @@
 							"type": "section",
 							"name": "Rhyten River",
 							"entries": [
-								"ENTER SUBTITLE",
-								{
+								"The Rhyten River is a river in the wastes and Thrun.",								{
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
@@ -4687,7 +5033,7 @@
 							"type": "section",
 							"name": "Elestir",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Elestir is the hidden nation of elves.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4763,7 +5109,7 @@
 							"type": "section",
 							"name": "Verathon",
 							"entries": [
-								"ENTER SUBTITLE",
+								"Verathon is the hidden nation of drow",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4839,7 +5185,7 @@
 							"type": "section",
 							"name": "Forest Drisk",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The Forest Drisk is a mystical forest in the south.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -4915,7 +5261,7 @@
 							"type": "section",
 							"name": "River Lemis",
 							"entries": [
-								"ENTER SUBTITLE",
+								"The river Lemis is a large and busy river that is used for trade and transportation.",
 								{
 									"type": "entries",
 									"name": "Occupants",
@@ -5189,7 +5535,7 @@
 						},
 						{
 							"type": "section",
-							"name": "The (Aurelis guardian)-(witch) deal",
+							"name": "The Aerwyna-Nakiscine Deal",
 							"entries": [
 								"The prince of Tarehas, Alric Aerwyna, is cursed because of something his mother did when she was younger that upset some powerful magic user. Meanwhile, whiles she was young, AG (Aurelis guardian) was learning wizardry (perhaps at freaxir) when a witch began teaching her and so that the witch could take advantage of her. Once she grew up, AG searched for a way to break the curse when she went back to the witch and askked for advice. The witch explained that a drow heart of the same age as Alric's could be used in a ritual. AG went to the forest Drisk and prayed to Freiseln (Per the witch's instructions), explaining the situation, but saying that she wanted the healing power of Freiseln. The drow took pity on her, and brought her to the caves. Freiseln gave her an elixir, and AG took a drow baby on her way out. The elixir healed the sick Alric baby, but as he got older, sickness came back, and AG had to use Aurelius's blood in a potion to heal him. She refused to actualy cut Aurelius's heart out, but the witch was planning to all along for her own gain"
 							]
@@ -6398,7 +6744,7 @@
 							"type": "section",
 							"name": "Fairbeak",
 							"entries": [
-								"Kenku poet in Songbird's tribe, Songbird's Cousin",
+								"Fairbeak is a poet in Songbird's tribe, and Songbird's Cousin",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -6493,7 +6839,7 @@
 							"type": "section",
 							"name": "Vernacis",
 							"entries": [
-								"Dark orc wizard who has the first key of Sellarus",
+								"Vernacis is an orc wizard who has the first key of Sellarus",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -6695,7 +7041,7 @@
 							"type": "section",
 							"name": "Atheria",
 							"entries": [
-								"Elf Godess who created Elestir",
+								"Atheria is the elf godess who created Elestir",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -6791,7 +7137,7 @@
 							"type": "section",
 							"name": "Freiseln",
 							"entries": [
-								"Drow Godess who created Verathon",
+								"Freieln is the Drow godess who created Verathon",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -6893,7 +7239,7 @@
 							"type": "section",
 							"name": "Welm",
 							"entries": [
-								"Mead Brewer who lives travels in caves to collect water for the mead",
+								"Welm collects water in caves underground to brew mead",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -6993,7 +7339,7 @@
 							"type": "section",
 							"name": "Prell",
 							"entries": [
-								"Mead Brewer",
+								"Prell brews mead in the caves under Selatis",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -7093,7 +7439,7 @@
 							"type": "section",
 							"name": "Solomon",
 							"entries": [
-								"traveler who transports product",
+								"Solomon is a traveler who transports product on a wagon",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -7194,7 +7540,7 @@
 							"type": "section",
 							"name": "Darum",
 							"entries": [
-								"Leatherworker who lives in Warton",
+								"Darum is a leatherworker who lives in Warton",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -7295,7 +7641,7 @@
 							"type": "section",
 							"name": "Uko",
 							"entries": [
-								"Darum's Dog who lives in Warton",
+								"Uko is Darum's Dog who lives in Warton",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -7396,7 +7742,7 @@
 							"type": "section",
 							"name": "Thearen",
 							"entries": [
-								"Fletcher who lives in Warton",
+								"Thearen is a Fletcher who lives in Warton",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -7496,7 +7842,7 @@
 							"type": "section",
 							"name": "Golicht",
 							"entries": [
-								"Tavern owner in Warton",
+								"Golicst owns a tavern in Warton",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -7596,7 +7942,7 @@
 							"type": "section",
 							"name": "Vaelin Prathern",
 							"entries": [
-								"Antique shop owner in Warton, and Helena Prathern's Wife",
+								"Vaelin Prathern owns an antique shop in Warton. She is Helena Prathern's Wife",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -7697,7 +8043,7 @@
 							"type": "section",
 							"name": "Helena Prathern",
 							"entries": [
-								"Library owner in Warton. Vaelin Prathern's Wife.",
+								"Helena Prathern owns a library in Warton. She is Vaelin Prathern's Wife.",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -7800,7 +8146,7 @@
 							"type": "section",
 							"name": "Threstrom",
 							"entries": [
-								"SUMMARY",
+								"Threstrom is a leader in the Thurik Krouw",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -7901,7 +8247,7 @@
 							"type": "section",
 							"name": "Grithal Crouse",
 							"entries": [
-								"SUMMARY",
+								"Grithal Crouse is Letheres Aerthen's head guard",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -8002,7 +8348,7 @@
 							"type": "section",
 							"name": "Claud Perdack",
 							"entries": [
-								"SUMMARY",
+								"Claud Perdack is the captain of the Whitefin",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -8102,7 +8448,7 @@
 							"type": "section",
 							"name": "Scarab",
 							"entries": [
-								"SUMMARY",
+								"Scarab is a smuggler and a member of the Resistance of Artoz",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -8203,7 +8549,7 @@
 							"type": "section",
 							"name": "James Bartle",
 							"entries": [
-								"SUMMARY",
+								"James Bartle is an independent fisherman",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -8303,7 +8649,7 @@
 							"type": "section",
 							"name": "Elesira Ceydor",
 							"entries": [
-								"SUMMARY",
+								"Elesira Ceydor is the Headmistress of Freaxir, and Armemtus's acolyte",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -8405,7 +8751,7 @@
 							"type": "section",
 							"name": "Nelesan Berdis",
 							"entries": [
-								"SUMMARY",
+								"Nelesan Berdis is the Vice Chancellor Freaxir and Armemtus's acolyte",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -8505,9 +8851,9 @@
 						},
 						{
 							"type": "section",
-							"name": "Professor Harold Deiblen",
+							"name": "Harold Deiblen",
 							"entries": [
-								"SUMMARY",
+								"Harold Deiblen is a history professor at Freaxir",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -8607,9 +8953,9 @@
 						},
 						{
 							"type": "section",
-							"name": "Professor Wendy Shrike",
+							"name": "Wendy Shrike",
 							"entries": [
-								"SUMMARY",
+								"Wendy Shrike is a professor of enchanting items at Freaxir",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -8709,9 +9055,9 @@
 						},
 						{
 							"type": "section",
-							"name": "Professor Fredrick Darton",
+							"name": "Fredrick Darton",
 							"entries": [
-								"SUMMARY",
+								"Fredrick Darton is a professor of rituals at Freaxir",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -8812,7 +9158,7 @@
 							"type": "section",
 							"name": "Jarl Garess",
 							"entries": [
-								"SUMMARY",
+								"Jarl Garess is the librarian of Freaxir and a member of the Resistance of Artoz",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -8914,7 +9260,7 @@
 							"type": "section",
 							"name": "Dram Tharnach",
 							"entries": [
-								"SUMMARY",
+								"Dram Tharnach is a fugitive of Bardoran who stole rameselt",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -9014,7 +9360,7 @@
 							"type": "section",
 							"name": "Letheres Aerthen",
 							"entries": [
-								"SUMMARY",
+								"Letheres Aerthen is a rich landowner in Thrun and a member of the Thrun council",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -9117,7 +9463,7 @@
 							"type": "section",
 							"name": "Theodore Graydon",
 							"entries": [
-								"SUMMARY",
+								"Theodore Graydon is a jewler who became Letheres Aerthen's advisor",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -9218,7 +9564,7 @@
 							"type": "section",
 							"name": "Rohtaurek",
 							"entries": [
-								"SUMMARY",
+								"Rohtaurek is the demon of exhaustion who lives in the Gray Mountains",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -9320,7 +9666,7 @@
 							"type": "section",
 							"name": "Merazarx",
 							"entries": [
-								"SUMMARY",
+								"Merazarx is a dragon Matriarch who is trapped in Dran's Deep",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -9423,7 +9769,7 @@
 							"type": "section",
 							"name": "Michael Wilber",
 							"entries": [
-								"SUMMARY",
+								"Michael Wilber is The first king of Selatis who communicated with Sellarus",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -9523,7 +9869,7 @@
 							"type": "section",
 							"name": "Alric Aerwyna",
 							"entries": [
-								"SUMMARY",
+								"Alric Aerwyna is the prince of Tarehas who joined the Thurik Krouw",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -9553,6 +9899,410 @@
 														"name": "Ideals",
 														"items": [
 															"Quality of company is better than quantity"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Taka",
+							"entries": [
+								"Taka is Rasbo's son who was killed",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Chaotic Good",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Impulsive",
+															"Selfless",
+															"Brave"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Bravery is selflessness"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Ugla",
+							"entries": [
+								"Ugla is Rasbo's wife and Dremin Warberset’s concubine",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Chaotic Good",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Impulsive",
+															"Compassionate",
+															"loyal",
+															"Brave"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Quality of company is better than quantity"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Ceilean Aerwyna",
+							"entries": [
+								"Ceilean Aerwyna is the guardian who raised Aurelis Aerwyna",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Lawful Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Loyal"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"The less important should make sacrifices to the more important"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+															"BONDS"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"DESCRIPTION",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"RACE"
+												],
+												[
+													"Height",
+													"HEIGHT"
+												],
+												[
+													"Gender Presentation",
+													"PRESENTATION"
+												],
+												[
+													"Complexion",
+													"COMPLEXION"
+												],
+												[
+													"Build",
+													"BUILD"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"AGE Years Old (START - END)",
+										{
+											"type": "list",
+											"name": "PERIOD(START - END)",
+											"items": [
+												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Nakiscine",
+							"entries": [
+								"Nakiscine is a witch who convinced Ceilean Aerwyna to steal Aurelis as a child",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Chaotic Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Selfish",
+															"Manipulative",
+															"Methodical"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Kill or be killed",
+															"Knowledge is power"
 														]
 													}
 												],
