@@ -763,6 +763,7 @@
 						"Mayland",
 						"Gartana",
 						"Kortain",
+						"Disciples of Vernacis",
 						"Thrun",
 						"Thurik Krouw",
 						"Elestir",
@@ -801,6 +802,7 @@
 						"River Zurn",
 						"Wastes",
 						"Forlorn Mountains",
+						"Castle Vernacis",
 						"Dry Mountains",
 						"Jhessar",
 						"Rhyten River",
@@ -820,7 +822,7 @@
 						"The Selatis-Tarehas Conflict",
 						"The Craiton-Drow Conflict",
 						"The Death of Taka",
-						"The Aerwyna-Nakiscine Deal"
+						"The Plan of Nakiscine"
 					]
 				},
 				{
@@ -877,10 +879,13 @@
 						"Merazarx",
 						"Michael Wilber",
 						"Alric Aerwyna",
+						"Sierra Aerwyna",
+						"Daniel Aerwyna",
 						"Taka",
 						"Ugla",
 						"Ceilean Aerwyna",
-						"Nakiscine"
+						"Nakiscine",
+						"Selodar"
 					]
 				},
 				{
@@ -2284,6 +2289,93 @@
 						},
 						{
 							"type": "section",
+							"name": "Disciples of Vernacis",
+							"entries": [
+								"The Disciples of Vernacis are a devoted followers of Vernacis",
+								{
+									"type": "inset",
+									"name": "The Disciples of Vernacis have no flag",
+									"entries": [
+										""
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"The Disciples of Vernacis consits of about 50 orcs"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Economy",
+									"entries": [
+										"The Disciples of Vernacis sustain themselfs through hunting and gathering in the Forlorn Mountains. Over it's existance they have become very good at hunting animals like bighorn sheep, coyotes, and snakes for both food and resources. As a result most of the weapons of the Disciples of Vernacis are made from stone and bone, and their clothes made of animal skin."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Government",
+									"entries": [
+										"All of the decisions of the Disciples of Vernacis are made by {@adventure  Vernacis|CRDA|5|Vernacis}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Military",
+									"entries": [
+										"The Disciples of Vernacis have a good portion skilled warriors."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "Founding (1319)",
+											"items": [
+												"In 1319 a division grew between the orc clan {@adventure  Vernacis|CRDA|5|Vernacis} was a part of. Many orcs began leaving in search of better opportunities. On some occasions these orcs would return and tell the others of the growing world outside of the Forlorn Mountains. This caused a division between those in the clan who wanted to stay in the mountains and those who wanted the clan to go out of the mountains.",
+												"Vernacis was a part of the side that wanted to stay. His bad experiences had tainted the rest of Cerdia for him, and he argued against leaving the familiar Forlorn Mountains despite what better lives may be outside of them. Vernacis became a leader of those who wanted to stay. Eventually the clan split, and Vernacis was made leader of the new clan. This was the beginning of the Disciples of Vernacis."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Vernacis|CRDA|5|Vernacis}",
+														"{@adventure Forlorn Mountains|CRDA|2|Forlorn Mountains}"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Locations",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure Castle Vernacis|CRDA|2|Castle Vernacis}"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
 							"name": "Thrun",
 							"entries": [
 								"Thrun is a small but wealthy desert nation.",
@@ -2405,8 +2497,7 @@
 								{
 									"type": "inset",
 									"name": "The Thurik Krouw has no flag",
-									"entries": [
-									]
+									"entries": []
 								},
 								{
 									"type": "entries",
@@ -4880,6 +4971,82 @@
 						},
 						{
 							"type": "section",
+							"name": "Castle Vernacis",
+							"entries": [
+								"Castle Vernacis is Vernacis’s fortress in the Forlorn Mountains.",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Atmosphere",
+									"entries": [
+										"ENTER APPEARENCE"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER EVENTS"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER GRPOUPS"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
 							"name": "Dry Mountains",
 							"entries": [
 								"The Dry Mountains are a mountain range in the wastes.",
@@ -4958,7 +5125,8 @@
 							"type": "section",
 							"name": "Rhyten River",
 							"entries": [
-								"The Rhyten River is a river in the wastes and Thrun.",								{
+								"The Rhyten River is a river in the wastes and Thrun.",
+								{
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
@@ -5343,7 +5511,28 @@
 							"type": "section",
 							"name": "The Warberset-Kershak Deal",
 							"entries": [
-								""
+								{
+									"type": "entries",
+									"name": "Warberset Grows Angry (1562)",
+									"entries": [
+										"{@adventure Dremin Warberset|Cerdia|5|Dremin Warberset} came into power in {@adventure Bardoran|Cerdia|1|Bardoran} with the goal of forming a united nation of dwarves as opposed to the smaller and separate nations of his time. While he had successful trade agreements with the other nations, these nations did not want to form a union.",
+										"Bardoran and its neighbors had trade deals where Bardoran would gain access to the large forges of the nearby nations to process mined goods, and give the owner of the forge a cut of the results. In 1562, Warberset announced plans to build a forge in Bardoran, and the other nations felt betrayed. They began cutting Bardoran out of trade agreements which greatly stunted Bardoran’s previously growing economy. This made Warberset very angry with the neighboring nations."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "First Contact with Kershak (1565)",
+									"entries": [
+										"While he was aware of the dwarven nations mining above him, {@adventure Kershak|Cerdia|5|Kershak} didn't really care until 1565 when some dwarves entered his volcanic lair. Kershak was angry at the time because he couldn't get the {@adventure Will of Sellarus|Cerdia|4|Will of Sellarus}, so he decided to take his anger out on the small dwarven nation. Before he did, Kershak became aware of Warberset's frustrations and realized Warberset could be manipulated. Through doing this, Kershak could build a force of mortals to search for the will."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Deal (1575)",
+									"entries": [
+										"Kershak called Warberset down to his lair in 1575 where he made a proposition. He explained he needed manpower to search for something, and he would be willing to help Warberset if they made a deal. Kershak would have ultimate control over the nation of Bardoran, and in return Kershak would help Warberset form a united dwarven nation by force. Warberset agreed, and {@adventure the conquest|CRDA|3|The Conquest of the North} began."
+									]
+								}
 							]
 						},
 						{
@@ -5354,9 +5543,9 @@
 									"type": "entries",
 									"name": "The Start of Conquest (1576)",
 									"entries": [
-										"Before Bardoran took over, it was a much smaller nation of miners like the nations around it. Eventually the miners of each nation began mine in the same areas and conflicts grew over territory. On a few occasions these disputes became violent. The leaders of these nations made an agreement over territory, but resentment remained in the minds of the miners.",
+										"Before {@adventure Bardoran|Cerdia|1|Bardoran} took over, it was a much smaller nation of miners like the nations around it. Eventually the miners of each nation began mine in the same areas and conflicts grew over territory. On a few occasions these disputes became violent. The leaders of these nations made an agreement over territory, but resentment remained in the minds of the miners.",
 										"Before the conquest Bardoran and its neighbors had trade deals where Bardoran would gain access to the large forges of the nearby nations to process mined goods, and give the owner of the forge a cut of the results. In 1562, Bardoran began construction on its own forge which made the nearby nations feel betrayed. They began cutting Bardoran out of trade agreements which greatly stunted Bardoran’s previously growing economy. This increased tensions further.",
-										"In 1575, Kershak agreed to provide his services in combat as part of the deal with the Bardoran king Dremin Warberset."
+										"In 1575, {@adventure Kerhsak|Cerdia|1|Kerhsak} agreed to provide his services in combat as part of {@adventure |Cerdia|1|Bardoran} with the Bardoran king, {@adventure Dremin Warberset|Cerdia|5|Dremin Warberset}."
 									]
 								},
 								{
@@ -5379,6 +5568,33 @@
 									"name": "End of the Conquest (1607)",
 									"entries": [
 										"After his battle with Merazarx in 1607, Kershak wanted to take time to regain power. At the same time, the nobles of Bardoran were satisfied with the loot they had acquired. In 1608 the nation Artoz feared for its safety and attacked Bardoran preemptively. Bardoran responded with a massive military attack that easily crushed Artoz. Bardoran pulled most of their troops back into the north and instead had a much smaller military presence to establish a colony which was named Warberland."
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "The Armentus-Kerhsak Deal",
+							"entries": [
+								{
+									"type": "entries",
+									"name": "Fears Rise (1575 - 1580)",
+									"entries": [
+										"In 1575 {@adventure Bardoran|CRDA|1|Bardoran} began its {@adventure The Conquest of the North|CRDA|3|The Conquest of the North} where {@adventure Kerhsak|CRDA|5|Kershak} would attack the military of an area and Bardoran soldiers would enter after to claim the land. By 1580, Bardoran had begun expanding past its previously neighboring nations and wass growing quite fast. This made the students and faculty alike of {@adventure Freaxir|CRDA|1|Freaxir} nervous for their safety. After discussing with {@adventure Elesira Ceydor|CRDA|5|Elesira Ceydor}, {@adventure Armentus|CRDA|5|Armemtus} decided to ensure the protection of Freaxir and herself."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Deal (1580)",
+									"entries": [
+										"Armentus proposed a deal to Kershak that Freaxir would remain protected and able to operate even if the surrounding area is taken over. In return, Bardoran would have compliance by Freaxir if needed, and Kershak would not have to worry about Armentus interfering with his plans. Kershak accepted as he worried his siblings would try to get the will before him."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Impacts (1580 - Present)",
+									"entries": [
+										"After the deal had been made, Armentus went into hiding in the deep ocean to avoid Kershak changing his mind. The area Freaxir occupied was eventually taken over, but Kershak made sure Bardoran left it alone."
 									]
 								}
 							]
@@ -5535,9 +5751,46 @@
 						},
 						{
 							"type": "section",
-							"name": "The Aerwyna-Nakiscine Deal",
+							"name": "The Plan of Nakiscine",
 							"entries": [
-								"The prince of Tarehas, Alric Aerwyna, is cursed because of something his mother did when she was younger that upset some powerful magic user. Meanwhile, whiles she was young, AG (Aurelis guardian) was learning wizardry (perhaps at freaxir) when a witch began teaching her and so that the witch could take advantage of her. Once she grew up, AG searched for a way to break the curse when she went back to the witch and askked for advice. The witch explained that a drow heart of the same age as Alric's could be used in a ritual. AG went to the forest Drisk and prayed to Freiseln (Per the witch's instructions), explaining the situation, but saying that she wanted the healing power of Freiseln. The drow took pity on her, and brought her to the caves. Freiseln gave her an elixir, and AG took a drow baby on her way out. The elixir healed the sick Alric baby, but as he got older, sickness came back, and AG had to use Aurelius's blood in a potion to heal him. She refused to actualy cut Aurelius's heart out, but the witch was planning to all along for her own gain"
+								{
+									"type": "entries",
+									"name": "The Curse (1708)",
+									"entries": [
+										"In 1708 {@adventure Sierra Aerwyna|CRDA|5|Sierra Aerwyna} (at the time called Sierra forehtoak) was romantically pursued by {@adventure Salodar|CRDA|5|Salodar}. Aerwyna did not accept these advances and Salodar became angry. With her knowing, He cursed her firstborn because he knew she wanted to be a mother."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Aleric Aerwyna is born ()",
+									"entries": [
+										"When Sierra became pregnant with {@adventure Aleric Aerwyna|CRDA|5|Aleric Aerwyna}, she warned {@adventure Daniel Aerwyna|CRDA|5|Daniel Aerwyna} and {@adventure Ceilean Aerwyna|CRDA|5|Ceilean Aerwyna} of the curse. Daniel asked Ceilean to try to find some cure, and Ceilean eagerly began searching. While traveling, Ceilean remembered {@adventure Nakiscine|CRDA|5|Nakiscine} and used her crystal ball to make contact."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Trick ()",
+									"entries": [
+										"Nakiscine saw an opportunity to gain power. Nakiscine created a ritual to give herself youth and magical power using the heart of a drow. The drow has to be an adult and must have not gone through the {@adventure Verathon|CRDA|1|Verathon} ceremony, where {@adventure Freiseln|CRDA|5|Freiseln} gives some of her venom to them. Finding a drow that fits these restrictions had been impossible but Nakiscine realised she can use Ceilean Aerwyna to get such a drow. Freiseln would have sensed Nakiscine trying to steal a drow child, but not the less powerful Ceilean Aerwyna.",
+										"Nakiscine told Aerwyna that she can use the blood of a healthy drow with relatively the same physical maturity to continuously heal Alric Aerwyna. Nakiscine agreed to make an elixir that would use the blood to help Alric, as well as an elixir that makes the drow appear and age like a human.",
+										"Nakiscine in reality planned to use some of the blood for herself, and when the time is right, harvest the heart of the drow"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Stealing the Drow ()",
+									"entries": [
+										"Ceilean Aerwyna hired 5 mercenaries to help her steal the drow child. When in the caves under the {@adventure Forest Drisk|CRDA|2|Forest Drisk}, the mercenaries were surrounded by the drow, while Aerwyna, who was not traveling directly with them, snuck into Verathon and stole a drow infant. By the time the drow got the mercenaries to leave, Aerwyna had escaped undetected."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "The Potions ()",
+									"entries": [
+										"When Ceilean Aerwyna returned with the infant, Alric Aerwyna had been born but was very sick. Nakiscine quickly made a potion that temporarily healed the Alric, saving his life. Nakiscine brought {@adventure her house|CRDA|2|Nakiscine's House} into the mountains of {@adventure Tarehas|CRDA|1|Tarehas} so she could continue to make the potions. Ceilean named the child Aurelius and raised her as her own child, using a potion made by Nakiscine to make Aurelius age and appear like a human. In doing this, Aurelius was kept healthy and around the same physical maturity of Alric so the blood could be used to heal him. Every month, Ceilean would extract blood using an enchanted needle that could not be felt by Aurelius throughout her sleep. This needle would also heal the small wound it left.",
+										"Ceilean did not tell the whole story to Daniel and Sierra. She said that there was a powerful magic user who was making the potion for Alric, but did not mention anything about the drow or who the magic user was. She said that the child she was taking care of was the daughter of a friend who she met on her travels. Daniel and Sierra, meanwhile, did not tell Alirc about the curse and snuck the potion into his food."
+									]
+								}
 							]
 						}
 					]
@@ -5733,9 +5986,9 @@
 										},
 										{
 											"type": "list",
-											"name": "The Kershak-Warberset Deal (1575)",
+											"name": "The Warberset-Kershak Deal (1575)",
 											"items": [
-												"Wanting nothing more than more power, Kershak realised that he would need power and help to scour Cerdia for the keys and the will itself. When Bardoran began mining close to his volcanic lair, Kershak was initially annoyed but then saw that he could take advantage of the king, Dremin Warberset. Since Warberset was already mad at neighboring kingdoms, Kershak easily fueled his rage and convinced him to make the Kershak-Warberset deal."
+												"Wanting nothing more than more power, Kershak realised that he would need power and help to scour Cerdia for the keys and the will itself. When Bardoran began mining close to his volcanic lair, Kershak was initially annoyed but then saw that he could take advantage of the king, Dremin Warberset. Since Warberset was already mad at neighboring kingdoms, Kershak easily fueled his rage and convinced him to make the {@adventure The Warberset-Kershak Deal|CRDA|3|The Warberset-Kershak Deal}."
 											]
 										},
 										{
@@ -6928,9 +7181,49 @@
 										"427 Years Old (1286 - 1713)",
 										{
 											"type": "list",
-											"name": "Early Life(1286 - 1302)",
+											"name": "Early Life (1286 - 1302)",
 											"items": [
-												"Vernacis was born Rhojok Srag"
+												"Vernacis was born Rhojok Srag in a clan of abouth 300 orcs in the {@adventure Forlorn Mountains|CRDA|2|Forlorn Mountains}. Until he was 16 Vernacis was a hunter-gatherer like the rest of his clan."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Becoming a Wizard (1302 - 1318)",
+											"items": [
+												"At the age of 16 Vernacis left the clan to seek other opportunities. During his travels he met a knowledgeable wizard looking for an apprentice. Vernacis was quite good at wizardry but because of his race he was not thought to be very intelligent or capable.",
+												"Vernacis wanted to continue progressing but his teacher would not allow him to have the more advanced books. In anger one night of 1304 , Vernacis used thunder wave against his Master, killing him. He stole the books and ran off.",
+												"after this event, Vernacis continued to study the books and killng other wizards he came across for their books. in 1318 he returned to his clan after being wanted in many places."
+											]
+										},
+										{
+											"type": "list",
+											"name": "The Disciples of Vernacis (1319)",
+											"items": [
+												"In 1319 a division grew between the orc clan Vernacis was a part of. Many orcs began leaving in search of better opportunities. On some occasions these orcs would return and tell the others of the growing world outside of the Forlorn Mountains. This caused a division between those in the clan who wanted to stay in the mountains and those who wanted the clan to go out of the mountains.",
+												"Vernacis was a part of the side that wanted to stay. His bad experiences had tainted the rest of Cerdia for him, and he argued against leaving the familiar Forlorn Mountains despite what better lives may be outside of them. Vernacis became a leader of those who wanted to stay. Eventually the clan split, and Vernacis was made leader of the new clan. This was the beginning of the {@adventure Disciples of Vernacis|CRDA|1|Disciples of Vernacis}."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Growing Power (1319 - 1713)",
+											"items": [
+												"As Vernacis became more powerful from the books and items he had stolen, He became more confident and power hungry. He began traveling again in search of more power. He was successful and began haording all forms of books and magical items. One of these items was {@adventure The First Key of Sellarus|CRDA|3|The First Key of Sellarus}.",
+												"During this search for power, Vernacis became obsessed with becoming imortal. He had collected many books and began using many different methods to deage himself. He was successful in keeping himself at the age of 40 for hundreds of years.",
+												"In 1421 Vernacis and {@adventure Elesira Ceydor|CRDA|5|Elesira Ceydor} encountered eachother while trying to obtain the same book. They fought and Vernacis succeeded in getting the book after seriously injuring Ceydor. Vernacis was also injured, however, and he began to travel less affterwards."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Meeting Rafod Srag (1713)",
+											"items": [
+												"In 1713, Vernacis’s disciples captured {@adventure Rafod Sarg|CRDA|5|Rafod Sarg} who explained he was a relative of Vernacis and had come to lead wizardry from Vernacis. Sarg was Vernacis’s  great great nephew, and Vernacis was very excited to have an apprentice, so Sarg was accepted."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Death (1713)",
+											"items": [
+												"Three months after being accepted, Vernacis caught Srag trying to escape. Vernacis was mad and hurt Srag would try to do this. In his anger Vernacis fired a firebolt at Srag who dodged it and fired back. Vernacis deflected the bolt but accidentally sent it into a jar with a spell that exploded and killed Vernacis."
 											]
 										}
 									]
@@ -7028,9 +7321,25 @@
 										"17 Years Old (1696 - Present)",
 										{
 											"type": "list",
-											"name": "Running away (1713)",
+											"name": "Running away (1712-1713)",
 											"items": [
-												""
+												"In 1712, Rafod Srag ran away from his home because he didn’t want to be a sheep farmer all his life. He went to Thrun initially but was unable to find work with his limited skills. He remembered hearing about his Great Great Uncle (Vernacis) being a great wizard who lived in the Forlorn Mountains. Srag thought he could learn magic under his relative and went into the mountains."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Living with Vernacis (1713)",
+											"items": [
+												"Once arriving in the mountains, Srag was captured by the disciples of Vernacis. Srag claimed he was a relative of Vernacis who was trying to learn wizardry, so the warriors brought him to the dungeon of Castle Vernacis. Vernacis questioned Srag and did a blood test, and found Srag was in fact his relative.",
+												"Vernacis made Srag his apprentice and Srag began to learn magic. He was quite good at it and enjoyed doing magic, but he came to realize Vernacis was extremely cruel. Vernacis would boast about terrible things he has done and was easily angered."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Killing Vernacis (1713)",
+											"items": [
+												"In 1713, about three months after Srag had arrived, an innocent traveler was captured and incinerated by Vernacis in front of Srag. Thoroughly traumatized and morally uneasy, Srag atttemped to escape from Castle Vernacis by climbing a rope down from the window of his room. Before he could begin climbing, Vernacis caught him and was enraged. Vernacis fired a fire bolt at Srag who dodged and fired back. Srag’s bolt was also deflected but it hit a jar with a spell that exploded, killing Vernacis. Some disciples rushed into the room where Srag quickly used disguise self to pretend to be Vernacis. Srag (as Vernacis) convinced them that the he was just doing an experiment and everything was fine.",
+												"Following killing Vernacis, Srag realized that the disciples would hunt him down if they found out. To have time to make a plan, Srag continued to use disguise self to make it appear that Vernacis was still alive. Unable to think of a plan, Srag has been doing this for three weeks."
 											]
 										}
 									]
@@ -8735,7 +9044,7 @@
 									"type": "entries",
 									"name": "Lifetime",
 									"entries": [
-										"AGE Years Old (START - END)",
+										"620 Years Old (1093 - Present)",
 										{
 											"type": "list",
 											"name": "PERIOD(START - END)",
