@@ -1625,7 +1625,7 @@
 									"type": "entries",
 									"name": "Government",
 									"entries": [
-										"{@adventure Headmistress Ceydor|CRDA|5|Elesira Ceydor} makes all the decisions at Freaxir but {@adventure Armentus|CRDA|5|Armentus} has the final say. Ceydor does often consult the professors of Freaxir before making a decision, and passes their input along to Armentus.",
+										"{@adventure Headmistress Ceydor|CRDA|5|Elesira Ceydor} makes all the decisions at Freaxir but {@adventure Armentus|CRDA|5|Armentus} has the final say. Ceydor does often consult the faculty of Freaxir before making a decision, and passes their input along to Armentus.",
 										{
 											"type": "inset",
 											"name": "Professor-Armentus Relations",
@@ -7209,7 +7209,7 @@
 											"items": [
 												"As Vernacis became more powerful from the books and items he had stolen, He became more confident and power hungry. He began traveling again in search of more power. He was successful and began haording all forms of books and magical items. One of these items was {@adventure The First Key of Sellarus|CRDA|3|The First Key of Sellarus}.",
 												"During this search for power, Vernacis became obsessed with becoming imortal. He had collected many books and began using many different methods to deage himself. He was successful in keeping himself at the age of 40 for hundreds of years.",
-												"In 1421 Vernacis and {@adventure Elesira Ceydor|CRDA|5|Elesira Ceydor} encountered eachother while trying to obtain the same book. They fought and Vernacis succeeded in getting the book after seriously injuring Ceydor. Vernacis was also injured, however, and he began to travel less affterwards."
+												"In 1339 Vernacis and {@adventure Elesira Ceydor|CRDA|5|Elesira Ceydor} encountered eachother while trying to obtain the same book. They fought and Vernacis succeeded in getting the book after seriously injuring Ceydor. Vernacis was also injured, however, and he began to travel less affterwards."
 											]
 										},
 										{
@@ -7478,15 +7478,6 @@
 															"Disobedience is Justice"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -7578,15 +7569,6 @@
 															"Everyone deserves a freind"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -7676,15 +7658,6 @@
 														"name": "Ideals",
 														"items": [
 															"Quality of company is better than quantity of company"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -7779,15 +7752,6 @@
 															"Quality of company is better than quantity of company"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -7878,15 +7842,6 @@
 														"items": [
 															"Everyone is unique",
 															"Everyone deserves a chance"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -7981,15 +7936,6 @@
 															"Everyone deserves a chance"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -8079,15 +8025,6 @@
 														"name": "Ideals",
 														"items": [
 															"Quality of company is better than quantity of company"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -8181,15 +8118,6 @@
 															"IDEALS"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -8280,15 +8208,6 @@
 														"name": "Ideals",
 														"items": [
 															"Knowledge is power"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -8385,15 +8304,6 @@
 															"Knowledge is power"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -8484,15 +8394,6 @@
 														"name": "Ideals",
 														"items": [
 															"Bravery is selflessness"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -8587,15 +8488,6 @@
 															"Kill or be killed"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -8685,15 +8577,6 @@
 														"name": "Ideals",
 														"items": [
 															"Everything worth anything has a price"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -8788,15 +8671,6 @@
 															"Anything for the cause"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -8886,15 +8760,6 @@
 														"name": "Ideals",
 														"items": [
 															"Everyone deserves a friend"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -8990,15 +8855,6 @@
 															"Knowledge is power"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -9008,7 +8864,7 @@
 									"type": "entries",
 									"name": "Appearance",
 									"entries": [
-										"DESCRIPTION",
+										"Elesira Ceydor wears a blue robe with silver trim. She wears a hat that resembles a cylinder with the top widened a bit. This hat also has silver trim and the symbol of Armentus. She wears round silver glasses and has blue eyes. She wears her light blond hair in braids. She has fair skin and looks middle aged for a human.",
 										{
 											"type": "table",
 											"colStyles": [
@@ -9018,23 +8874,23 @@
 											"rows": [
 												[
 													"Race",
-													"RACE"
+													"Wood Elf"
 												],
 												[
 													"Height",
-													"HEIGHT"
+													"6.1 ft."
 												],
 												[
 													"Gender Presentation",
-													"PRESENTATION"
+													"Feminine"
 												],
 												[
 													"Complexion",
-													"COMPLEXION"
+													"Fair"
 												],
 												[
 													"Build",
-													"BUILD"
+													"Average"
 												]
 											]
 										}
@@ -9047,9 +8903,31 @@
 										"620 Years Old (1093 - Present)",
 										{
 											"type": "list",
-											"name": "PERIOD(START - END)",
+											"name": "Early Years (1093 - 1205)",
 											"items": [
-												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+												"Elesira Ceydor was born in {@adventure Elestir|CRDA|2|Elestir} in 1093. She enjoyed learning and spent a lot of time with the council members of Elestir who were very knowledgeable and taught her many things about history, magic, art, and leadership."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Exploring (1205 - 1320)",
+											"items": [
+												"Ceydor left Elestir in 1205 to pursue knowledge. She began traveling to libraries and book collections around Cerdia. She would also go into taverns and other gathering areas to listen to what people are talking about. Sometimes she would ask questions about the area or the topic of discussion."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Founding Freaxir (1320 - 1340)",
+											"items": [
+												"In 1320, Ceydor went onto a fishing boat for the experience. While there she created mending scrolls for the fisher people to repair damaged equipment. During this trip {@adventure Armentus|CRDA|5|Armentus} noticed her and heard her telling the fisher people about her pursuit  of knowledge. Amentus began speaking to her and proposed making a wizard school to share knowledge among magic users and generations to come. Ceydor loved the idea and began searching for wizards, books,and locations. They named this school {@adventure Freaxir|CRDA|2|Freaxir} and Ceydor became the Headmistress.",
+												"Ceydor continued to search from 1320 to 1340. She decided to build the school in what is now Warberland but at the time was the growing nation of Artoz. Ceydor and the other wizards she found sold scrolls and enchanted items to fund the building of the school. Ceydor designed the architecture of Freaxir."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Encountering Vernacis (1339)",
+											"items": [
+												"in 1339 Ceydor and {@adventure Vernacis|CRDA|5|Vernacis} encountered eachother while trying to obtain the same book. They fought and Vernacis succeeded in getting the book after seriously injuring Ceydor. Ceydor had many helpful wizards that nursed her back to health."
 											]
 										}
 									]
@@ -9092,15 +8970,6 @@
 															"Order is important"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -9110,7 +8979,7 @@
 									"type": "entries",
 									"name": "Appearance",
 									"entries": [
-										"DESCRIPTION",
+										"Nelesan Berdis wears a blue robe as custom for the faculty of Freaxir, but also wears a silver sash with the symbol of Armentus. He has blue skin, dark brown eyes, and looks about his age of 46. Berdis has black dreadlocks that he pushes back and horns on his forehead that curl upward.",
 										{
 											"type": "table",
 											"colStyles": [
@@ -9120,23 +8989,23 @@
 											"rows": [
 												[
 													"Race",
-													"RACE"
+													"Tiefling"
 												],
 												[
 													"Height",
-													"HEIGHT"
+													"5.9"
 												],
 												[
 													"Gender Presentation",
-													"PRESENTATION"
+													"Masculine"
 												],
 												[
 													"Complexion",
-													"COMPLEXION"
+													"Blue"
 												],
 												[
 													"Build",
-													"BUILD"
+													"average"
 												]
 											]
 										}
@@ -9146,12 +9015,27 @@
 									"type": "entries",
 									"name": "Lifetime",
 									"entries": [
-										"AGE Years Old (START - END)",
+										"46 Years Old (1667 - Present)",
 										{
 											"type": "list",
-											"name": "PERIOD(START - END)",
+											"name": "PERIOD(1667 - 1677)",
 											"items": [
-												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+												"Nelesan Berdis was born in 1667 in {@adventure Bardoran|CRDA|1|Bardoran}. His group was one of the tiefling tribes that was left over from the conquest, but was still being pressured to leave. Growing up, Berdis was very poor and lived from meal to meal. He was very interested in the stories his elders would tell about the origin of the tieflings."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Contacting Armentus (1677 - 1680)",
+											"items": [
+												"At the age of 10, Berdis began to try to contact {@adventure Armentus|CRDA|5|Armentus} who, as a blue tiefling, he was related to. He was unsuccessful until he found a crystal ball and a book on how to use it. He worked tirelessly learning how to use the ball until he actually made contact with Armentus at the age of 13.",
+												"Armentus liked Berdis's determination and eagerness to learn. She suggested he go to {@adventure Freaxir|CRDA|2|Freaxir} where he could continue to expand his knowledge."
+											]
+										},
+										{
+											"type": "list",
+											"name": "Freaxir (1680 - Present)",
+											"items": [
+												"Berdis was enthralled by Freaxir and quickly began to pick up wizardry. He, though young, was successful in many of his classes. By the age of 23, Berdis had graduated but still stayed around Freaxir to continue expanding his knowledge. This caught the attention of both Armentus and {@adventure Headmistress Elesira Ceydor|CRDA|5|Elesira Ceydor}. Being knowledgeable on many topics Berdis was asked by Ceydor to be a tutor. Berdis agreed and by the age of 30, Ceydor gave him a professor position. During this time, Ceydor and Berdis became good friends and in 1701 he was made the vice chancellor of Freaxir."
 											]
 										}
 									]
@@ -9194,15 +9078,6 @@
 															"History is a window into the future"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -9212,7 +9087,7 @@
 									"type": "entries",
 									"name": "Appearance",
 									"entries": [
-										"DESCRIPTION",
+										"Harold Deiblen wears a blue robe with a silver symbol of Armentus as custom for the faculty of Freaxir. He has tan skin, green eyes, and graying brown hair. He is balding but has hair on the sides and back of his head, as well as a full walrus mustache.",
 										{
 											"type": "table",
 											"colStyles": [
@@ -9222,23 +9097,23 @@
 											"rows": [
 												[
 													"Race",
-													"RACE"
+													"Halfling"
 												],
 												[
 													"Height",
-													"HEIGHT"
+													"3.5 ft."
 												],
 												[
 													"Gender Presentation",
-													"PRESENTATION"
+													"Masculine"
 												],
 												[
 													"Complexion",
-													"COMPLEXION"
+													"Tan"
 												],
 												[
 													"Build",
-													"BUILD"
+													"Stout"
 												]
 											]
 										}
@@ -9248,14 +9123,7 @@
 									"type": "entries",
 									"name": "Lifetime",
 									"entries": [
-										"AGE Years Old (START - END)",
-										{
-											"type": "list",
-											"name": "PERIOD(START - END)",
-											"items": [
-												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
-											]
-										}
+										"55 Years Old (1658 - Present)"
 									]
 								}
 							]
@@ -9296,15 +9164,6 @@
 															"Knowledge is power"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -9314,7 +9173,7 @@
 									"type": "entries",
 									"name": "Appearance",
 									"entries": [
-										"DESCRIPTION",
+										"Wendy Shrike wears a blue robe with a silver symbol of Armentus as custom for the faculty of Freaxir. She has tan skin, dark brown eyes, and back length, fluffy hair that constantly changes color.",
 										{
 											"type": "table",
 											"colStyles": [
@@ -9324,23 +9183,23 @@
 											"rows": [
 												[
 													"Race",
-													"RACE"
+													"Human"
 												],
 												[
 													"Height",
-													"HEIGHT"
+													"5.8"
 												],
 												[
 													"Gender Presentation",
-													"PRESENTATION"
+													"Feminine"
 												],
 												[
 													"Complexion",
-													"COMPLEXION"
+													"Tan"
 												],
 												[
 													"Build",
-													"BUILD"
+													"Thin"
 												]
 											]
 										}
@@ -9350,14 +9209,7 @@
 									"type": "entries",
 									"name": "Lifetime",
 									"entries": [
-										"AGE Years Old (START - END)",
-										{
-											"type": "list",
-											"name": "PERIOD(START - END)",
-											"items": [
-												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
-											]
-										}
+										"42 Years Old (1671 - Present)"
 									]
 								}
 							]
@@ -9397,15 +9249,6 @@
 															"Everyone deserves a chance"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -9415,7 +9258,7 @@
 									"type": "entries",
 									"name": "Appearance",
 									"entries": [
-										"DESCRIPTION",
+										"Fredrick Darton wears a blue robe with a silver symbol of Armentus as custom for the faculty of Freaxir. He has brown skin, and dark brown eyes. He has short, black hair that he keeps pulled back using gel, and a very thin mustache.",
 										{
 											"type": "table",
 											"colStyles": [
@@ -9425,23 +9268,23 @@
 											"rows": [
 												[
 													"Race",
-													"RACE"
+													"Human"
 												],
 												[
 													"Height",
-													"HEIGHT"
+													"5.9 ft"
 												],
 												[
 													"Gender Presentation",
-													"PRESENTATION"
+													"Masculine"
 												],
 												[
 													"Complexion",
-													"COMPLEXION"
+													"Brown"
 												],
 												[
 													"Build",
-													"BUILD"
+													"Average"
 												]
 											]
 										}
@@ -9451,14 +9294,7 @@
 									"type": "entries",
 									"name": "Lifetime",
 									"entries": [
-										"AGE Years Old (START - END)",
-										{
-											"type": "list",
-											"name": "PERIOD(START - END)",
-											"items": [
-												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
-											]
-										}
+										"37 Years Old (1676 - Present)"
 									]
 								}
 							]
@@ -9499,15 +9335,6 @@
 															"Those who are fortunate should protect the less fortunate"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -9517,7 +9344,7 @@
 									"type": "entries",
 									"name": "Appearance",
 									"entries": [
-										"DESCRIPTION",
+										"Jarl Garess wears a blue robe with a silver symbol of Armentus as custom for the faculty of Freaxir. He has green eyes, and rectangular silver glasses. He has red scaly skin.",
 										{
 											"type": "table",
 											"colStyles": [
@@ -9527,23 +9354,23 @@
 											"rows": [
 												[
 													"Race",
-													"RACE"
+													"Kobalt"
 												],
 												[
 													"Height",
-													"HEIGHT"
+													"3 ft."
 												],
 												[
 													"Gender Presentation",
-													"PRESENTATION"
+													"Masculine"
 												],
 												[
 													"Complexion",
-													"COMPLEXION"
+													"Red"
 												],
 												[
 													"Build",
-													"BUILD"
+													"Thin"
 												]
 											]
 										}
@@ -9553,14 +9380,7 @@
 									"type": "entries",
 									"name": "Lifetime",
 									"entries": [
-										"AGE Years Old (START - END)",
-										{
-											"type": "list",
-											"name": "PERIOD(START - END)",
-											"items": [
-												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
-											]
-										}
+										"74 Years Old (1639 - Present)"
 									]
 								}
 							]
@@ -9597,15 +9417,6 @@
 														"name": "Ideals",
 														"items": [
 															"Life is Cruel"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -9702,15 +9513,6 @@
 															"Kill or be killed"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -9801,15 +9603,6 @@
 														"items": [
 															"Every man for themselves",
 															"Everything worth anything has a price"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -9903,15 +9696,6 @@
 														"name": "Ideals",
 														"items": [
 															"Kill or be killed"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -10008,15 +9792,6 @@
 															"Quality of company is better than quantity of company"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -10106,15 +9881,6 @@
 														"name": "Ideals",
 														"items": [
 															"Strength in numbers"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -10210,15 +9976,6 @@
 															"Quality of company is better than quantity"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -10309,15 +10066,6 @@
 														"name": "Ideals",
 														"items": [
 															"Bravery is selflessness"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -10413,15 +10161,6 @@
 															"Quality of company is better than quantity"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
-														]
-													}
 												]
 											]
 										}
@@ -10510,15 +10249,6 @@
 														"name": "Ideals",
 														"items": [
 															"The less important should make sacrifices to the more important"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
@@ -10612,15 +10342,6 @@
 														"items": [
 															"Kill or be killed",
 															"Knowledge is power"
-														]
-													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"BONDS"
 														]
 													}
 												]
