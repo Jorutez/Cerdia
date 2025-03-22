@@ -5872,6 +5872,197 @@
 					"entries": [
 						{
 							"type": "section",
+							"name": "Sellarus",
+							"entries": [
+								"Sellarus is the demon of will and stubbornness. He is the Husband of Hebeshca and the father of Kershak, Cain, and Armentus.",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"True Neutral",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Helpful",
+															"Unemotional",
+															"Stuborn"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Will is a virtue"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"Sellarus is very large and muscular. He has tough gray-blue skin and thick, white fur that covers his back and forearms. He has similar long white hair on his head, and a long white beard. His fingers and toes are long claws like that of a sloth. He doesn't have hands or feet, just nubs his claws protrude from. He has a long, muscular tail with four claws at the end that functions like a third arm. He has deer-like antlers protruding from the sides of his head and pupiless eyes.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Demon"
+												],
+												[
+													"Height",
+													"20 ft."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Gray-Blue"
+												],
+												[
+													"Build",
+													"Bulky and Muscular"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"Innumerable Years Old (BCE - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Hebeshca",
+							"entries": [
+								"Hebeshca is the demon of mystery and misdirection. She is the wife of Sellarus and the mother of Kershak, Cain, and Armentus.",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Neutral Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Self-Absorbed",
+															"Manipulative",
+															"Methodical",
+															"Cruel"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Kill or be killed"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"Hebeshca is very muscular and has six arms, with three fanning outward from each of her shoulders. She has sharp, vampire-like fangs and long black hair she keeps pulled back into  many braids. Her eyes are tall and like that of a lizard and she has three spikes protruding back around either side of her face. Her skin changed color based on what type of damage she is doing, or element she is manipulating. She also has black patterns across her skin.",
+										"Hebeshca wears silver armor with black cloth underneath. Her armor is mainly decorative and somewhat sparse. It covers her torso, shoulders, pelvis, calves and forearms. She also has a decorative headband that goes around the sides of her face and comes to a point at the top. Her black clothes under the armor cover the rest of her body, excluding her arms, head, and feet.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Demon"
+												],
+												[
+													"Height",
+													"20 ft."
+												],
+												[
+													"Gender Presentation",
+													"Feminine"
+												],
+												[
+													"Complexion",
+													"Varies"
+												],
+												[
+													"Build",
+													"Muscular"
+												]
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Hebeshca Skin Color",
+											"entries": [
+												{
+													"type": "list",
+													"name": "",
+													"items": [
+														"Fire: Red",
+														"Water: Blue",
+														"Earth: Green",
+														"Thunder/Air: Yellow",
+														"Necrotic: Purple",
+														"Psychic: White",
+														"Poison/Acid: Orange"
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"Innumerable Years Old (BCE - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
 							"name": "Kershak",
 							"entries": [
 								"Kershak is the demon that helped Bardoran take over the north. He is the demon of greed and power hunger. Kershak is the eldest child of Sellarus and Habeshca and the brother of Cain and Armentus. ",
@@ -5905,21 +6096,6 @@
 															"The weak deserve to die"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"{@adventure Sellarus|CRDA|5|Sellarus}. Kershak's father, who he hates",
-															"{@adventure Hebeshca|CRDA|5|Hebeshca}. Kershak's mother, who he fears",
-															"{@adventure Cain|CRDA|5|Cain}. Kershak's brother",
-															"{@adventure Armentus|CRDA|5|Armentus}. Kershak's sister",
-															"{@adventure Serick|CRDA|5|Serick}. The only mortal Kershak likes",
-															"{@adventure Bardoran|CRDA|1|Bardoran}",
-															"{@adventure Dremin Warberset|CRDA|5|Dremin Warberset}. Kershak can easily manipulate to control the forces of Bardoran"
-														]
-													}
 												]
 											]
 										}
@@ -5944,7 +6120,7 @@
 												],
 												[
 													"Height",
-													"40 ft."
+													"20 ft."
 												],
 												[
 													"Gender Presentation",
