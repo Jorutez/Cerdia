@@ -122,7 +122,7 @@
 			"rarity": "legendary",
 			"type": "T",
 			"entries": [
-				"Compass that can points to things hidden with magic, up to 50 ft away",
+				"Compass that can points to things hidden with magic, up to 360 ft away",
 				{
 					"type": "entries",
 					"name": "Appearance",
@@ -137,6 +137,13 @@
 					"name": "History",
 					"entries": [
 						"The Compass of Garletor was created by the Wizard Garletor for King (Cabil) Furnit II for a raid of a hidden base of cultists using a drop of Hebeshca's blood"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Properties",
+					"entries": [
+						"The Compass of Garletor points to magically hidden structures, creatures, and items. As the compass gets closer to something magically hidden, its needle will feel a stronger pull. At a certain threshold the compass will glow. When there are multiple hidden things, the compass will switch between them."
 					]
 				}
 			]
@@ -3831,6 +3838,55 @@
 						},
 						{
 							"type": "section",
+							"name": "Omurice’s Property",
+							"entries": [
+								"Omurice’s Property is where Omurice lives.",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"Omurice’s Property is occupied by Omurice, {@adventure  Kaladan|CRDA|5|Kaladan}, and {@adventure  TBD|CRDA|5|Kaladan}."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Atmosphere",
+									"entries": [
+										"Omurice's house is a moderately sized house of wooden pillars with wattle and daub walls. Over time the house has begun to ware, with parts of its wooden roof breaking and some of the pillars and walls beginning to crack.",
+										"Inside the house, there are piles of stolen goods. The family owns handcrafted wooden tables, dressers, and beds that also have signs of ware.",
+										"Next to the house, there is a large, 20 x 40 ft wooden shed also degrading. This shed is filled with hay bales and some tools.",
+										"The property is 800 x 800 ft and is mostly made up of wheat fields. The buildings are in the northwest corner."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										"Omurice's family inherited the Property."
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"{@adventure  Kaladan|CRDA|5|Kaladan}"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
 							"name": "Gray Mountains",
 							"entries": [
 								"The Gray Mountains are a stormy mountain range in Warberland.",
@@ -4978,27 +5034,30 @@
 									"type": "entries",
 									"name": "Occupants",
 									"entries": [
-										"ENTER OCCUPANTS"
+										"Castle Vernacis is housed by the orc followers of Vernacis, and Vernacis himself."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Atmosphere",
 									"entries": [
-										"ENTER APPEARENCE"
+										"Castle Vernacis is constructed from rough, tan stone bricks and is essentially a series of boxes connected to each other. The castle has rectangular windows and doors as well.",
+										"Inside the Castle, the bricks are cut more smoothly than the exterior. There is wooden flooring and roofing supported by wooden pillars against the walls.",
+										"Castle Vernacis is in the dry mountains. During the day, the castle is struck by the burning sun. At night, the castles' stones become cold. Vernacis uses spells to make the temperature inside the castle comfortable.",
+										{
+											"type": "inset",
+											"name": "Vernacis’s Protective Spell",
+											"entries": [
+												"The Castle Vernacis is hidden by Vernacis's magic. The spell makes the area the castle occupies look more like the surrounding environment. From afar, the castle looks like a small structure of tan boulders. Once you get 100 feet from the castle, the boulders suddenly disappear, revealing the fortress."
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
 									"name": "History",
 									"entries": [
-										{
-											"type": "list",
-											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
-											"items": [
-												"ENTER HISTORY"
-											]
-										}
+										"{@i No Info}"
 									]
 								},
 								{
@@ -5012,19 +5071,8 @@
 												{
 													"type": "list",
 													"items": [
-														"ENTER PEOPLE"
-													]
-												}
-											]
-										},
-										{
-											"type": "inset",
-											"name": "Related Events",
-											"entries": [
-												{
-													"type": "list",
-													"items": [
-														"ENTER EVENTS"
+														"{@adventure  Vernacis|CRDA|5|Vernacis}",
+														"{@adventure Rafod Sarg|CRDA|5|Rafod Sarg}"
 													]
 												}
 											]
@@ -5036,7 +5084,7 @@
 												{
 													"type": "list",
 													"items": [
-														"ENTER GRPOUPS"
+														"{@adventure Disciples of Vernacis|CRDA|1|Disciples of Vernacis}"
 													]
 												}
 											]
