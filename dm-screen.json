@@ -1,11 +1,11 @@
 {
 	"fileType": "dm-screen",
-	"siteVersion": "2.7.3",
+	"siteVersion": "2.7.5",
 	"w": 5,
 	"h": 2,
 	"ctc": false,
 	"fs": true,
-	"lk": true,
+	"lk": false,
 	"ps": [
 		{
 			"x": 1,
@@ -14,8 +14,32 @@
 			"h": 1,
 			"t": 3,
 			"s": {
-				"x": "CURRENT SITUATION:\n-Bardoan forces (Including Serick) are moving through Warberland from Selatis to Bardoran\n-Many Bardoran Troops (of all kinds) and armored wagons being pulled by cows, horses, and oxen\n- -some wagons contain stolen goods, others prisoners\n- - they are being loaded onto Bardoran cargo ships to take them across the river, or closer to Thrun\n- - -Bardoran sets up large lift systems to get wagons onto boats, The  cabin of he wagon can be seperated from the base with the wheels for easy transport\n-many Thrun and Kortain Guards making deals with bardoran for slaves\n- - some deals being made in Bardoran, others in Warberland\n\n------------------------------------------------------\n-Songbird witnesses her cousin get brutalized\n- -After Songbird does a call, her cousin Fairbeak responds. The response is heard by some nearby guards and Mored Tongait. Tongait sees Fairbeak and commands for her to be brought out (Tongait has some keys). Two enforcers hold her arms on either side, one readies a whip behind her. Tongait stans in front of her with his arm raised\n- -\"We gave very simple instructions, don't try anything and you'll be all right. \" he quickly brings his arm down, at which point Fairbeak is whipped. Tongait raises his arm again\n\n- -\" I don't speak chicken, but you only need to know two words of my language. Yes and Sir. Do you understand?\" Fairbeak: (mumbles \"yes sir\"). Tongait signals for whip. \"Whats that?\" Fairbeak responds louder. Tongait: \"Good. (To a nearby enforcer) Lets help it remember. tie it to that( points to a lampost), tie it's beak so it doesn't slip up again. (to an enforcer) keep watch over her\" \n\nFREAXIR:\n-Deiblen and other Professors have looked around the capital of Warberland\n- - saw many Bardoran troops\n- - saw Wagons with goods an prisoners\n- - saw Bardoran making slave tradeswith Thrun and Kortain guards and officials\n\n-Cain talks to Aurelius\n- - Tells her to ask Ceydor about the {@item Compass of Garletor|CRDA} (Shrike actually has it)\n- - Tells her about who Serick is, and what he did to Cain's Acolytes\n\n-Ceydor talks to Krabmann\n- -Gives him her First name\n- - says she senses his loyalty and goodwill\n- -gives him a glass ball, \"This will offer aid when the time is right\"\n- -\"I know you have felt a calling, your higher purpose will soon be revealed. You have great importance\"\n\n-Ceydor provides some help\n- - gives them each three pecans that make the user invisible once the user eats it\n\nESCAPE:\n-Mention Thunder of Bardoran\n-Rasbo sees Romil Torrid\n\n-Encounter: 2 Bardoran Scouts and 1 Bardoran enforcer who are looking for any prisoners that may have escaped\n\n-Challenge: getting across the river\n- - Party hides in a boat (could bring them across the river or even near thrun)\n- -  party swims across (about a mile wide)\n- - party floats in some barrels or other crates across\n{could get run over by boats}\n"
-			}
+				"x": "CURRENT SITUATION:\n-Bardoan forces (Including Serick) are moving through Warberland from Selatis to Bardoran\n-Many Bardoran Troops (of all kinds) and armored wagons being pulled by cows, horses, and oxen\n- -some wagons contain stolen goods, others prisoners\n- - they are being loaded onto Bardoran cargo ships to take them across the river, or closer to Thrun\n- - -Bardoran sets up large lift systems to get wagons onto boats, The  cabin of he wagon can be seperated from the base with the wheels for easy transport\n-many Thrun and Kortain Guards making deals with bardoran for slaves\n- - some deals being made in Bardoran, others in Warberland\n\n------------------------------------------------------\n-Songbird witnesses her cousin get brutalized\n- -After Songbird does a call, her cousin Fairbeak responds. The response is heard by some nearby guards and Mored Tongait. Tongait sees Fairbeak and commands for her to be brought out (Tongait has some keys). Two enforcers hold her arms on either side, one readies a whip behind her. Tongait stans in front of her with his arm raised\n- -\"We gave very simple instructions, don't try anything and you'll be all right. \" he quickly brings his arm down, at which point Fairbeak is whipped. Tongait raises his arm again\n\n- -\" I don't speak chicken, but you only need to know two words of my language. Yes and Sir. Do you understand?\" Fairbeak: (mumbles \"yes sir\"). Tongait signals for whip. \"Whats that?\" Fairbeak responds louder. Tongait: \"Good. (To a nearby enforcer) Lets help it remember. tie it to that( points to a lampost), tie it's beak so it doesn't slip up again. (to an enforcer) keep watch over her\" \n\n----------------------------------------------------------\nFREAXIR:\n-Deiblen and other Professors have looked around the capital of Warberland\n- - saw many Bardoran troops\n- - saw Wagons with goods an prisoners\n- - saw Bardoran making slave tradeswith Thrun and Kortain guards and officials\n\n-Cain talks to Aurelius\n- - Tells her to ask Ceydor about the {@item Compass of Garletor|CRDA} (Shrike actually has it)\n- - Tells her about who Serick is, and what he did to Cain's Acolytes\n\n-Ceydor talks to Krabmann\n- -Gives him her First name\n- - says she senses his loyalty and goodwill\n- -gives him a glass ball, \"This will offer aid when the time is right\"\n- -\"I know you have felt a calling, your higher purpose will soon be revealed. You have great importance\"\n\n-Ceydor provides some help\n- - Talks about the route they shall take\n- - gives them each three pecans that make the user invisible for 30 mins once the user eats it\n----------------------------------------------------------------\nESCAPE:\n-Mention Thunder of Bardoran\n-Rasbo sees Romil Torrid\n\n-Encounter: 2 Bardoran Scouts and 1 Bardoran enforcer who are looking for any prisoners that may have escaped\n\n-Challenge: getting across the river\n- - Party hides in a boat (could bring them across the river or even near thrun) gally\n- -  party swims across (about a mile wide)\n- - party floats in some barrels or other crates across\n{could get run over by boats}\n\n-Horses\n- Ash (a fire genasi) is selling riding horses\n- - won't bargain much\n-  roll: a 2d4 (if they get eight total, white horse)\n"
+			},
+			"a": [
+				{
+					"t": 3,
+					"r": "Announcments",
+					"s": {
+						"x": "Components?"
+					}
+				},
+				{
+					"t": 3,
+					"r": "Warberland",
+					"s": {
+						"x": "CURRENT SITUATION:\n-Bardoan forces (Including Serick) are moving through Warberland from Selatis to Bardoran\n-Many Bardoran Troops (of all kinds) and armored wagons being pulled by cows, horses, and oxen\n- -some wagons contain stolen goods, others prisoners\n- - they are being loaded onto Bardoran cargo ships to take them across the river, or closer to Thrun\n- - -Bardoran sets up large lift systems to get wagons onto boats, The  cabin of he wagon can be seperated from the base with the wheels for easy transport\n-many Thrun and Kortain Guards making deals with bardoran for slaves\n- - some deals being made in Bardoran, others in Warberland\n\n------------------------------------------------------\n-Songbird witnesses her cousin get brutalized\n- -After Songbird does a call, her cousin Fairbeak responds. The response is heard by some nearby guards and Mored Tongait. Tongait sees Fairbeak and commands for her to be brought out (Tongait has some keys). Two enforcers hold her arms on either side, one readies a whip behind her. Tongait stans in front of her with his arm raised\n- -\"We gave very simple instructions, don't try anything and you'll be all right. \" he quickly brings his arm down, at which point Fairbeak is whipped. Tongait raises his arm again\n\n- -\" I don't speak chicken, but you only need to know two words of my language. Yes and Sir. Do you understand?\" Fairbeak: (mumbles \"yes sir\"). Tongait signals for whip. \"Whats that?\" Fairbeak responds louder. Tongait: \"Good. (To a nearby enforcer) Lets help it remember. tie it to that( points to a lampost), tie it's beak so it doesn't slip up again. (to an enforcer) keep watch over her\" \n\n----------------------------------------------------------\nFREAXIR:\n-Deiblen and other Professors have looked around the capital of Warberland\n- - saw many Bardoran troops\n- - saw Wagons with goods an prisoners\n- - saw Bardoran making slave tradeswith Thrun and Kortain guards and officials\n\n-Cain talks to Aurelius\n- - Tells her to ask Ceydor about the {@item Compass of Garletor|CRDA} (Shrike actually has it)\n- - Tells her about who Serick is, and what he did to Cain's Acolytes\n\n-Ceydor talks to Krabmann\n- -Gives him her First name\n- - says she senses his loyalty and goodwill\n- -gives him a glass ball, \"This will offer aid when the time is right\"\n- -\"I know you have felt a calling, your higher purpose will soon be revealed. You have great importance\"\n\n-Ceydor provides some help\n- - Talks about the route they shall take\n- - gives them each three pecans that make the user invisible for 30 mins once the user eats it\n----------------------------------------------------------------\nESCAPE:\n-Mention Thunder of Bardoran\n-Rasbo sees Romil Torrid\n\n-Encounter: 2 Bardoran Scouts and 1 Bardoran enforcer who are looking for any prisoners that may have escaped\n\n-Challenge: getting across the river\n- - Party hides in a boat (could bring them across the river or even near thrun) gally\n- -  party swims across (about a mile wide)\n- - party floats in some barrels or other crates across\n{could get run over by boats}\n\n-Horses\n- Ash (a fire genasi) is selling riding horses\n- - won't bargain much\n-  roll: a 2d4 (if they get eight total, white horse)\n"
+					}
+				},
+				{
+					"t": 3,
+					"r": "Traveling",
+					"s": {
+						"x": "CONFLICTS\n- they have to change forms of transport\n- they have to change route \n- they help someone (need persuasion)\n- they are captured\n- one time incontinence\n\n----------------------------------------------------------------------------------------\nEVENTS\n-Horses get stolen\n-Box gets stolen\n-The Party gets captured\n-The Party gets ambushed\n-The Party finds themselves in between some conflict\n- Someone asks for help\n------------------------------------------------------------------------------------------\nCONTEXT\n-Thrun/ Kortain slave traders @P are escaped slaves (Captured) (Steal Box)\n- Brawl breaks out between Mayland Workers (Between Conflict)\n- Riot breaks out in Mayland, guards thing @P is a part of it (Between Conflict) (Captured)\n- Robbers ambush @P (ambush) (Steal Horses) (Steal Box)\n- Slaves are escaping from Thrun/ Kortain Guards (Between Conflict)\n- Fire Genasi are being abused by Bardoran scouts (Between Conflict)\n- Someone tries to kill Rasbo because they hate dwarves (Ambush)\n- Robbers rob while party sleeps (Steal Horses) (Steal Box)\n- Escaped Slave asks for party to break the rest of the slaves out (Help) (Between Conflict)"
+					}
+				}
+			],
+			"b": 1
 		},
 		{
 			"x": 0,
@@ -24,7 +48,7 @@
 			"h": 1,
 			"t": 3,
 			"s": {
-				"x": "SONGBIRD\n{@race Kenku | MPMM}\n{@class Bard | XPHB}\n\n{@spell Healing Word | XPHB}\n{@spell Vicious Mockery | XPHB}\n{@spell Dancing Lights | XPHB}\n{@spell Unseen Servant | XPHB}\n{@spell Sleep | XPHB}\n{@spell Tasha's Hideous Laughter | XPHB}\n{@spell Disguise Self | XPHB}\n\n{@item Dagger | XPHB}\n{@item Rapier | XPHB}\n{@item Leather Armor | XPHB}\n\n{@item Lyre | XPHB}\n{@item Entertainer's Pack| XPHB}\n{@item Disguise Kit | XPHB}\n{Sewing Kit}\n{Map}\n{Fire Starting Kit}\n{Flare}"
+				"x": "OMURICE ( ZEALOUS)\n{@race Dragonborn | XPHB}\n{@class Wizard | XPHB}\n\n{@spell Mage Hand | XPHB}\n{@spell Lightning Lure | TCE}\n{@spell Fire Bolt  | XPHB}\n{@spell Absorb Elements | XGE}\n{@spell Thunderwave  | XPHB}\n{@spell Witch Bolt  | PHB}\n{@spell Disguise Self | XPHB}\n{@spell Dispel Magic | XPHB}\n{@spell Dragon's Breath | XPHB}\n{@spell Misty Step | XPHB}\n{@spell Shocking Grasp | XPHB}\n\n{@spell Booming Blade | TCE} (scroll)\n\n\n{@item Dagger | XPHB}\n\n\n{@feat Dual Wielder | XPHB}\n"
 			},
 			"a": [
 				{
@@ -63,7 +87,7 @@
 					}
 				}
 			],
-			"b": 2
+			"b": 0
 		},
 		{
 			"x": 3,
@@ -73,34 +97,27 @@
 			"t": 13,
 			"c": {
 				"a": "CRDA",
-				"c": 3
+				"c": 1
 			},
 			"a": [
 				{
 					"t": 13,
-					"r": "Items",
+					"r": "Nations",
 					"c": {
 						"a": "CRDA",
-						"c": 3
+						"c": 1
 					}
 				},
 				{
-					"t": 14,
+					"t": 13,
+					"r": "Nations and Groups",
 					"c": {
-						"b": "XDMG",
-						"c": 0
-					}
-				},
-				{
-					"t": 14,
-					"r": "Chapter 2: Creating a Character",
-					"c": {
-						"b": "XPHB",
-						"c": 2
+						"a": "CRDA",
+						"c": 1
 					}
 				}
 			],
-			"b": 0
+			"b": 1
 		},
 		{
 			"x": 0,
@@ -150,7 +167,7 @@
 			"h": 1,
 			"t": 3,
 			"s": {
-				"x": "{@creature Bardoran Scout |CRDA}\n{@creature Bardoran Enforcer |CRDA}\n{@creature Bardoran Conqueror |CRDA}\n{@creature Bardoran Berserker |CRDA}\n\n{@item Rameselt |CRDA}\n{@adventure |CRDA}\n\n{@item riding horse |XPHB}\n"
+				"x": "{@table Armor |XPHB}\n{@table Actions |XPHB}\n{@table Cover |XPHB}\n{@table Food, Drink, and Lodging |XPHB}\n{@table Skill List; Skills |XPHB}\n{@table Weapons |XPHB}\n\n{@table 7,500 GP Art Objects |XDMG}\n{@table 2,500 GP Art Objects |XDMG}\n{@table 750 GP Art Objects |XDMG}\n{@table 250 GP Art Objects |XDMG}\n{@table 25 GP Art Objects |XDMG}\n\n{@table Doors |XDMG}\n{@table Improvising Damage |XDMG}\n{@table Doors |XDMG}\n{@table Locked Door; Lock Complexity |XDMG}\n{@table Locked Door; Lock Quality |XDMG}\n{@table Trade Goods |XDMG}\n\n\n\n{@link https://5e.tools/book.html#XDMG,3,combat%20encounter%20difficulty,0}\n\n{@link https://5e.tools/book.html#xdmg,-1,character%20advancement,0}"
 			},
 			"a": [
 				{
@@ -164,11 +181,11 @@
 					"t": 3,
 					"r": "Saved links",
 					"s": {
-						"x": "{@creature Bardoran Scout |CRDA}\n{@creature Bardoran Enforcer |CRDA}\n{@creature Bardoran Conqueror |CRDA}\n{@creature Bardoran Berserker |CRDA}\n\n{@item Rameselt |CRDA}\n{@adventure |CRDA}\n\n{@item riding horse |XPHB}\n"
+						"x": "{@creature Bardoran Scout |CRDA}\n{@creature Bardoran Enforcer |CRDA}\n{@creature Bardoran Conqueror |CRDA}\n{@creature Bardoran Berserker |CRDA}\n\n{@item Rameselt |CRDA}\n{@adventure |CRDA}\n\n{@item riding horse |XPHB}\n{@creature Riding Horse|XMM}\n{@vehicle Galley |GoS}\n{@vehicle Sailing Shi1p |GoS}\n\n{@link https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fwhats-your-favorite-horse-variant-v0-8ocljph21lge1.jpeg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D042847c006f6f59618432ec903f8697826ebd241}"
 					}
 				}
 			],
-			"b": 1
+			"b": 0
 		}
 	],
 	"ex": [
