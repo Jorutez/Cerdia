@@ -3686,6 +3686,84 @@
 						},
 						{
 							"type": "section",
+							"name": "Bardoran River",
+							"entries": [
+								"The Bardoran River is the river south of Bardoran",
+								{
+									"type": "entries",
+									"name": "Occupants",
+									"entries": [
+										"ENTER OCCUPANTS"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Atmosphere",
+									"entries": [
+										"The Bardoran River is a 4 - 5 mile wide, slow moving freshwater river. It is 200 feet deep at most areas.",
+										"The North coast of the Bardoran River is black rock. The coast along the Gray mountains is gray rock, while the coast around the Forlorn mountains is tan rock. There is no greenery around the Bardoran River.",
+										"The Bardoran river has many large ships going both ways on it."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "History",
+									"entries": [
+										{
+											"type": "list",
+											"name": "ENTER SECTION NAME (ENTER TIME PERIOD)",
+											"items": [
+												"ENTER HISTORY"
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": " ",
+									"entries": [
+										{
+											"type": "inset",
+											"name": "Related People",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER PEOPLE"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Events",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER EVENTS"
+													]
+												}
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Related Nations and Groups",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"ENTER GRPOUPS"
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
 							"name": "Capital of Warberland",
 							"entries": [
 								"The Capital of Warberland is the name given to the capital of the colony Warberland.",
@@ -3700,7 +3778,22 @@
 									"type": "entries",
 									"name": "Atmosphere",
 									"entries": [
-										"ENTER APPEARENCE"
+										"The Capital of Warberland is surrounded by fields of crops and grass with grazing animals ight up to the buildings.",
+										"The buildings of the Capital of Warberland are mostly small, wattle, daub, and wood. Many of these building are falling into disrepair.",
+										"The Capital of Warberland has unorganized roads of different sizes running through it. These roads often have stalls selling crops and livestock on the sides. There is not an extreme amount of traffic through the capital, but there is always drowsy activity.",
+										"The Capital of Warberland experiences a good amount of rain. Often, air pollution from {@adventure Bardoran|CRDA|1|Bardoran} also makes its way across the {@adventure Bardoran River|CRDA|2|Bardoran River}, resulting in hazy skies and air that burns slightly.",
+										{
+											"type": "inset",
+											"name": "Unique Buildings",
+											"entries": [
+												{
+													"type": "list",
+													"items": [
+														"There are three buildings that stand out in the Capital of Warberland. These are the grand, gothic stone buildings of {@adventure Freaxir|CRDA|2|Freaxir}, the former congress building, and the former judiciary building"
+													]
+												}
+											]
+										}
 									]
 								},
 								{
@@ -3901,7 +3994,9 @@
 									"type": "entries",
 									"name": "Atmosphere",
 									"entries": [
-										"ENTER APPEARENCE"
+										"The Gray Mountains are large, rocky mountains. They have gray rock, greenery lower, and snow higher up.",
+										"The Gray Mountains are very stormy year round. There are thunder, rain, hail, and snow storms depending on the elevation and season.",
+										"The storms and massive nature of the Gray Mountains make them hard to traverse."
 									]
 								},
 								{
@@ -3977,7 +4072,9 @@
 									"type": "entries",
 									"name": "Atmosphere",
 									"entries": [
-										"ENTER APPEARENCE"
+										"The Gray River is a cold freshwater river with fast currents towards the coast. It is flourishing with life and has lots of greenery and creatures around and in it.",
+										"In the winter, the Gray River experiences lots of rain. During the morning year round, there is a layer of fog that flows with the river.",
+										"The Gray River is 400 feet wide."
 									]
 								},
 								{
@@ -4053,7 +4150,9 @@
 									"type": "entries",
 									"name": "Atmosphere",
 									"entries": [
-										"ENTER APPEARENCE"
+										"The Green Wall are steep hills and cliffs covered with greenery. They have gray rocks and cliff faces, and grass, moss, and clovers growing along the top and sides.",
+										"The Green Wall experiences a lot of rain and wind. In the morning, fog rolls south along the Green Wall.",
+										"The cliffs of the Green wall make it hard to traverse for most creatures."
 									]
 								},
 								{
@@ -4889,7 +4988,8 @@
 									"type": "entries",
 									"name": "Atmosphere",
 									"entries": [
-										"ENTER APPEARENCE"
+										"The Wastes are dry, sandy, and exposed. The entire area has a tan tint to it. The south coast consists of sand dunes that gradually become rocky hills in the north. There are also plains of rocky dirt that hosts little vegetation.",
+										"During the day the Wastes are very hot, while at night they are quite cold. Along the south coast of the Wastes there are strong winds that tend to create sandstorms."
 									]
 								},
 								{
@@ -4965,7 +5065,9 @@
 									"type": "entries",
 									"name": "Atmosphere",
 									"entries": [
-										"ENTER APPEARENCE"
+										"The Forlorn Mountains are rough, dry mountains. They have little vegetation but tan rocks of many sizes. The grade and sharpness of the rock varies.",
+										"During the day, the sun beading down on the exposed rock makes the Forlorn Mountains very hot. At night the desert mountains get very cold.",
+										"The North side of the Forlorn Mountains experiences a lot of wind, while the south side does not. This means at night it feels colder on the north side, and hotter on the south side during the day."
 									]
 								},
 								{
@@ -5043,7 +5145,7 @@
 									"entries": [
 										"Castle Vernacis is constructed from rough, tan stone bricks and is essentially a series of boxes connected to each other. The castle has rectangular windows and doors as well.",
 										"Inside the Castle, the bricks are cut more smoothly than the exterior. There is wooden flooring and roofing supported by wooden pillars against the walls.",
-										"Castle Vernacis is in the dry mountains. During the day, the castle is struck by the burning sun. At night, the castles' stones become cold. Vernacis uses spells to make the temperature inside the castle comfortable.",
+										"Castle Vernacis is in the dry mountains. During the day, the castle is struck by the burning sun. At night the castles' stones become cold. Vernacis uses spells to make the temperature inside the castle comfortable.",
 										{
 											"type": "inset",
 											"name": "Vernacis’s Protective Spell",
@@ -5109,7 +5211,9 @@
 									"type": "entries",
 									"name": "Atmosphere",
 									"entries": [
-										"ENTER APPEARENCE"
+										"The Dry Mountains are rough, sandy, and dry. They have little vegetation but tan rocks of many sizes. The grade and sharpness of the rock varies.",
+										"During the day, the sun beading down on the exposed rock makes the Dry Mountains very hot. At night the desert mountains get very cold.",
+										"The dry mountains experience little wind."
 									]
 								},
 								{
@@ -5185,7 +5289,9 @@
 									"type": "entries",
 									"name": "Atmosphere",
 									"entries": [
-										"ENTER APPEARENCE"
+										"The River Rhyten is slow moving and has a great amount of greenery around and in it. It is a moderate temperature, but is quite refreshing in the hot desert. It is a freshwater river",
+										"The River Rhyten is often has many ships and smaller boats in it from people of Thrun.",
+										"The River Rhyten is about 1-2 miles wide."
 									]
 								},
 								{
