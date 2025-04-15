@@ -168,11 +168,147 @@
 					"entries": [
 						"{@adventure Armentus|CRDA|5|Armentus} made the Crystal in 1580 to be able to have influence while staying hidden."
 					]
+				},
+				{
+					"type": "entries",
+					"name": "Properties",
+					"entries": [
+						"The Crystal of Armentus produces water that creates knight made of ice known as {@creature Cyrohyndrum|CRDA} the that can be controlled by the user. The user goes into a trance in which their consensus controls the knight. The trance ends when concentration is broken, the knight's head is destroyed, or the Crystal of Armentus is taken from the user."
+					]
 				}
 			]
 		}
 	],
 	"monster": [
+		{
+			"name": "Cyrohyndrum",
+			"source": "CRDA",
+			"size": [
+				"M"
+			],
+			"type": "construct",
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"special": "varies from user level"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 15,
+			"dex": 13,
+			"con": 16,
+			"int": 10,
+			"wis": 13,
+			"cha": 8,
+			"immune": [
+				"poison",
+				"cold"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"poisoned",
+				"incapacitated",
+				"unconscious"
+			],
+			"fluff": {
+				"entries": [
+					"The Cyrohyndrum is a knight made of ice that is controlled by the bearer of the {@item Crystal of Armentus|CRDA}. When bonded the user's consciousness controls the Cyrohyndrum. The user's bond breaks when the Cyrohyndrum's head is destroyed, the user loses {@condition concentration|XPHB}, or the user loses the Crystal of Armentus.",
+					"If the Cyrohyndrum is destroyed or injured when it is put back into the Crystal of Armentus, it can be healed by putting the Crystal of Armentus into water."
+				]
+			},
+			"trait": [
+				{
+					"name": "Immutable Form",
+					"entries": [
+						"The Cyrohyndrum is immune to any spell or effect that would alter its form."
+					]
+				},
+				{
+					"name": "Conduit Head",
+					"entries": [
+						"The Cyrohyndrum can continue to function as long as its head is intact. Any parts of its body that are connected to the head will also function. Parts that are missing feel fuzzy to the user."
+					]
+				},
+				{
+					"name": "Mental Bond",
+					"entries": [
+						"The user of the Cyrohyndrum can see and hear through the puppet. When bonded with the Cyrohyndrum the user can somewhat feel objects, but not things like temperature or minute details."
+					]
+				},
+				{
+					"name": "Growing Power",
+					"entries": [
+						"The Cyrohyndrum can become larger, stronger, and gains more hitpoints with a higher level user.",
+						{
+							"type": "table",
+							"caption": "Cyrohyndrum based on user level",
+							"colLabels": [
+								"User Level",
+								"Size",
+								"Hp",
+								"Strength"
+							],
+							"colStyles": [
+								"col-3 text-",
+								"col-3 text-",
+								"col-3 text-",
+								"col-3 text-"
+							],
+							"rows": [
+								[
+									"1 - 4",
+									"Medium",
+									"11 + level",
+									"12 + level"
+								],
+								[
+									"5 - 8",
+									"Large",
+									"11 + level",
+									"12 + level"
+								],
+								[
+									"9 - 13",
+									"Huge",
+									"11 + level",
+									"12 + level"
+								],
+								[
+									"14 +",
+									"Gargantuan",
+									"11 + level",
+									"12 + level"
+								]
+							]
+						}
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Water Healing",
+					"entries": [
+						"The user can rebuild the Cyrohyndrum from water. If the Cyrohyndrum is in water it can take an action to heal {@damage 1d4}"
+					]
+				},
+				{
+					"name": "Channel Water",
+					"entries": [
+						"The user of the Cyrohyndrum can use {@spell Shape Water|XPHB} throught the Cyrohyndrum."
+					]
+				}
+			]
+		},
 		{
 			"name": "Bardoran Scout",
 			"size": [
