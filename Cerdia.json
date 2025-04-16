@@ -173,7 +173,7 @@
 					"type": "entries",
 					"name": "Properties",
 					"entries": [
-						"The Crystal of Armentus produces water that creates knight made of ice known as {@creature Cyrohyndrum|CRDA} the that can be controlled by the user. The user goes into a trance in which their consensus controls the knight. The trance ends when concentration is broken, the knight's head is destroyed, or the Crystal of Armentus is taken from the user."
+						"The Crystal of Armentus produces water that creates knight made of ice known as {@creature Cyrohedron|CRDA} the that can be controlled by the user. The user goes into a trance in which their consensus controls the knight. The trance ends when concentration is broken, the knight's head is destroyed, or the Crystal of Armentus is taken from the user."
 					]
 				}
 			]
@@ -181,7 +181,7 @@
 	],
 	"monster": [
 		{
-			"name": "Cyrohyndrum",
+			"name": "Cyrohedron",
 			"source": "CRDA",
 			"size": [
 				"M"
@@ -222,36 +222,36 @@
 			],
 			"fluff": {
 				"entries": [
-					"The Cyrohyndrum is a knight made of ice that is controlled by the bearer of the {@item Crystal of Armentus|CRDA}. When bonded the user's consciousness controls the Cyrohyndrum. The user's bond breaks when the Cyrohyndrum's head is destroyed, the user loses {@condition concentration|XPHB}, or the user loses the Crystal of Armentus.",
-					"If the Cyrohyndrum is destroyed or injured when it is put back into the Crystal of Armentus, it can be healed by putting the Crystal of Armentus into water."
+					"The Cyrohedron is a knight made of ice that is controlled by the bearer of the {@item Crystal of Armentus|CRDA}. When bonded the user's consciousness controls the Cyrohedron. The user's bond breaks when the Cyrohedron's head is destroyed, the user loses {@condition concentration|XPHB}, or the user loses the Crystal of Armentus.",
+					"If the Cyrohedron is destroyed or injured when it is put back into the Crystal of Armentus, it can be healed by putting the Crystal of Armentus into water."
 				]
 			},
 			"trait": [
 				{
 					"name": "Immutable Form",
 					"entries": [
-						"The Cyrohyndrum is immune to any spell or effect that would alter its form."
+						"The Cyrohedron is immune to any spell or effect that would alter its form."
 					]
 				},
 				{
 					"name": "Conduit Head",
 					"entries": [
-						"The Cyrohyndrum can continue to function as long as its head is intact. Any parts of its body that are connected to the head will also function. Parts that are missing feel fuzzy to the user."
+						"The Cyrohedron can continue to function as long as its head is intact. Any parts of its body that are connected to the head will also function. Parts that are missing feel fuzzy to the user."
 					]
 				},
 				{
 					"name": "Mental Bond",
 					"entries": [
-						"The user of the Cyrohyndrum can see and hear through the puppet. When bonded with the Cyrohyndrum the user can somewhat feel objects, but not things like temperature or minute details."
+						"The user of the Cyrohedron can see and hear through the puppet. When bonded with the Cyrohedron the user can somewhat feel objects, but not things like temperature or minute details."
 					]
 				},
 				{
 					"name": "Growing Power",
 					"entries": [
-						"The Cyrohyndrum can become larger, stronger, and gains more hitpoints with a higher level user.",
+						"The Cyrohedron can become larger, stronger, and gains more hitpoints with a higher level user.",
 						{
 							"type": "table",
-							"caption": "Cyrohyndrum based on user level",
+							"caption": "Cyrohedron based on user level",
 							"colLabels": [
 								"User Level",
 								"Size",
@@ -298,13 +298,13 @@
 				{
 					"name": "Water Healing",
 					"entries": [
-						"The user can rebuild the Cyrohyndrum from water. If the Cyrohyndrum is in water it can take an action to heal {@damage 1d4}"
+						"The user can rebuild the Cyrohedron from water. If the Cyrohedron is in water it can take an action to heal {@damage 1d4}"
 					]
 				},
 				{
 					"name": "Channel Water",
 					"entries": [
-						"The user of the Cyrohyndrum can use {@spell Shape Water|XPHB} throught the Cyrohyndrum."
+						"The user of the Cyrohedron can use {@spell Shape Water|XPHB} throught the Cyrohedron."
 					]
 				}
 			]
