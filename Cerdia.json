@@ -1028,7 +1028,14 @@
 						"Ugla",
 						"Ceilean Aerwyna",
 						"Nakiscine",
-						"Selodar"
+						"Selodar",
+						"Merog",
+						"Skarbor",
+						"Rorda",
+						"Dune",
+						"Fealis",
+						"Meliwar",
+						"Cartac"
 					]
 				},
 				{
@@ -6612,7 +6619,7 @@
 							"type": "section",
 							"name": "Armentus",
 							"entries": [
-								"Armentus is the demon of obsession and perfectionism who is calling Krabmann and teleported Omurice. Armentus is the youngest child of Sellarus and Hebeshca, and the sister of Cain and Kershak",
+								"Armentus is the demon of obsession and perfectionism who is calling Krabmann and got Omurice teleported. Armentus is the youngest child of Sellarus and Hebeshca, and the sister of Cain and Kershak",
 								{
 									"type": "entries",
 									"name": "Personality",
@@ -6736,7 +6743,7 @@
 											"items": [
 												"Hidden in the ocean, Armentus observed many creatures including water genasi. At this time, Armentus wanted to find individuals who could help her without alerting Kershak. She saw Krabmann as a strong willed individual with much promise. Having a soft spot for the underdog she fixated on him and decided he would be a good candidate. Knowing the location of the Writ of Hebeshca, She mysteriously called Krabmann to remain hidden but still accomplish her task",
 												"At the same time, Ceydor was on the lookout for talented magic users to help Armentus on her search. Ceydor took note of Omurice who, from Vice Chancellor Berids’s complaints, She learned had great potential. Ceydor expressed Omurice’s professors’ testimony of his promise, and Omurice’s ambition to Armentus was interested in him.",
-												"When Armentus called Krabmann to the Writ of Hebeshca, she suddenly realized how naive he was and decided he needed help before entering such a drastically new environment. She decided to teleport Omurice to his location, and luckily they seemed to get along."
+												"When Armentus called Krabmann to the Writ of Hebeshca, she suddenly realized how naive he was and decided he needed help before entering such a drastically new environment. She decided asked Zealous to teleport Omurice to Krabmann, promising {@adventure Zealous|CRDA|5|Zealous} that he would be repaid if he did. Zealous agreed"
 											]
 										}
 									]
@@ -6814,7 +6821,7 @@
 												],
 												[
 													"Height",
-													"4.9 ft."
+													"4 ft. 9 in."
 												],
 												[
 													"Gender Presentation",
@@ -6961,7 +6968,7 @@
 												],
 												[
 													"Height",
-													"5.2 ft."
+													"5 ft. 2 in."
 												],
 												[
 													"Gender Presentation",
@@ -7074,7 +7081,7 @@
 												],
 												[
 													"Height",
-													"4.9 ft."
+													"4 ft. 9 in."
 												],
 												[
 													"Gender Presentation",
@@ -7194,7 +7201,7 @@
 												],
 												[
 													"Height",
-													"4.8 ft."
+													"4 ft. 8 in."
 												],
 												[
 													"Gender Presentation",
@@ -7432,7 +7439,7 @@
 												],
 												[
 													"Height",
-													"5.2 ft."
+													"5 ft. 2 in."
 												],
 												[
 													"Gender Presentation",
@@ -7527,7 +7534,7 @@
 												],
 												[
 													"Height",
-													"5.2 ft."
+													"5 ft. 2 in."
 												],
 												[
 													"Gender Presentation",
@@ -7622,7 +7629,7 @@
 												],
 												[
 													"Height",
-													"6.1"
+													"6 ft. 2 in."
 												],
 												[
 													"Gender Presentation",
@@ -7762,7 +7769,7 @@
 												],
 												[
 													"Height",
-													"5.5"
+													"5 ft. 5 in."
 												],
 												[
 													"Gender Presentation",
@@ -9344,7 +9351,7 @@
 												],
 												[
 													"Height",
-													"6.1 ft."
+													"6 ft. 1 in."
 												],
 												[
 													"Gender Presentation",
@@ -9459,7 +9466,7 @@
 												],
 												[
 													"Height",
-													"5.9"
+													"5 ft. 9 in."
 												],
 												[
 													"Gender Presentation",
@@ -9567,7 +9574,7 @@
 												],
 												[
 													"Height",
-													"3.5 ft."
+													"3 ft. 5 in."
 												],
 												[
 													"Gender Presentation",
@@ -9653,7 +9660,7 @@
 												],
 												[
 													"Height",
-													"5.8"
+													"5 ft 8 in."
 												],
 												[
 													"Gender Presentation",
@@ -9738,7 +9745,7 @@
 												],
 												[
 													"Height",
-													"5.9 ft"
+													"5 ft. 9 in."
 												],
 												[
 													"Gender Presentation",
@@ -10855,14 +10862,614 @@
 									"type": "entries",
 									"name": "Lifetime",
 									"entries": [
-										"AGE Years Old (START - END)",
+										"AGE Years Old (START - END)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Merog",
+							"entries": [
+								"Merog is the leader of a gang of 5 members. Omurice stole from him.",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Lawful Evil",
 										{
-											"type": "list",
-											"name": "PERIOD(START - END)",
-											"items": [
-												"Serick was born into a poor family in what is now Kortain as Steven Cromil. Growing up his father was a shepard and his family was always on the move following the sheep. He never had a permanent place of residence, and he never had many strong relationships as a result. He instead looked up to his parents, but was very aware that he had a much worse life than others. While he often had little to eat or wear as he traveled, He passed the comfortable mansions of others who treated him as trash, and he felt that way too."
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Vengeful",
+															"cruel",
+															"Brave"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Kill or be killed",
+															"Fear is the best form of control"
+														]
+													}
+												]
 											]
 										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"Merog has long dark brown fur. He has no fur on his face but fur surrounding it forming a long beard. He has dark brown eyes. He is missing his right leg underneath his knee.",
+										"Merog wears a dark metal breastplate with spiked shoulder plates. He wears spiked metal cuffs on his forearms and black wool pants with spiked metal knee pads. Where his missing leg is he has a dark wooden pegleg with a spiky metal end. Merog also has bones hanging from their ends tied to his ropes on his armor. These bones swing around and rattle when he moves",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Bugbear"
+												],
+												[
+													"Height",
+													"7 ft"
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Dark Brown"
+												],
+												[
+													"Build",
+													"Muscular"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"27 Years Old (1686 - Present)",
+										{
+											"type": "list",
+											"name": "Rivalry with Omurice (1712)",
+											"items": [
+												"In 1712, Merog and his gang were moving riches through the {@adventure Capital of Warberland|CRDA|2|Capital of Warberland} as they were hired to do so, when Omurice began to use {@spell mage hand | XPHB} to discreetly put some of the riches in his bag from a distance. Merog saw this at some point and ran to try to attack him. Before he could, Omurice set the wagon holding the valuables on fire using a {@spell fire bolt  | XPHB}, and Merog had to shift his attention to putting the fire out while Omurice escaped.",
+												"Among lower value pieces of art, Omurice unknowingly stole a 7500 gp chalice that Merog had been given special orders to protect.",
+												"After this, Merog was scolded by the ones who hired him and he began to resent Omurice even more. As a result, Merog began to search for Omurice to get the lost property and make an example out of him."
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Skarbor",
+							"entries": [
+								"Skarbor is a member of Merog's gang.",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Lawful Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Vengeful",
+															"cruel",
+															"Brave"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Kill or be killed"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"APPEARENCE.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Bugbear"
+												],
+												[
+													"Height",
+													"7 ft"
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Brown"
+												],
+												[
+													"Build",
+													"Muscular"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"27 Years Old (1686 - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Rorda",
+							"entries": [
+								"Rorda is a member of Merog's gang.",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Chaotic Neutral",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Brave",
+															"Boastful",
+															"Impulsive"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Kill or be killed",
+															"Life is Short"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"APPEARENCE.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Goliath"
+												],
+												[
+													"Height",
+													"7 ft 1 in"
+												],
+												[
+													"Gender Presentation",
+													"Feminine"
+												],
+												[
+													"Complexion",
+													"Light Gray"
+												],
+												[
+													"Build",
+													"Muscular"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"30 Years Old (1683 - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Dune",
+							"entries": [
+								"Dune is a member of Merog's gang.",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Lawful Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Brave",
+															"Boastful",
+															"Cruel",
+															"Sly"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Kill or be killed"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"APPEARENCE.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Tabaxi"
+												],
+												[
+													"Height",
+													"5 ft 9 in"
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Sandy Yellow"
+												],
+												[
+													"Build",
+													"Muscular"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"26 Years Old (1687 - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Fealis",
+							"entries": [
+								"Fealis is a member of Merog's gang.",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Lawful Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Brave",
+															"Boastful",
+															"Cruel"														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Kill or be killed"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"APPEARENCE.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Lizardfolk"
+												],
+												[
+													"Height",
+													"5 ft 8 in"
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Dull Green"
+												],
+												[
+													"Build",
+													"Muscular"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"29 Years Old (1684 - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Meliwar",
+							"entries": [
+								"Meliwar is a member of Merog's gang.",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Lawful Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Brave",
+															"Boastful",
+															"Cruel"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Kill or be killed"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"APPEARENCE.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Lizardfolk"
+												],
+												[
+													"Height",
+													"5 ft 8 in"
+												],
+												[
+													"Gender Presentation",
+													"Feminine"
+												],
+												[
+													"Complexion",
+													"Dull Green"
+												],
+												[
+													"Build",
+													"Muscular"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"29 Years Old (1684 - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Cartac",
+							"entries": [
+								"Cartac is a member of Merog's gang.",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Lawful Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+															"Brave",
+															"Boastful",
+															"Sly"
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+															"Kill or be killed"
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"APPEARENCE.",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Human"
+												],
+												[
+													"Height",
+													"5 ft 9 in"
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Tan"
+												],
+												[
+													"Build",
+													"Muscular"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										"26 Years Old (1687 - Present)"
 									]
 								}
 							]
