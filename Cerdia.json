@@ -930,6 +930,7 @@
 						"Harkin Pass",
 						"Capital of Warberland",
 						"Freaxir",
+						"Omurice's Property",
 						"Gray Mountains",
 						"Gray River",
 						"Green Wall",
@@ -1035,7 +1036,11 @@
 						"Dune",
 						"Fealis",
 						"Meliwar",
-						"Cartac"
+						"Cartac",
+						"Kaladan",
+						"Kriv",
+						"Zealous",
+						"Xaya"
 					]
 				},
 				{
@@ -6516,19 +6521,6 @@
 															"Knowledge is power"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"{@adventure Sellarus|CRDA|5|Sellarus}. Cain's father.",
-															"{@adventure Hebeshca|CRDA|5|Hebeshca}. Cain's mother, who he admires",
-															"{@adventure KershakCRDA|5|Kerhsak}. Cain's brother, who he hates",
-															"{@adventure Armentus|CRDA|5|Armentus}. Cain's sister",
-															"Aurelius Aerwyna. Cain's acolyte"
-														]
-													}
 												]
 											]
 										}
@@ -6652,22 +6644,6 @@
 															"Knowledge is power"
 														]
 													}
-												],
-												[
-													{
-														"type": "list",
-														"name": "Bonds",
-														"items": [
-															"{@adventure Sellarus|CRDA|5|Sellarus}. Armentus's father.",
-															"{@adventure Hebeshca|CRDA|5|Hebeshca}. Armentus's mother, who she loves",
-															"{@adventure Kerhsak|CRDA|5|Kerhsak}. Armentus's brother, who she dislikes",
-															"{@adventure Cain|CRDA|5|Cain}. Armentus's brother",
-															"{@adventure Freaxir|CRDA|1|Freaxir}. The school created by Armentus",
-															"{@adventure Elesira Ceydor|CRDA|5|Elesira Ceydor}. Armentus's acolyte",
-															"Krabmann. Armentus's chosen helper",
-															"Omurice. Armentus's chosen helper"
-														]
-													}
 												]
 											]
 										}
@@ -6724,26 +6700,33 @@
 										},
 										{
 											"type": "list",
+											"name": "Becomeing Mother of the seas (BCE)",
+											"items": [
+												"Armemtus liked to spend her time fiddling around with the ancient creatures of the sea. Many of the modern sea creatures were created by her. Some sea creatures call her \"The Mother\" as a result"
+											]
+										},
+										{
+											"type": "list",
 											"name": "Freaxir (1320 - Present)",
 											"items": [
-												"In 1320 Armentus decided she wanted followers like other demons and she wanted them to be very knowledgeable about the arcane. She made contact with the similarly valued Elesira Ceydor who was open to the idea and collected others who sought to build a hub of knowledge. By selling enchanted objects and spells, the group was able to collect funds to build the school and house many magical books and items. Throughout this process, Armentus became more interested in creating the best institution to learn magic rather than followers. Throughout this process Armentus also became very close with Ceydor, who she made an actual acolyte.",
+												"In 1320 Armentus decided she wanted followers like other demons and she wanted them to be very knowledgeable about the arcane. She made contact with the similarly valued {@adventure Elesira Ceydor|CRDA|5|Elesira Ceydor} who was open to the idea and collected others who sought to build a hub of knowledge. By selling enchanted objects and spells, the group was able to collect funds to build the school and house many magical books and items. Throughout this process, Armentus became more interested in creating the best institution to learn magic rather than followers. Throughout this process Armentus also became very close with Ceydor, who she made an actual acolyte.",
 												"When Kershak began conquering the north, Ceydor expressed her own and her student’s fears of invasion. Armentus agreed, and made a deal with Kershak in 1580 ensuring Freaxir would be protected if Bardoran took the area over. When Bardoran eventually did, Freaxir was ordered to be undisturbed in return for cooperation. After making this deal with Kershak, Armentus went into hiding in the deep chasms of the ocean using the techniques she learned from her mother knowing that he might vilify her at some point"
 											]
 										},
 										{
 											"type": "list",
-											"name": "The Will of Sellarus(1323)",
+											"name": "The Will of Sellarus (1323)",
 											"items": [
-												"When Sellarus made the will, Armentus initially thought it was hilarious as she knew Kershak would be enraged. She then tasked her followers with collecting info on the will. It was through this tactic that she learned about the Writ of Hebeshca."
+												"When Sellarus made the will, Armentus initially thought it was hilarious as she knew Kershak would be enraged. She then tasked her followers with collecting info on the will. She learned about the Writ of Hebeshca because Hebescha told her about it, so Armentus put a trackking spell on it."
 											]
 										},
 										{
 											"type": "list",
-											"name": "Armentus Chosen (1713)",
+											"name": "Armentus's Chosen (1713)",
 											"items": [
-												"Hidden in the ocean, Armentus observed many creatures including water genasi. At this time, Armentus wanted to find individuals who could help her without alerting Kershak. She saw Krabmann as a strong willed individual with much promise. Having a soft spot for the underdog she fixated on him and decided he would be a good candidate. Knowing the location of the Writ of Hebeshca, She mysteriously called Krabmann to remain hidden but still accomplish her task",
+												"Hidden in the ocean, Armentus observed many of her decendence including water genasi. At this time, Armentus wanted to find individuals who could help her without alerting Kershak. She saw Krabmann as a strong willed individual with much promise. Having a soft spot for the underdog she fixated on him and decided he would be a good candidate. Knowing the location of the Writ of Hebeshca, She mysteriously called Krabmann to remain hidden but still accomplish her task",
 												"At the same time, Ceydor was on the lookout for talented magic users to help Armentus on her search. Ceydor took note of Omurice who, from Vice Chancellor Berids’s complaints, She learned had great potential. Ceydor expressed Omurice’s professors’ testimony of his promise, and Omurice’s ambition to Armentus was interested in him.",
-												"When Armentus called Krabmann to the Writ of Hebeshca, she suddenly realized how naive he was and decided he needed help before entering such a drastically new environment. She decided asked Zealous to teleport Omurice to Krabmann, promising {@adventure Zealous|CRDA|5|Zealous} that he would be repaid if he did. Zealous agreed"
+												"When Armentus called Krabmann to the Writ of Hebeshca, she suddenly realized how naive he was and decided he needed help before entering such a drastically new environment. She asked {@adventure Zealous|CRDA|5|Zealous} to teleport Omurice to Krabmann, promising Zealous that he would be repaid if he did. Zealous agreed."
 											]
 										}
 									]
@@ -11470,6 +11453,338 @@
 									"name": "Lifetime",
 									"entries": [
 										"26 Years Old (1687 - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Kaladan",
+							"entries": [
+								"Omurice’s brother",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Lawful Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Dragonborn"
+												],
+												[
+													"Height",
+													"."
+												],
+												[
+													"Gender Presentation",
+													""
+												],
+												[
+													"Complexion",
+													"Blue-Gray"
+												],
+												[
+													"Build",
+													""
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										" Years Old (  - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Kriv",
+							"entries": [
+								"Omurice's brother",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Dragonborn"
+												],
+												[
+													"Height",
+													"."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Blue-Gray"
+												],
+												[
+													"Build",
+													""
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										" Years Old (  - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Zealous",
+							"entries": [
+								"Omurice’s father",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"Lawful Evil",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Dragonborn"
+												],
+												[
+													"Height",
+													"."
+												],
+												[
+													"Gender Presentation",
+													"Masculine"
+												],
+												[
+													"Complexion",
+													"Blue-Gray"
+												],
+												[
+													"Build",
+													""
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										" Years Old (  - Present)"
+									]
+								}
+							]
+						},
+						{
+							"type": "section",
+							"name": "Xaya",
+							"entries": [
+								"Omurice’s mother",
+								{
+									"type": "entries",
+									"name": "Personality",
+									"entries": [
+										"Lawful Good",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-12 text-left"
+											],
+											"rows": [
+												[
+													{
+														"type": "list",
+														"name": "Traits",
+														"items": [
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Ideals",
+														"items": [
+														]
+													}
+												],
+												[
+													{
+														"type": "list",
+														"name": "Bonds",
+														"items": [
+														]
+													}
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Appearance",
+									"entries": [
+										"",
+										{
+											"type": "table",
+											"colStyles": [
+												"col-6 text-left",
+												"col-6 text-left "
+											],
+											"rows": [
+												[
+													"Race",
+													"Dragonborn"
+												],
+												[
+													"Height",
+													"."
+												],
+												[
+													"Gender Presentation",
+													"Feminine"
+												],
+												[
+													"Complexion",
+													"Blue-Gray"
+												],
+												[
+													"Build",
+													""
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Lifetime",
+									"entries": [
+										" Years Old (  - Present)"
 									]
 								}
 							]
